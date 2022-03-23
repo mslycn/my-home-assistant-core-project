@@ -205,9 +205,9 @@ A Complete Smart Home Solution
 	- HASSIO.IO与常规运行环境区别(by Zack-Xu)
 	- x86下ubuntu虚机及HomeAssistant安装（by 猛将兄）
 
-## 我们的追求
+## Useful links
 1. 真实<br>
-照着操作肯定行，过程不做省略
+https://github.com/sl041400/Home-assistant
 
 2. 不断更新<br>
 随HomeAssistant更新而更新，新版本的新操作方式、内容及时更新到视频与参考文档中
