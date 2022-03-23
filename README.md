@@ -1,10 +1,10 @@
 # home-assistant
 A Complete Smart Home Solution
 
-### 本项目对应于《HomeAssistant智能家居实战篇》系列视频内容中的文档。
+### 本项目对应于《HomeAssistant智能家居实战篇》系列内容中的文档。
 [网易云课堂地址](https://study.163.com/course/introduction.htm?courseId=1006189053&share=2&shareId=400000000624093)
 
-## 视频目录
+## 目录
 1. 入门准备篇
 	- 硬件环境准备——安装树莓派
 	- 系统环境设置——树莓派基础配置
