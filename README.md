@@ -11,6 +11,7 @@ A Complete Smart Home Solution
 	- 安装Samba和JupyterNotebook
 	- 基于树莓派安装HomeAssistant
 	- HomeAssistant配置、文件结构、升级
+	- Home Assistant Core upgrage -https://www.msly.cn/boards/topic/57/installing-home-assistant-core-on-raspberry-pi-3b/page/2#3590
 	- HomeAssistant自启动如何配置
 2. 组件接入基础篇
 	- 让设备发声——朗读文字
