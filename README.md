@@ -2,7 +2,7 @@
 A Complete Smart Home Solution
 
 ### 本项目对应于《HomeAssistant智能家居实战篇》系列内容中的文档。
-[网易云课堂地址](https://study.163.com/course/introduction.htm?courseId=1006189053&share=2&shareId=400000000624093)
+[home-assisant.msly.cn](https://home-assisant.msly.cn)
 
 ## 目录
 1. 入门准备篇
@@ -11,8 +11,16 @@ A Complete Smart Home Solution
 	- 安装Samba和JupyterNotebook
 	- 基于树莓派安装HomeAssistant
 	- HomeAssistant配置、文件结构、升级
-	-       Home Assistant Core upgrage -https://www.msly.cn/boards/topic/57/installing-home-assistant-core-on-raspberry-pi-3b/page/2#3590
-	- HomeAssistant自启动如何配置
+	- [Home Assistant Core upgrage](https://www.msly.cn/boards/topic/57/installing-home-assistant-core-on-raspberry-pi-3b/page/2#3590)
+	  - HomeAssistant自启动如何配置
+	 * [Usage](#usage)
+    * [Check available plugins](#check-available-plugins)
+    * [Check available versions for each plugin](#check-available-versions-for-each-plugin)
+    * [Create an environment](#create-an-environment)
+    * [Activate/deactivate environment](#activatedeactivate-environment)
+      * [Activating in a new shell](#activating-in-a-new-shell)
+      * [Activating in the same shell](#activating-in-the-same-shell)
+    * [Get list of environments](#get-list-of-environments)
 2. 组件接入基础篇
 	- 让设备发声——朗读文字
 	- 让设备看到——使用手机摄像头做监控
