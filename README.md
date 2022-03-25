@@ -13,14 +13,6 @@ A Complete Smart Home Solution
 	- HomeAssistant配置、文件结构、升级
 	  - [Home Assistant Core upgrage](https://www.msly.cn/boards/topic/57/installing-home-assistant-core-on-raspberry-pi-3b/page/2#3590)
         - HomeAssistant自启动如何配置
-	 * [Usage](#usage)
-    * [Check available plugins](#check-available-plugins)
-    * [Check available versions for each plugin](#check-available-versions-for-each-plugin)
-    * [Create an environment](#create-an-environment)
-    * [Activate/deactivate environment](#activatedeactivate-environment)
-      * [Activating in a new shell](#activating-in-a-new-shell)
-      * [Activating in the same shell](#activating-in-the-same-shell)
-    * [Get list of environments](#get-list-of-environments)
 2. 组件接入基础篇
 	- 让设备发声——朗读文字
 	- 让设备看到——使用手机摄像头做监控
