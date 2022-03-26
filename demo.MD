@@ -7,7 +7,7 @@ Table of Contents
 -----------------
 
   * [Introduce](#envirius)
-    * [Introducing Bluez5](#idea)
+    * [Introducing Bluez5](https://blog.csdn.net/Archer1991/article/details/62233164)
     * [Bluez vs ALSA  vs bluez-alsa vs PulseAudio vs home assisant media player](https://zhuanlan.zhihu.com/p/487809142?)
   * [Installation](#installation)
   * [Uninstallation](#uninstallation)
