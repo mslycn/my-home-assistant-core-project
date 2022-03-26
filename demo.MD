@@ -8,7 +8,7 @@ Table of Contents
 
   * [Envirius](#envirius)
     * [Idea](#idea)
-    * [Features](#features)
+    * [Bluez vs ALSA  vs bluez-alsa vs PulseAudio vs home assisant media player](https://zhuanlan.zhihu.com/p/487809142?)
   * [Installation](#installation)
   * [Uninstallation](#uninstallation)
   * [Available plugins](#available-plugins)
