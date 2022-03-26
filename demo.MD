@@ -6,8 +6,8 @@ home assisant project-Play audio on a Bluetooth speaker with Raspberry Pi3b+
 Table of Contents
 -----------------
 
-  * [Envirius](#envirius)
-    * [Idea](#idea)
+  * [Introduce](#envirius)
+    * [Introducing Bluez5](#idea)
     * [Bluez vs ALSA  vs bluez-alsa vs PulseAudio vs home assisant media player](https://zhuanlan.zhihu.com/p/487809142?)
   * [Installation](#installation)
   * [Uninstallation](#uninstallation)
