@@ -1,7 +1,7 @@
-home assisant project
+home assisant project-Play audio on a Bluetooth speaker with Raspberry Pi3b+
 ========
 
-``envirius`` — universal virtual environments manager.
+``single room Bluetooth speaker  with Raspberry Pi3b+`` — home assisant project.
 
 Table of Contents
 -----------------
