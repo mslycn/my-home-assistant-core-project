@@ -17,7 +17,7 @@ Table of Contents
     * [Check available versions for each plugin](#check-available-versions-for-each-plugin)
     * [Create an environment](#create-an-environment)
     * [Activate/deactivate environment](#activatedeactivate-environment)
-      * [Activating in a new shell](#activating-in-a-new-shell)
+      * [[SOLVED]Failed to remove device: org.bluez.Error.NotReady](https://www.msly.cn/boards/topic/3206/%E6%A0%91%E8%8E%93%E6%B4%BE%E9%80%9A%E8%BF%87linux%E4%B8%AD%E8%93%9D%E7%89%99%E5%8D%8F%E8%AE%AE%E6%A0%88bluz%E8%BF%9E%E6%8E%A5%E8%93%9D%E7%89%99%E9%9F%B3%E7%AE%B1%E6%8E%A5%E5%85%A5home-assistnant#3667)
       * [Activating in the same shell](#activating-in-the-same-shell)
     * [Get list of environments](#get-list-of-environments)
     * [Get current activated environment](#get-current-activated-environment)
