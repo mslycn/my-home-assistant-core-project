@@ -26,7 +26,7 @@ Table of Contents
     * [Import environment from tar archive ](#import-environment-from-tar-archive)
     * [Get help](#get-help)
     * [Get help for a command](#get-help-for-a-command)
-  * [How to add a plugin?](#how-to-add-a-plugin)
+  * [Bluetooth Adapter Ready?](#how-to-add-a-plugin)
     * [Mandatory elements](#mandatory-elements)
       * [plug_list_versions](#plug_list_versions)
       * [plug_url_for_download](#plug_url_for_download)
