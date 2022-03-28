@@ -28,7 +28,7 @@ Table of Contents
     * [Get help for a command](#get-help-for-a-command)
   * [Bluetooth Adapter Ready?](https://www.msly.cn/boards/topic/3221/bluetooth-speaker-is-silent-checklist#3697)
     * [use rfkill to find out whether your computer has detected the installed Bluetooth hardware of your computer.](https://www.msly.cn/boards/topic/3221/bluetooth-speaker-is-silent-checklist#3698)
-      * [plug_list_versions](#plug_list_versions)
+      * [Bluetooth Adapter be blocked on your computer？](https://www.msly.cn/boards/topic/3221/bluetooth-speaker-is-silent-checklist#3699)
       * [plug_url_for_download](#plug_url_for_download)
       * [plug_build](#plug_build)
     * [Optional elements](#optional-elements)
