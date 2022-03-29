@@ -58,7 +58,7 @@ Table of Contents
     * [Examples](#examples)
   * [PulseAudio](#3697)
     * [Install PulseAudio to get paplay pulseaudio、pactl、pacmd](https://www.msly.cn/boards/topic/3221/bluetooth-speaker-is-silent-checklist/page/2#3710)
-      * [1](https://www.msly.cn/boards/topic/3221/bluetooth-speaker-is-silent-checklist#3699)
+      * [Paired bluetooth speaker is not listed as an audio device](#3699)
       * [Use "pactl list cards" check bluez_card.9A_07_65_B4_21_EC exist or not](https://www.msly.cn/boards/topic/3221/bluetooth-speaker-is-silent-checklist/page/2#3711)
       * [Use "pacmd list cards" check bluez_card.9A_07_65_B4_21_EC exist or not](https://www.msly.cn/boards/topic/3221/bluetooth-speaker-is-silent-checklist/page/3#3714)
     * [1](https://www.msly.cn/boards/topic/3221/bluetooth-speaker-is-silent-checklist/page/2#3711)
