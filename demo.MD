@@ -75,7 +75,7 @@ Table of Contents
       * [busctl tree org.bluez？](https://www.msly.cn/boards/topic/3221/bluetooth-speaker-is-silent-checklist/page/2#3708)
       * [Functions](#functions)
     * [Examples](#examples)
-  * [Example of the usage](#example-of-the-usage)
+  * [How to Set Your Wireless Bluetooth Speaker As the Default](#example-of-the-usage)
   * [Dependencies](#dependencies)
   * [Supported OS](#supported-os)
   * [Tests](#tests)
