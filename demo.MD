@@ -40,7 +40,7 @@ Table of Contents
       * [Use "pactl list cards" check bluez_card.9A_07_65_B4_21_EC exist or not](https://www.msly.cn/boards/topic/3221/bluetooth-speaker-is-silent-checklist/page/2#3711)
       * [plug_build](#plug_build)
     * [1](https://www.msly.cn/boards/topic/3221/bluetooth-speaker-is-silent-checklist/page/2#3711)
-      * [1](https://www.msly.cn/boards/topic/3221/bluetooth-speaker-is-silent-checklist/page/2#3708)
+      * [How to use PulseAudio set default audio to bluetooth speaker](https://www.msly.cn/boards/topic/3221/bluetooth-speaker-is-silent-checklist/page/3#3716)
       * [Functions](#functions)
     * [Examples](#examples)
    * [Bluetooth Adapter Ready?](https://www.msly.cn/boards/topic/3221/bluetooth-speaker-is-silent-checklist#3697)
