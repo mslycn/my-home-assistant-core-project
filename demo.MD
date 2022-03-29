@@ -68,7 +68,7 @@ Table of Contents
    * [Bluetooth Adapter Ready?](https://www.msly.cn/boards/topic/3221/bluetooth-speaker-is-silent-checklist#3697)
   * [trouble](#3698)
       * [Error when trying to connect to bluetooth speaker: `org.bluez.Error.Failed`](https://unix.stackexchange.com/questions/258074/error-when-trying-to-connect-to-bluetooth-speaker-org-bluez-error-failed)
-      * [plug_url_for_download](#plug_url_for_download)
+      * [Error when trying to connect to bluetooth speaker:Failed to connect: org.bluez.Error.Failed br-connection-unknown](https://wonkodv.github.io/bluetooth-error/)
       * [plug_build](#plug_build)
     * [Optional elements](#optional-elements)
       * [[SOLVED]remove EA:AE:C8:B0:5E:88 Failed to remove device: org.bluez.Error.NotReady](https://www.msly.cn/boards/topic/3206/%E6%A0%91%E8%8E%93%E6%B4%BE%E9%80%9A%E8%BF%87linux%E4%B8%AD%E8%93%9D%E7%89%99%E5%8D%8F%E8%AE%AE%E6%A0%88bluz%E8%BF%9E%E6%8E%A5%E8%93%9D%E7%89%99%E9%9F%B3%E7%AE%B1%E6%8E%A5%E5%85%A5home-assistnant#3667)
