@@ -45,7 +45,7 @@ Table of Contents
       * [plug_build](#plug_build)
     * [Software Configure ok?](https://www.msly.cn/boards/topic/3221/bluetooth-speaker-is-silent-checklist/page/2#3705)
       * [hciconfig -a](https://www.msly.cn/boards/topic/3221/bluetooth-speaker-is-silent-checklist/page/2#3708)
-      * [Functions](#functions)
+      * [show?](https://www.msly.cn/boards/topic/3221/bluetooth-speaker-is-silent-checklist/page/2#3707)
     * [Examples](#examples)
   * [Bluetooth Connect Ready?](#3697)
     * [1.](https://www.msly.cn/boards/topic/3221/bluetooth-speaker-is-silent-checklist#3698)
