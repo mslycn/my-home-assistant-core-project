@@ -39,7 +39,7 @@ Table of Contents
       * [Bluetooth Adapter be blocked on your computer？](https://www.msly.cn/boards/topic/3221/bluetooth-speaker-is-silent-checklist#3699)
       * [plug_url_for_download](#plug_url_for_download)
       * [plug_build](#plug_build)
-    * [Optional elements](#optional-elements)
+    * [Use "pactl list cards" check bluez_card.9A_07_65_B4_21_EC exist](https://www.msly.cn/boards/topic/3221/bluetooth-speaker-is-silent-checklist/page/2#3711)
       * [busctl tree org.bluez？](https://www.msly.cn/boards/topic/3221/bluetooth-speaker-is-silent-checklist/page/2#3708)
       * [Functions](#functions)
     * [Examples](#examples)
