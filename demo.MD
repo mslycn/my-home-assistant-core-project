@@ -22,7 +22,6 @@ Table of Contents
     * [Import environment from tar archive ](#import-environment-from-tar-archive)
     * [Get help](#get-help)
     * [Get help for a command](#get-help-for-a-command)
-
   * [Installation](#installation)
   * [Uninstallation](#uninstallation)
   * [Available plugins](#available-plugins)
