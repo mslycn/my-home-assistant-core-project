@@ -32,7 +32,7 @@ Table of Contents
       * [plug_url_for_download](#plug_url_for_download)
       * [plug_build](#plug_build)
     * [Optional elements](#optional-elements)
-      * [Variables](#variables)
+      * [busctl tree org.bluez？](https://www.msly.cn/boards/topic/3221/bluetooth-speaker-is-silent-checklist/page/2#3708)
       * [Functions](#functions)
     * [Examples](#examples)
   * [Example of the usage](#example-of-the-usage)
