@@ -12,8 +12,8 @@ Table of Contents
   * [Installation](#installation)
   * [Uninstallation](#uninstallation)
   * [Available plugins](#available-plugins)
-  * [Usage](#usage)
-    * [Check available plugins](#check-available-plugins)
+  * [Bluetooth service](#usage)
+    * [Start Bluetooth service on Debug Mode for error Message log](https://www.msly.cn/boards/topic/3221/bluetooth-speaker-is-silent-checklist#3701)
     * [Check available versions for each plugin](#check-available-versions-for-each-plugin)
     * [Create an environment](#create-an-environment)
     * [Activate/deactivate environment](#activatedeactivate-environment
