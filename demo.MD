@@ -35,7 +35,7 @@ Table of Contents
       * [Functions](#functions)
     * [Examples](#examples)
   * [PulseAudio?](#3697)
-    * [Install PulseAudio or not?](#3698)
+    * [Install PulseAudio or not?](https://www.msly.cn/boards/topic/3221/bluetooth-speaker-is-silent-checklist/page/2#3710)
       * [Bluetooth Adapter be blocked on your computer？](https://www.msly.cn/boards/topic/3221/bluetooth-speaker-is-silent-checklist#3699)
       * [plug_url_for_download](#plug_url_for_download)
       * [plug_build](#plug_build)
