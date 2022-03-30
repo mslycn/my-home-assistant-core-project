@@ -38,7 +38,7 @@ Table of Contents
     * [Import environment from tar archive ](#import-environment-from-tar-archive)
     * [Get help](#get-help)
     * [Get help for a command](#get-help-for-a-command)
-  * [Bluetooth Adapter Ready?](https://www.msly.cn/boards/topic/3221/bluetooth-speaker-is-silent-checklist#3697)
+  * [Bluetooth Adapter Ready?](https://www.msly.cn/boards/topic/3221/bluetooth-speaker-is-silent-checklist#3699)
     * [use rfkill to find out whether your computer has detected the installed Bluetooth hardware of your computer.](https://www.msly.cn/boards/topic/3221/bluetooth-speaker-is-silent-checklist#3698)
       * [Bluetooth Adapter be blocked on your computer？](https://www.msly.cn/boards/topic/3221/bluetooth-speaker-is-silent-checklist#3699)
       * [plug_url_for_download](#plug_url_for_download)
