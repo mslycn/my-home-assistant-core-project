@@ -13,7 +13,7 @@ Table of Contents
     * [Install frp](https://www.msly.cn/boards/topic/3221/bluetooth-speaker-is-silent-checklist#3701)
     * [Install py](#check-available-versions-for-each-plugin)
     * [Install home assisant](#create-an-environment)
-    * [Install nginx](#activatedeactivate-environment
+    * [Install nginx](#activatedeactivate-environment)
       * [https](#activating-in-the-same-shell)
   * [trouble](#3698)
       * [Error when trying to connect to bluetooth speaker: `org.bluez.Error.Failed`](https://unix.stackexchange.com/questions/258074/error-when-trying-to-connect-to-bluetooth-speaker-org-bluez-error-failed)
