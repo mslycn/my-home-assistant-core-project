@@ -33,7 +33,7 @@ Table of Contents
       * [1](#functions)
   * [expose http server](https://www.msly.cn/boards/topic/34/home-assistant-remote-access-solution/page/2#3746)
     * [Make core listen on:0.0.0.0.8153](https://www.msly.cn/boards/topic/34/home-assistant-remote-access-solution/page/2#3746)
-    * [Install frp client on pi](#check-available-versions-for-each-plugin)
+    * [Make http accept in comming ip address](https://www.msly.cn/boards/topic/34/home-assistant-remote-access-solution/page/2#3758)
       * [https](#activating-in-the-same-shell)
 
  
