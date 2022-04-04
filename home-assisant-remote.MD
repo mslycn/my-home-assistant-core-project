@@ -31,4 +31,9 @@ Table of Contents
       * [1](https://www.msly.cn/boards/topic/3221/bluetooth-speaker-is-silent-checklist/page/5#3742)
       * [1](https://www.msly.cn/boards/topic/3221/bluetooth-speaker-is-silent-checklist/page/2#3708)
       * [1](#functions)
+  * [expose http server](https://www.msly.cn/boards/topic/34/home-assistant-remote-access-solution/page/2#3746)
+    * [Make core listen on:0.0.0.0.8153](https://www.msly.cn/boards/topic/34/home-assistant-remote-access-solution/page/2#3746)
+    * [Install frp client on pi](#check-available-versions-for-each-plugin)
+      * [https](#activating-in-the-same-shell)
+
  
