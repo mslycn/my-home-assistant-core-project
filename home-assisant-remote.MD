@@ -20,7 +20,7 @@ Table of Contents
     * [Install frp client on pi](#check-available-versions-for-each-plugin)
       * [https](#activating-in-the-same-shell)
   * [trouble-Access to HA via chrome browser is not OK](#3698)
-      * [home assisant logger level](https://www.home-assistant.io/integrations/logger/)
+      * [Set home assisant logger level for debug](https://www.home-assistant.io/integrations/logger/)
       * [2](https://wonkodv.github.io/bluetooth-error/)
       * [3](#plug_build)
     * [login failure](#optional-elements)
