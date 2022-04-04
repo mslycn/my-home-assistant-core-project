@@ -1,7 +1,7 @@
-home assisant project-Play audio on a Bluetooth speaker with Raspberry Pi3b+
+home assisant project-remote access on Raspberry Pi3b+
 ========
 
-``single room Bluetooth speaker  with Raspberry Pi3b+`` — home assisant project.
+``remote access on Raspberry Pi3b+`` — home assisant project.
 
 Table of Contents
 -----------------
