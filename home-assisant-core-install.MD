@@ -1,7 +1,7 @@
 home assisant project-install home assisant core 2022.3.0  on Raspberry Pi3b+
 ========
 
-``remote access on Raspberry Pi3b+`` — home assisant project.
+``install home assisant core 2022.3.0s on Raspberry Pi3b+`` — home assisant project.
 
 Table of Contents
 -----------------
