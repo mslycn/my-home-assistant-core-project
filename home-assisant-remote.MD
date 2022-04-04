@@ -20,7 +20,7 @@ Table of Contents
     * [Install frp client on pi](#check-available-versions-for-each-plugin)
       * [https](#activating-in-the-same-shell)
   * [trouble-Access to HA via chrome browser is not OK](#3698)
-      * [1](https://unix.stackexchange.com/questions/258074/error-when-trying-to-connect-to-bluetooth-speaker-org-bluez-error-failed)
+      * [home assisant logger level](https://www.home-assistant.io/integrations/logger/)
       * [2](https://wonkodv.github.io/bluetooth-error/)
       * [3](#plug_build)
     * [login failure](#optional-elements)
