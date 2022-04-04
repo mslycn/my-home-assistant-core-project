@@ -19,7 +19,7 @@ Table of Contents
     * [Install frp server on vps](https://www.msly.cn/boards/topic/3221/bluetooth-speaker-is-silent-checklist#3701)
     * [Install frp client on pi](#check-available-versions-for-each-plugin)
       * [https](#activating-in-the-same-shell)
-  * [trouble](#3698)
+  * [trouble-Access to HA via chrome browser is not OK](#3698)
       * [1](https://unix.stackexchange.com/questions/258074/error-when-trying-to-connect-to-bluetooth-speaker-org-bluez-error-failed)
       * [2](https://wonkodv.github.io/bluetooth-error/)
       * [3](#plug_build)
