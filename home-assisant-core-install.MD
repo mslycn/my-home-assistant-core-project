@@ -13,7 +13,7 @@ Table of Contents
     * [lsb_release -a](https://www.msly.cn/boards/topic/57/installing-home-assistant-core-on-raspberry-pi-3b#1203)
     * [test use domain visit nginx web server](#check-available-versions-for-each-plugin)
     * [Install home assisant core](#create-an-environment)
-    * [Install nginx](#activatedeactivate-environment)
+    * [home assisant core](#activatedeactivate-environment)
       * [https](#activating-in-the-same-shell)
   * [Installing Home Assistant Core on Raspberry Pi 3B+](https://www.msly.cn/boards/topic/57/installing-home-assistant-core-on-raspberry-pi-3b)
     * [Install py](https://www.msly.cn/boards/topic/3221/bluetooth-speaker-is-silent-checklist#3701)
@@ -38,7 +38,8 @@ Table of Contents
       * [1](#functions)
   * [expose http server](https://www.msly.cn/boards/topic/34/home-assistant-remote-access-solution/page/2#3746)
     * [Make core listen on:0.0.0.0.8153](https://www.msly.cn/boards/topic/34/home-assistant-remote-access-solution/page/2#3746)
-    * [Make http accept in comming ip address](https://www.msly.cn/boards/topic/34/home-assistant-remote-access-solution/page/2#3758)
-      * [https](#activating-in-the-same-shell)
-
+   
+  * [Config](#)
+    * [List of Time Zones](https://timezonedb.com/time-zones)  
+   
  
