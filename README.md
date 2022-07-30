@@ -210,8 +210,8 @@ A Complete Smart Home Solution
 1. 真实<br>
 https://github.com/sl041400/Home-assistant
 
-2. 不断更新<br>
-随HomeAssistant更新而更新，新版本的新操作方式、内容及时更新到视频与参考文档中
+2. 小米有品<br>
+https://www.xiaomiyoupin.com/
 
 3. 快节奏<br>
 重点展现实践操作过程。如果不是仅追求效果的话，需要自己补充对应的知识。实践——思考——学习
