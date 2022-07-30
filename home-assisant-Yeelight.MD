@@ -5,8 +5,8 @@
    
 - Yeelight Pro全屋智能灯光灯具 
 
-- Yeelight Pro 吸顶灯
+  - Yeelight Pro 吸顶灯
 
-   - Yeelight的吸顶灯有很多个系列：
+    - Yeelight的吸顶灯有很多个系列：
 
 纤玉、光璨、初心、灵犀、韶华、皓石、线面系列，还有最近新出的摩可、Flood和黑白系列
