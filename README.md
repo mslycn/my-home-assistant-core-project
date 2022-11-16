@@ -50,12 +50,9 @@ A Complete Smart Home Solution
 	- 红外遥控——博联RM系列产品
 	- 红外遥控——小米万能遥控器
 	- 文件夹监测——FolderWatche
-7.2 设备接入篇(2)   aqara 
+8. 设备接入篇(2)   aqara 
 	- [aqara hub M1s](https://www.msly.cn/boards/topic/5278/aqara-gatewayhub-g2h-m1s-cn-p3-cn-m2-cn-h1-cn-e1-cn-g3-cn-g2h-pro-integration-for-home-assistant#18735)
-	- 天气与预报——yr、DarkSky、……
-	- 红外遥控——博联RM系列产品
-	- 红外遥控——小米万能遥控器
-	- 文件夹监测——FolderWatche7.1 设备接入篇(1)
+	
 	
 8. 各种摄像头接入篇
 	- 支持MJPEG的摄像头与图片抓取
