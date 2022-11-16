@@ -44,12 +44,19 @@ A Complete Smart Home Solution
 	- 事件与事件消息接收
 	- 前端输入组件+packages配置
 	- 语音+音乐+灯光闹钟
-7. 设备接入篇(1)
+7.1 设备接入篇(1)
 	- 太阳、月亮、季节和潮汐
 	- 天气与预报——yr、DarkSky、……
 	- 红外遥控——博联RM系列产品
 	- 红外遥控——小米万能遥控器
-	- 文件夹监测——FolderWatcher
+	- 文件夹监测——FolderWatche7.1 设备接入篇(1)
+7.2 设备接入篇(2)  -  aqara hub 
+	- [aqara hub M1s](https://www.msly.cn/boards/topic/5278/aqara-gatewayhub-g2h-m1s-cn-p3-cn-m2-cn-h1-cn-e1-cn-g3-cn-g2h-pro-integration-for-home-assistant#18735)
+	- 天气与预报——yr、DarkSky、……
+	- 红外遥控——博联RM系列产品
+	- 红外遥控——小米万能遥控器
+	- 文件夹监测——FolderWatche7.1 设备接入篇(1)
+	
 8. 各种摄像头接入篇
 	- 支持MJPEG的摄像头与图片抓取
 	- RTSP协议摄像头与ffmpeg
