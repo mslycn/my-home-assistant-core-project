@@ -13,6 +13,11 @@ A Complete Smart Home Solution
 	- [HomeAssistant配置、文件结构、升级]
 	  - [Home Assistant Core upgrage](https://www.msly.cn/boards/topic/57/installing-home-assistant-core-on-raspberry-pi-3b/page/2#3590)
         - [HomeAssistant自启动如何配置]
+	- [HomeAssistant core 20221102配置、文件结构、升级]
+	  - [change Home Assistnant Core default port](https://www.msly.cn/boards/topic/13395/quick-start#18747)
+	
+	
+	
 2. 组件接入基础篇
 	- 让设备发声——朗读文字
 	- 让设备看到——使用手机摄像头做监控
