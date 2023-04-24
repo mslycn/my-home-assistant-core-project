@@ -216,7 +216,7 @@ A Complete Smart Home Solution
 	- x86下ubuntu虚机及HomeAssistant安装（by 猛将兄）
 4. matterxiaom
 	- [create vps on vultr](https://www.iaspnetcore.com/Blog/BlogPost/6199ff495b26cb0202ad6ce8/how-to-deploy-a-new-instance-on-vultr-step-by-step)
-	- ssh隧道构建
+	- [Install xshell7 on windows 10](https://www.iaspnetcore.com/Blog/blogpost/635d3024da4aea5b6ab5891e)
 	- frp隧道构建
 	- 免费为HA配上域名与HTTPS网站证书
 	- nginx代理
