@@ -218,7 +218,7 @@ A Complete Smart Home Solution
 	- [create vps on vultr](https://www.iaspnetcore.com/Blog/BlogPost/6199ff495b26cb0202ad6ce8/how-to-deploy-a-new-instance-on-vultr-step-by-step)
 	- [Install xshell7 on windows 10](https://www.iaspnetcore.com/Blog/blogpost/635d3024da4aea5b6ab5891e)
 	- frp隧道构建
-	- 免费为HA配上域名与HTTPS网站证书
+	- [How to Deploying Real World ASP.NET Core  on Ubuntu 18.04 step by step](https://www.iaspnetcore.com/Blog/BlogPost/5d9833c672c1772b244aa228/how-to-deploying-real-world-aspnet-core-3x-on-ubuntu-1804-step-by-step)
 	- nginx代理
 	- create vps	
 	- install xshell
