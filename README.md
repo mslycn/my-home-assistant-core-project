@@ -36,7 +36,7 @@ A Complete Smart Home Solution
 	- ssh隧道构建
 	- frp隧道构建
 	- 免费为HA配上域名与HTTPS网站证书
-	- nginx代理
+	- nginx代理		
 5. 设备位置追踪篇
 	- 设备定位准备知识与Ping检测
 	- nmap网络扫描、黑客、小米wifi路由器
@@ -214,6 +214,16 @@ A Complete Smart Home Solution
 	- 树莓派安装HASS.IO(by Zack-Xu)
 	- HASSIO.IO与常规运行环境区别(by Zack-Xu)
 	- x86下ubuntu虚机及HomeAssistant安装（by 猛将兄）
+4. matterxiaom
+	- [create vps on vultr](https://www.iaspnetcore.com/Blog/BlogPost/6199ff495b26cb0202ad6ce8/how-to-deploy-a-new-instance-on-vultr-step-by-step)
+	- ssh隧道构建
+	- frp隧道构建
+	- 免费为HA配上域名与HTTPS网站证书
+	- nginx代理
+	- create vps	
+	- install xshell
+	- install 	
+		
 
 ## Useful links
 1. 真实<br>
