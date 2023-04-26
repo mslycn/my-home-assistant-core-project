@@ -44,7 +44,7 @@ A Complete Smart Home Solution
 5. 设备位置追踪篇
 	- 设备定位准备知识与Ping检测
 	- nmap网络扫描、黑客、小米wifi路由器
-	- 蓝牙音箱与蓝牙设备扫描
+	- [home assisant project-Play audio on a Bluetooth speaker with Raspberry Pi3b+](https://github.com/freemsly/home-assistant/blob/main/home-assisant-bluetooth-speaker.MD)
 	- 使用iCloud随时定位苹果手机
 6. 自动化篇
 	- 编写简单脚本——执行系列动作
