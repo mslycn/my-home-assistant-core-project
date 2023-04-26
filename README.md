@@ -35,7 +35,7 @@ A Complete Smart Home Solution
 	- 实体显示属性自定义
 	- 手机访问HA
 	- StatesUI界面优化——分组与分页
-4. [home assisant project-remote access on Raspberry Pi3b+]公网访问篇(https://github.com/freemsly/home-assistant/blob/main/home-assisant-remote.MD)
+4. [home assisant project-remote access on Raspberry Pi3b+](https://github.com/freemsly/home-assistant/blob/main/home-assisant-remote.MD)
 	- 申请Amazon免费云主机
 	- ssh隧道构建
 	- frp隧道构建
