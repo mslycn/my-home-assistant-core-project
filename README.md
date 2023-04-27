@@ -40,7 +40,8 @@ A Complete Smart Home Solution
 	- ssh隧道构建
 	- frp隧道构建
 	- 免费为HA配上域名与HTTPS网站证书
-	- nginx代理		
+	- nginx代理
+	- [Install Let’s Encrypt Client Certbot](https://www.iaspnetcore.com/blogpost-619a0dbd5b26cb0202ae5bf1-how-to-secure-nginx-with-lets-encrypt-on-ubuntu-1804vultr#mcetoc_1g3p82cte53)		
 5. 设备位置追踪篇
 	- 设备定位准备知识与Ping检测
 	- nmap网络扫描、黑客、小米wifi路由器
