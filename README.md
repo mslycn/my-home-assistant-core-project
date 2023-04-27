@@ -37,7 +37,7 @@ A Complete Smart Home Solution
 	- StatesUI界面优化——分组与分页
 4. [home assisant project-remote access on Raspberry Pi3b+](https://github.com/freemsly/home-assistant/blob/main/home-assisant-remote.MD)
 	- 申请Amazon免费云主机
-	- ssh隧道构建
+	- [buy a domain from www.namesilo.com](https://www.iaspnetcore.com/Blog/BlogPost/5eb9e65e775d020216dbe009/wwwnamesilocom-registration-and-domain-name-purchase-operation-manual)
 	- frp隧道构建
 	- 免费为HA配上域名与HTTPS网站证书
 	- nginx代理
