@@ -220,6 +220,20 @@ A Complete Smart Home Solution
 	- 树莓派安装HASS.IO(by Zack-Xu)
 	- HASSIO.IO与常规运行环境区别(by Zack-Xu)
 	- x86下ubuntu虚机及HomeAssistant安装（by 猛将兄）
+xx. Installing Node red for Home Assistant Core
+	- [Install node-red(1)——红外接收](https://www.matterxiaomi.com/boards/topic/14538/node-red-node-red)
+	- 使用红外与无线模块(2)——红外发射
+	- 使用红外与无线模块(3)——无线收发
+	- 硬件制作(1)——画电路图
+	- 硬件制作(2)——画PCB板
+	- 硬件制作(3)——元器件与焊接
+xx. Installing Node red for Home Assistant Core
+	- [Install node-red(1)——红外接收](https://www.matterxiaomi.com/boards/topic/14538/node-red-node-red)
+	- 使用红外与无线模块(2)——红外发射
+	- 使用红外与无线模块(3)——无线收发
+	- 硬件制作(1)——画电路图
+	- 硬件制作(2)——画PCB板
+	- 硬件制作(3)——元器件与焊接	
 4. matterxiaom
 	- [create vps on vultr](https://www.iaspnetcore.com/Blog/BlogPost/6199ff495b26cb0202ad6ce8/how-to-deploy-a-new-instance-on-vultr-step-by-step)
 	- [Install xshell7 on windows 10](https://www.iaspnetcore.com/Blog/blogpost/635d3024da4aea5b6ab5891e)
