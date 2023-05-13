@@ -227,7 +227,7 @@ A Complete Smart Home Solution
 	- x86下ubuntu虚机及HomeAssistant安装（by 猛将兄）
 ## Install Node red
 5. Installing Node red for Home Assistant Core
-	- [Install node-red(1)——红外接收](https://www.matterxiaomi.com/boards/topic/14538/node-red-node-red)
+	- [Install node-red(1)——on debian 11](https://www.matterxiaomi.com/boards/topic/14538/node-red-node-red) - Installing Node red for Home Assistant Core 2023.2.2 in a Python vEnv on Raspberry Pi 3B+ step by step
 	- 使用红外与无线模块(2)——红外发射
 	- 使用红外与无线模块(3)——无线收发
 	- 硬件制作(1)——画电路图
