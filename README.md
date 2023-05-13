@@ -6,6 +6,7 @@ A Complete Smart Home Solution
 
 ## Contents
 * [Install homeassistant core](#nstall-homeassistant-core)
+* [Install Node red for home assistant core](#nstall-node-red)
 
 ## Install homeassistant core
 
@@ -224,6 +225,7 @@ A Complete Smart Home Solution
 	- 树莓派安装HASS.IO(by Zack-Xu)
 	- HASSIO.IO与常规运行环境区别(by Zack-Xu)
 	- x86下ubuntu虚机及HomeAssistant安装（by 猛将兄）
+## Install Node red
 5. Installing Node red for Home Assistant Core
 	- [Install node-red(1)——红外接收](https://www.matterxiaomi.com/boards/topic/14538/node-red-node-red)
 	- 使用红外与无线模块(2)——红外发射
