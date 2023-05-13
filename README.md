@@ -5,8 +5,8 @@ A Complete Smart Home Solution
 [home-assisant.msly.cn](https://home-assisant.msly.cn)
 
 ## Contents
-* [Install homeassistant core](#nstall-homeassistant-core)
-* [Install Node red for home assistant core](#nstall-node-red)
+* [Install homeassistant core](#install-homeassistant-core)
+* [Install Node red for home assistant core](#install-node-red)
 
 ## Install homeassistant core
 
