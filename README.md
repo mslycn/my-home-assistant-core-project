@@ -4,7 +4,11 @@ A Complete Smart Home Solution
 ### 本项目对应于《HomeAssistant智能家居实战篇》系列内容中的文档。
 [home-assisant.msly.cn](https://home-assisant.msly.cn)
 
-## 目录
+## (Contents)
+* [nstall homeassistant core](#nstall-homeassistant-core)
+
+## Install homeassistant core
+
 1. [home assisant project-install home assisant core 2022.3.0 on Raspberry Pi3b+](https://github.com/freemsly/home-assistant/blob/main/home-assisant-core-install.MD)
 	- 硬件环境准备——安装树莓派
 	- 系统环境设置——树莓派基础配置
