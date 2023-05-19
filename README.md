@@ -191,7 +191,7 @@ A Complete Smart Home Solution
 	- 硬件制作(1)——画电路图
 	- 硬件制作(2)——画PCB板
 	- 硬件制作(3)——元器件与焊接
-- 补充篇章
+- Home Assistant Remote access
 	- Linux下的常用命令
 	- Linux下的文本编辑
 	- YAML文件格式
