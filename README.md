@@ -7,6 +7,7 @@ A Complete Smart Home Solution
 ## Contents
 * [Install homeassistant core](#install-homeassistant-core)
 * [Install Node red for home assistant core](#install-node-red)
+* [Home Assistant Remote access](#Home-Assistant-Remote-access)
 
 ## Install homeassistant core
 
@@ -191,6 +192,7 @@ A Complete Smart Home Solution
 	- 硬件制作(1)——画电路图
 	- 硬件制作(2)——画PCB板
 	- 硬件制作(3)——元器件与焊接
+## Home Assistant Remote access
 - Home Assistant Remote access
 	- Linux下的常用命令
 	- Linux下的文本编辑
