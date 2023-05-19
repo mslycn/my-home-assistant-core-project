@@ -106,8 +106,9 @@ A Complete Smart Home Solution
 	- DashBoard配置(2)
 	- 制作App——一个最简单的样例
 	- 制作App——应用callback
-14. Node-RED篇
-	- Node-RED安装与初体验
+## Install Node red
+14. Installing Node red for Home Assistant Core
+	- [Install node-red(1)——on debian 11](https://www.matterxiaomi.com/boards/topic/14538/node-red-node-red) - Installing Node red for Home Assistant Core 2023.2.2 in a Python vEnv on Raspberry Pi 3B+ step by step
 	- Node-RED配置
 	- HomeAssistant节点(1)
 	- HomeAssistant节点(2)
@@ -226,15 +227,7 @@ A Complete Smart Home Solution
 	- 设计与制作PCB板(by Zack-Xu)
 	- 树莓派安装HASS.IO(by Zack-Xu)
 	- HASSIO.IO与常规运行环境区别(by Zack-Xu)
-	- x86下ubuntu虚机及HomeAssistant安装（by 猛将兄）
-## Install Node red
-5. Installing Node red for Home Assistant Core
-	- [Install node-red(1)——on debian 11](https://www.matterxiaomi.com/boards/topic/14538/node-red-node-red) - Installing Node red for Home Assistant Core 2023.2.2 in a Python vEnv on Raspberry Pi 3B+ step by step
-	- 使用红外与无线模块(2)——红外发射
-	- 使用红外与无线模块(3)——无线收发
-	- 硬件制作(1)——画电路图
-	- 硬件制作(2)——画PCB板
-	- 硬件制作(3)——元器件与焊接	
+	- x86下ubuntu虚机及HomeAssistant安装（by 猛将兄）	
 4. matterxiaom
 	- [create vps on vultr](https://www.iaspnetcore.com/Blog/BlogPost/6199ff495b26cb0202ad6ce8/how-to-deploy-a-new-instance-on-vultr-step-by-step)
 	- [Install xshell7 on windows 10](https://www.iaspnetcore.com/Blog/blogpost/635d3024da4aea5b6ab5891e)
