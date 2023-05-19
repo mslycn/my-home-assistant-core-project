@@ -108,7 +108,7 @@ A Complete Smart Home Solution
 	- 制作App——应用callback
 ## Install Node red
 14. Installing Node red for Home Assistant Core
-	- [Install node-red(1)——on debian 11](https://www.matterxiaomi.com/boards/topic/14538/node-red-node-red) - Installing Node red for Home Assistant Core 2023.2.2 in a Python vEnv on Raspberry Pi 3B+ step by step
+	- [Install node-red](https://www.matterxiaomi.com/boards/topic/14538/node-red-node-red) - Installing Node red for Home Assistant Core 2023.2.2 in a Python vEnv on Raspberry Pi 3B+ step by step
 	- Node-RED配置
 	- HomeAssistant节点(1)
 	- HomeAssistant节点(2)
