@@ -20,6 +20,7 @@ A Complete Smart Home Solution
 	  - [Home Assistant Core upgrage](https://www.msly.cn/boards/topic/57/installing-home-assistant-core-on-raspberry-pi-3b/page/2#3590)
         - [HomeAssistant自启动如何配置]
 	- [HomeAssistant core 20221102配置、文件结构、升级]
+	  - [http://192.168.2.50:38123/profile]()
 	  - [change Home Assistnant Core default port](https://www.msly.cn/boards/topic/13395/quick-start#18747)
 	- [Other]
 	  - [How to Install Home Assistant core 2022.3.0 on Ubuntu 20.04（vultr VPS） Step by Step](https://www.iaspnetcore.com/Blog/BlogPost/624b26f5bc7b674a02f93b86/how-to-install-home-assistant-core-202230-on-ubuntu-2004vultr-vps-step-by-step)
