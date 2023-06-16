@@ -35,7 +35,7 @@ A Complete Smart Home Solution
 	- 将消息发送给你的邮箱
 	- 接入硬件产品——小米多功能网关
 	- 接入自定义组件-和风天气
-3. 操作进阶篇
+3. [操作进阶篇]
 	- [配置目录](http://192.168.2.50:8123/config/repairs)
         - [系统信息 - System Health integration](https://www.home-assistant.io/integrations/system_health) - System Health integration data can be viewed at Settings -> System -> Repairs -> System Information in the overflow menu (top right).
         - hass命令与升级
