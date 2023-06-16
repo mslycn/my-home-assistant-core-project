@@ -37,10 +37,12 @@ A Complete Smart Home Solution
 	- 接入自定义组件-和风天气
 3. 操作进阶篇
 	- [配置目录](http://192.168.2.50:8123/config/repairs)
-
         - [系统信息 - System Health integration](https://www.home-assistant.io/integrations/system_health) - System Health integration data can be viewed at Settings -> System -> Repairs -> System Information in the overflow menu (top right).
         - hass命令与升级
 	- 操作界面与Lovelace
+	- [配置目录](http://192.168.2.50:8123/config/repairs)
+        - [系统信息 - System Health integration](https://www.home-assistant.io/integrations/system_health) - System Health integration data can be viewed at Settings -> System -> Repairs -> System Information 
+
 	- 设置地理位置与界面语言
 	- 实体显示属性自定义
 	- 手机访问HA
