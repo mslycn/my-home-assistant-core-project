@@ -36,18 +36,15 @@ A Complete Smart Home Solution
 	- 接入硬件产品——小米多功能网关
 	- 接入自定义组件-和风天气
 3. 操作进阶篇
-	- [配置目录](http://192.168.2.50:8123/config/repairs)
+        - [配置目录](http://192.168.2.50:8123/config/repairs)
         - [系统信息 - System Health integration](https://www.home-assistant.io/integrations/system_health) - System Health integration data can be viewed at Settings -> System -> Repairs -> System Information in the overflow menu (top right).
         - hass命令与升级
 	- 操作界面与Lovelace
-	- [配置目录](http://192.168.2.50:8123/config/repairs)
-        - [系统信息 - System Health integration](https://www.home-assistant.io/integrations/system_health) - System Health integration data can be viewed at Settings -> System -> Repairs -> System Information 
-
-	- 设置地理位置与界面语言
+        - 设置地理位置与界面语言
 	- 实体显示属性自定义
 	- 手机访问HA
 	- StatesUI界面优化——分组与分页
-4. [home assisant project-remote access on Raspberry Pi3b+](https://github.com/freemsly/home-assistant/blob/main/home-assisant-remote.MD)
+5. [home assisant project-remote access on Raspberry Pi3b+](https://github.com/freemsly/home-assistant/blob/main/home-assisant-remote.MD)
 	- 申请Amazon免费云主机
 	- [buy a domain from www.namesilo.com](https://www.iaspnetcore.com/Blog/BlogPost/5eb9e65e775d020216dbe009/wwwnamesilocom-registration-and-domain-name-purchase-operation-manual)
 	- frp隧道构建
@@ -55,25 +52,25 @@ A Complete Smart Home Solution
 	- nginx代理
 	- [Install Let’s Encrypt Client Certbot](https://www.iaspnetcore.com/blogpost-619a0dbd5b26cb0202ae5bf1-how-to-secure-nginx-with-lets-encrypt-on-ubuntu-1804vultr#mcetoc_1g3p82cte53) - 666
 	- [Let’s Encrypt Client certbot验证域名所有权](https://www.iaspnetcore.com/Blog/BlogPost/5c2874c21d51ae0eec5ece63/the-type-verification-and-certbot-client-type-of-free-certificate-for-total-station-deployment-https-4-lets-encrypt)	- 本文描述用standalone 方式： certbot 自己运行一个 web server 来进行验证域名所有权后生成证书	
-5. 设备位置追踪篇
+6. 设备位置追踪篇
 	- 设备定位准备知识与Ping检测
 	- nmap网络扫描、黑客、小米wifi路由器
 	- [home assisant project-Play audio on a Bluetooth speaker with Raspberry Pi3b+](https://github.com/freemsly/home-assistant/blob/main/home-assisant-bluetooth-speaker.MD)
 	- 使用iCloud随时定位苹果手机
-6. 自动化篇
+7. 自动化篇
 	- 编写简单脚本——执行系列动作
 	- 编写简单自动化规则
 	- 模板——嵌入配置文件中的程序
 	- 事件与事件消息接收
 	- 前端输入组件+packages配置
 	- 语音+音乐+灯光闹钟
-7. 设备接入篇(1)
+8. 设备接入篇(1)
 	- 太阳、月亮、季节和潮汐
 	- 天气与预报——yr、DarkSky、……
 	- 红外遥控——博联RM系列产品
 	- 红外遥控——小米万能遥控器
 	- 文件夹监测——FolderWatche
-8. 设备接入篇(2)   aqara 
+9. 设备接入篇(2)   aqara 
 	- [aqara hub M1s](https://www.msly.cn/boards/topic/5278/aqara-gatewayhub-g2h-m1s-cn-p3-cn-m2-cn-h1-cn-e1-cn-g3-cn-g2h-pro-integration-for-home-assistant#18735)
 	
 	
