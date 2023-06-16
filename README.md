@@ -41,7 +41,7 @@ A Complete Smart Home Solution
         - 设置地理位置与界面语言
 	- 实体显示属性自定义
 	- [系统信息 - System Health integration](https://www.home-assistant.io/integrations/system_health) - System Health integration data can be viewed at Settings -> System -> Repairs -> System Information in the overflow menu (top right).
-	- StatesUI界面优化——分组与分页
+	- [配置目录](http://192.168.2.50:8123/config/repairs)
 5. [home assisant project-remote access on Raspberry Pi3b+](https://github.com/freemsly/home-assistant/blob/main/home-assisant-remote.MD)
 	- 申请Amazon免费云主机
 	- [buy a domain from www.namesilo.com](https://www.iaspnetcore.com/Blog/BlogPost/5eb9e65e775d020216dbe009/wwwnamesilocom-registration-and-domain-name-purchase-operation-manual)
