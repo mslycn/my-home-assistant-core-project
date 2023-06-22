@@ -86,7 +86,7 @@ A Complete Smart Home Solution
 	- Facebox-在docker中运行人脸识别
 10. Aqara ZigBee网关设备接入篇（2）
 	- [Aqara Gateway 集成来把子设备接入 HA](https://community.aqara.com/pc/#/post/postDetail/1045)
-	- 云端的自动化——IFTTT(1)
+	- Wi-Fi 设备（例如 Aqara 的妙控开关S1E、人在FP2  设备接入 HA 里的 HomeKit 控制器
 	- 云端的自动化——IFTTT(2)
 	- 系统性能监控——SystemMonitor
 	- 以不同的音色播报文字——百度tts
