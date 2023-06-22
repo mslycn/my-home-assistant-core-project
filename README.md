@@ -84,8 +84,8 @@ A Complete Smart Home Solution
 	- 微软人脸特征检测
 	- 微软人脸识别与验证
 	- Facebox-在docker中运行人脸识别
-10. 设备接入篇（2）
-	- YeeLight智能灯
+10. Aqara ZigBee网关设备接入篇（2）
+	- [Aqara Gateway 集成来把子设备接入 HA](https://community.aqara.com/pc/#/post/postDetail/1045)
 	- 云端的自动化——IFTTT(1)
 	- 云端的自动化——IFTTT(2)
 	- 系统性能监控——SystemMonitor
