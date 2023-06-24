@@ -197,11 +197,11 @@ A Complete Smart Home Solution
 	- [buy a domain from www.namesilo.com ](https://www.iaspnetcore.com/Blog/BlogPost/5eb9e65e775d020216dbe009/wwwnamesilo-operation-manual-for-com-registration-and-domain-name-purchase)
 	- [buy a vps server from vultr]()
 	- [A to server]()
-	- [install nginx)](https://www.iaspnetcore.com/Blog/BlogPost/5d9865cc72c1772b244afe0f/how-to-install-and-uninstall-reinstall-nginx-on-ubuntu-1804aliyun)
+	- [install nginx on Raspberry Pi](https://www.iaspnetcore.com/Blog/BlogPost/5d9865cc72c1772b244afe0f/how-to-install-and-uninstall-reinstall-nginx-on-ubuntu-1804aliyun)
 	- [config nginx for your domain](https://www.iaspnetcore.com/Blog/BlogPost/579b2ab584cd462440deb4f4/how-to-configure-aspnet-core-to-work-with-reverse-proxy-serversnginx)
 	- [install Let’s Encrypt client certbot]()
 	- [Opne Firewall port 80 and 443 on vultr]()
-	- [www.namesilo.com](https://www.iaspnetcore.com/Blog/BlogPost/5eb9e65e775d020216dbe009/wwwnamesilo-operation-manual-for-com-registration-and-domain-name-purchase)
+	- [Install on  Frp Client on Raspberry Pi ](https://www.matterxiaomi.com/boards/topic/30/how-to-install-frp-on-home-assistant-operating-systemhassos-on-raspberry-pi-step-by-step)
 	- [CloudFlare](https://www.iaspnetcore.com/Blog/BlogPost/5ee3a43a1c73d43127f113a1/cloudflare-free-cdn-website-acceleration-practice-tutorial#mcetoc_1g37gn9lf11)
 	- Basic Firewall Setup
 	- [downloaded SSL certificates for your domain](https://www.iaspnetcore.com/blogpost-6449555969967f028d52f122-how-to-install-and-uninstall-reinstall-mysql-on-ubuntu-1804vultr)
