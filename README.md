@@ -217,8 +217,8 @@ A Complete Smart Home Solution
 	- ESPHome中的自动化
 	- 制作树莓派镜像文件(1)
 	- 制作树莓派镜像文件(2)
-- 学员成果秀
-	- 语音播报床头灯(by Espoir)
+- 直播源
+	- [一个国内可直连的直播源分享项目](https://github.com/fanmingming/live) - 一个国内可直连的直播源分享项目
 	- 感应伴随灯带(by ZackXu)
 	- 屏幕感应背光灯带(by ZackXu)
 	- HA实时直播画面(by Bobo)
