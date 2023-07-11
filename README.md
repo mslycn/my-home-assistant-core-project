@@ -15,7 +15,7 @@ A Complete Smart Home Solution
 	- 硬件环境准备——安装树莓派
 	- 系统环境设置——树莓派基础配置
 	- 安装Samba和JupyterNotebook
-	- 基于树莓派安装HomeAssistant
+	- [基于树莓派安装HomeAssistant core](https://github.com/freemsly/home-assistant/blob/main/home-assisant-core-install.MD)
 	- [HomeAssistant配置、文件结构、升级]
 	  - [Home Assistant Core upgrage](https://www.msly.cn/boards/topic/57/installing-home-assistant-core-on-raspberry-pi-3b/page/2#3590)
         - [HomeAssistant自启动如何配置]
