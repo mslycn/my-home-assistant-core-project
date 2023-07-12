@@ -26,9 +26,17 @@ A Complete Smart Home Solution
 	- [Other]
 	  - [How to Install Home Assistant core 2022.3.0 on Ubuntu 20.04（vultr VPS） Step by Step](https://www.iaspnetcore.com/Blog/BlogPost/624b26f5bc7b674a02f93b86/how-to-install-home-assistant-core-202230-on-ubuntu-2004vultr-vps-step-by-step)
 	  - [How to Get the correct Debian ISO](https://www.matterxiaomi.com/boards/topic/36/debian-11-bullseye-installation#63)
-	
-	
-	
+2. Aqara hub M2组件接入基础篇(IOS users)
+	- [1.Paired aqara m2 to Homekit(IOS users)](https://blog.matterxiaomi.com/blog/Add-aqara-m2-to-Homekit/)
+	- 让设备发声——朗读文字
+	- 让设备看到——使用手机摄像头做监控
+	- 将消息发送给你的邮箱
+	- 接入硬件产品——小米多功能网关
+	- 接入自定义组件-和风天气]()
+	- 让设备看到——使用手机摄像头做监控
+	- 将消息发送给你的邮箱
+	- 接入硬件产品——小米多功能网关
+	- 接入自定义组件-和风天气 
 	
 2. 组件接入基础篇
 	- 让设备发声——朗读文字
