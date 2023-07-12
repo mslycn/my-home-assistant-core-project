@@ -26,17 +26,6 @@ A Complete Smart Home Solution
 	- [Other]
 	  - [How to Install Home Assistant core 2022.3.0 on Ubuntu 20.04（vultr VPS） Step by Step](https://www.iaspnetcore.com/Blog/BlogPost/624b26f5bc7b674a02f93b86/how-to-install-home-assistant-core-202230-on-ubuntu-2004vultr-vps-step-by-step)
 	  - [How to Get the correct Debian ISO](https://www.matterxiaomi.com/boards/topic/36/debian-11-bullseye-installation#63)
-2. Aqara hub M2组件接入基础篇(IOS users)
-	- [1.Paired aqara m2 to Homekit(IOS users)](https://blog.matterxiaomi.com/blog/Add-aqara-m2-to-Homekit/)
-	- 让设备发声——朗读文字
-	- 让设备看到——使用手机摄像头做监控
-	- 将消息发送给你的邮箱
-	- 接入硬件产品——小米多功能网关
-	- 接入自定义组件-和风天气]()
-	- [小米中枢网关接入Home Assistant Core专业实战教程（mi home app + Xiaomi Miot Auto Integration）](https://zhuanlan.zhihu.com/p/552370350)
-	- 将消息发送给你的邮箱
-	- 接入硬件产品——小米多功能网关
-	- 接入自定义组件-和风天气 
 	
 2. 组件接入基础篇
 	- 让设备发声——朗读文字
@@ -75,10 +64,6 @@ A Complete Smart Home Solution
 	- 红外遥控——博联RM系列产品
 	- 红外遥控——小米万能遥控器
 	- 文件夹监测——FolderWatche
-9. 设备接入篇(2)   aqara 
-	- [aqara hub M1s](https://www.msly.cn/boards/topic/5278/aqara-gatewayhub-g2h-m1s-cn-p3-cn-m2-cn-h1-cn-e1-cn-g3-cn-g2h-pro-integration-for-home-assistant#18735)
-	
-	
 8. 各种摄像头接入篇
 	- 支持MJPEG的摄像头与图片抓取
 	- RTSP协议摄像头与ffmpeg
@@ -99,6 +84,20 @@ A Complete Smart Home Solution
 	- 云端的自动化——IFTTT(2)
 	- 系统性能监控——SystemMonitor
 	- 以不同的音色播报文字——百度tts
+9. 设备接入篇(2)   aqara 
+	- [aqara hub M1s](https://www.msly.cn/boards/topic/5278/aqara-gatewayhub-g2h-m1s-cn-p3-cn-m2-cn-h1-cn-e1-cn-g3-cn-g2h-pro-integration-for-home-assistant#18735)
+	
+2. Aqara hub M2组件接入基础篇(IOS users)
+	- [1.Paired aqara m2 to Homekit(IOS users)](https://blog.matterxiaomi.com/blog/Add-aqara-m2-to-Homekit/)
+	- 让设备发声——朗读文字
+	- 让设备看到——使用手机摄像头做监控
+	- 将消息发送给你的邮箱
+	- 接入硬件产品——小米多功能网关
+	- 接入自定义组件-和风天气]()
+	- [小米中枢网关接入Home Assistant Core专业实战教程（mi home app + Xiaomi Miot Auto Integration）](https://zhuanlan.zhihu.com/p/552370350)
+	- 将消息发送给你的邮箱
+	- 接入硬件产品——小米多功能网关
+	- 接入自定义组件-和风天气 
 11. 使用苹果设备语音控制篇
 	- 通过Homekit与苹果Siri连接(1)
 	- 通过Homekit与苹果Siri连接(2)
