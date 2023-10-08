@@ -13,7 +13,8 @@ A Complete Smart Home Solution
 
 1. [home assisant project-install home assisant core 2022.3.0 on Raspberry Pi3b+](https://github.com/freemsly/home-assistant/blob/main/home-assisant-core-install.MD)
 	- [硬件环境准备——安装树莓派]
-        - [软件环境环境准备——树莓派操作系统](https://www.matterxiaomi.com/boards/topic/57/installing-home-assistant-core-202230-on-raspberry-pi-3b-step-by-step/page/3#18932)  - Raspberry Pi system information and version
+
+     - [软件环境环境准备——树莓派操作系统](https://www.matterxiaomi.com/boards/topic/57/installing-home-assistant-core-202230-on-raspberry-pi-3b-step-by-step/page/3#18932)  - Raspberry Pi system information and version
 	- [系统环境设置——树莓派基础配置](https://www.matterxiaomi.com/raspberry-pi-3)  - Raspberry Pi hardware version
 	- [Install Raspberry Pi OS on a Raspberry PI SD-card 树莓派安装 Raspberry Pi OS 系统](https://www.msly.cn/boards/topic/2184/install-raspberry-pi-os-on-a-raspberry-pi-sd-card) - 首先，树莓派需要安装 Raspberry Pi OS 系统，教程:烧录 镜像 到sd卡
 	- [How to Upgrade Raspberry Pi OS to the Latest Version? (Debian 12,Bookworm)](https://www.matterxiaomi.com/how-to-upgrade-raspberry-pi-os-to-the-latest-version-2022) -升级 Raspberry Pi OS 系统教程:
@@ -29,13 +30,13 @@ A Complete Smart Home Solution
 	  - [How to Install Home Assistant core 2022.3.0 on Ubuntu 20.04（vultr VPS） Step by Step](https://www.iaspnetcore.com/Blog/BlogPost/624b26f5bc7b674a02f93b86/how-to-install-home-assistant-core-202230-on-ubuntu-2004vultr-vps-step-by-step)
 	  - [How to Get the correct Debian ISO](https://www.matterxiaomi.com/boards/topic/36/debian-11-bullseye-installation#63)
 	
-2. 组件接入基础篇
+3. 组件接入基础篇
 	- 让设备发声——朗读文字
 	- 让设备看到——使用手机摄像头做监控
 	- 将消息发送给你的邮箱
 	- 接入硬件产品——小米多功能网关
 	- 接入自定义组件-和风天气
-3. 操作进阶篇   
+4. 操作进阶篇   
         - 设置地理位置与界面语言
 	- 实体显示属性自定义
 	- [系统信息 - System Health integration](https://www.home-assistant.io/integrations/system_health) - System Health integration data can be viewed at Settings -> System -> Repairs -> System Information in the overflow menu (top right).
