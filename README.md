@@ -283,8 +283,8 @@ https://github.com/sl041400/Home-assistant
 2. 小米有品<br>
 https://www.xiaomiyoupin.com/
 
-3. 快节奏<br>
-重点展现实践操作过程。如果不是仅追求效果的话，需要自己补充对应的知识。实践——思考——学习
+3. awesome-ha<br>
+[https://www.awesome-ha.com](https://www.awesome-ha.com/)
 
 4. 精心选择的实践与操作内容<br>
 全面、避免不成熟的技术方向、避免陷入超出知识体系范畴之外的坑中
