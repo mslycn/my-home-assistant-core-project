@@ -1,4 +1,4 @@
-# home-assistant
+# home-assistant  core  project
 A Complete Smart Home Solution
 
 ### 本项目对应于《HomeAssistant智能家居实战篇》系列内容中的文档。
