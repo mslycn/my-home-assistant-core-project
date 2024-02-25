@@ -1,5 +1,5 @@
 # home-assistant  core  project
-A Complete Smart Home Solution
+A Complete Smart Home Solution.It is possible to install Home Assistant Core without Docker. However, it is a more complex process that requires advanced technical knowledge. Users need to install Python, set up a virtual environment, and install Home Assistant Core manually. A step-by-step guide can be found on this doc.
 
 ### 本项目对应于《HomeAssistant智能家居实战篇》系列内容中的文档。
 [home-assisant.msly.cn](https://home-assisant.msly.cn)
