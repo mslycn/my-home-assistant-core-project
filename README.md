@@ -11,7 +11,7 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 
 ## Install homeassistant core
 
-1. [home assisant project-install home assisant core 2022.3.0 on Raspberry Pi3b+](https://github.com/freemsly/home-assistant/blob/main/home-assisant-core-install.MD)
+1. [home assisant project-install home assisant core 2022.3.0 on Raspberry Pi3b+](https://github.com/mslycn/home-assistant/blob/main/home-assisant-core-install.MD)
 	- [硬件环境准备——安装树莓派]
     - [软件环境环境准备——树莓派操作系统](https://www.matterxiaomi.com/boards/topic/57/installing-home-assistant-core-202230-on-raspberry-pi-3b-step-by-step/page/3#18932)  - Raspberry Pi system information and version
 	- [系统环境设置——树莓派基础配置](https://www.matterxiaomi.com/raspberry-pi-3)  - Raspberry Pi hardware version
@@ -28,8 +28,8 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	- [Other]
 	  - [How to Install Home Assistant core 2022.3.0 on Ubuntu 20.04（vultr VPS） Step by Step ](https://www.iaspnetcore.com/Blog/BlogPost/624b26f5bc7b674a02f93b86/how-to-install-home-assistant-core-202230-on-ubuntu-2004vultr-vps-step-by-step) - no pve + vultr VPS
 	  - [How to install full Home Assistant Core in Python virtual environment on Debian 11 operating system(x86_64 with python virtual environment) Step by Step](https://www.matterxiaomi.com/how-to-install-full-home-assistant-core-on-debian-11-operating-systemwith-python-virtual-environment-step-by-step)  - pve + vultr VPS
-          - [install Home Assistant core on debian Server](https://blog.matterxiaomi.com/blog/install-home-assistant-core-debian-server/)  - pve + vultr VPS
-          - [How to Get the correct Debian ISO](https://www.matterxiaomi.com/boards/topic/36/debian-11-bullseye-installation#63)
+      - [install Home Assistant core on debian Server](https://blog.matterxiaomi.com/blog/install-home-assistant-core-debian-server/)  - pve + vultr VPS
+      - [How to Get the correct Debian ISO](https://www.matterxiaomi.com/boards/topic/36/debian-11-bullseye-installation#63)
 	
 3. 组件接入基础篇
 	- 让设备发声——朗读文字
@@ -38,7 +38,7 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	- 接入硬件产品——小米多功能网关
 	- 接入自定义组件-和风天气
 4. 操作进阶篇   
-        - 设置地理位置与界面语言
+    - 设置地理位置与界面语言
 	- 实体显示属性自定义
 	- [系统信息 - System Health integration](https://www.home-assistant.io/integrations/system_health) - System Health integration data can be viewed at Settings -> System -> Repairs -> System Information in the overflow menu (top right).
 	- [配置目录](http://192.168.2.50:8123/config/repairs) - Configuration Directory	/home/homeassistant20221103/.homeassistant
@@ -88,10 +88,10 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	- 云端的自动化——IFTTT(2)
 	- 系统性能监控——SystemMonitor
 	- 以不同的音色播报文字——百度tts
-9. 设备接入篇(2)   aqara 
+9. aqara设备接入篇(2)    
 	- [aqara hub M1s](https://www.msly.cn/boards/topic/5278/aqara-gatewayhub-g2h-m1s-cn-p3-cn-m2-cn-h1-cn-e1-cn-g3-cn-g2h-pro-integration-for-home-assistant#18735)
 	
-2. Aqara hub M2组件接入基础篇(IOS users)
+10. Aqara hub M2组件接入基础篇(IOS users)
 	- [1.Paired aqara m2 to Homekit(IOS users)](https://blog.matterxiaomi.com/blog/Add-aqara-m2-to-Homekit/)
 	- 让设备发声——朗读文字
 	- 让设备看到——使用手机摄像头做监控
