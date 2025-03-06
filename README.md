@@ -42,14 +42,7 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	- 实体显示属性自定义
 	- [系统信息 - System Health integration](https://www.home-assistant.io/integrations/system_health) - System Health integration data can be viewed at Settings -> System -> Repairs -> System Information in the overflow menu (top right).
 	- [配置目录](http://192.168.2.50:8123/config/repairs) - Configuration Directory	/home/homeassistant20221103/.homeassistant
-5. [home assisant project-remote access on Raspberry Pi3b+](https://github.com/freemsly/home-assistant/blob/main/home-assisant-remote.MD)
-	- 申请Amazon免费云主机
-	- [buy a domain from www.namesilo.com](https://www.iaspnetcore.com/Blog/BlogPost/5eb9e65e775d020216dbe009/wwwnamesilocom-registration-and-domain-name-purchase-operation-manual)
-	- frp隧道构建
-	- 免费为HA配上域名与HTTPS网站证书
-	- nginx代理
-	- [Install Let’s Encrypt Client Certbot](https://www.iaspnetcore.com/blogpost-619a0dbd5b26cb0202ae5bf1-how-to-secure-nginx-with-lets-encrypt-on-ubuntu-1804vultr#mcetoc_1g3p82cte53) - 666
-	- [Let’s Encrypt Client certbot验证域名所有权](https://www.iaspnetcore.com/Blog/BlogPost/5c2874c21d51ae0eec5ece63/the-type-verification-and-certbot-client-type-of-free-certificate-for-total-station-deployment-https-4-lets-encrypt)	- 本文描述用standalone 方式： certbot 自己运行一个 web server 来进行验证域名所有权后生成证书	
+
 6. 设备位置追踪篇
 	- 设备定位准备知识与Ping检测
 	- nmap网络扫描、黑客、小米wifi路由器
@@ -217,6 +210,14 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	- [CloudFlare](https://www.iaspnetcore.com/Blog/BlogPost/5ee3a43a1c73d43127f113a1/cloudflare-free-cdn-website-acceleration-practice-tutorial#mcetoc_1g37gn9lf11)
 	- Basic Firewall Setup
 	- [downloaded SSL certificates for your domain](https://www.iaspnetcore.com/blogpost-6449555969967f028d52f122-how-to-install-and-uninstall-reinstall-mysql-on-ubuntu-1804vultr)
+5. [home assisant project-remote access on Raspberry Pi3b+](https://github.com/freemsly/home-assistant/blob/main/home-assisant-remote.MD)
+	- 申请Amazon免费云主机
+	- [buy a domain from www.namesilo.com](https://www.iaspnetcore.com/Blog/BlogPost/5eb9e65e775d020216dbe009/wwwnamesilocom-registration-and-domain-name-purchase-operation-manual)
+	- frp隧道构建
+	- 免费为HA配上域名与HTTPS网站证书
+	- nginx代理
+	- [Install Let’s Encrypt Client Certbot](https://www.iaspnetcore.com/blogpost-619a0dbd5b26cb0202ae5bf1-how-to-secure-nginx-with-lets-encrypt-on-ubuntu-1804vultr#mcetoc_1g3p82cte53) - 666
+	- [Let’s Encrypt Client certbot验证域名所有权](https://www.iaspnetcore.com/Blog/BlogPost/5c2874c21d51ae0eec5ece63/the-type-verification-and-certbot-client-type-of-free-certificate-for-total-station-deployment-https-4-lets-encrypt)	- 本文描述用standalone 方式： certbot 自己运行一个 web server 来进行验证域名所有权后生成证书		
     
 - Home Assistant Remote access
 	- Linux下的常用命令
