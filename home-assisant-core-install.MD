@@ -42,4 +42,51 @@ Table of Contents
   * [Config](#)
     * [List of Time Zones](https://timezonedb.com/time-zones)  
    
+
+sudo timedatectl set-timezone 'Asia/Shanghai'
+
+ping raspberrypi.local
+
+sqlite3 --version
+
+python3 --version
+
+
+   docker exec -it ha /bin/sh
+/config # hass --version
+2025.1.2
+
+
+## Make Python virtual environment + Home Assistant Core
+
+Install a specific version
+~~~
+pip3 install homeassistant==2022.5.4
+~~~
+
+Restart hass core
+~~~
+sudo -u homeassistant -H -s
+cd /srv/homeassistant
+source bin/activate
+
+# run home assistant core with console log
+hass -v
+~~~
+
+https://www.matterxiaomi.com/boards/topic/57/installing-home-assistant-core-202230-on-raspberry-pi-3b-step-by-step/page/2#2324
+
+
+Home Assistant Core upgrage
+~~~
+sudo -u homeassistant -H -s
+cd /srv/homeassistant
+source bin/activate
+pip3 install --upgrade homeassistant
+~~~
+https://www.matterxiaomi.com/boards/topic/57/installing-home-assistant-core-202230-on-raspberry-pi-3b-step-by-step/page/2#2324
+
+
+
+
  
