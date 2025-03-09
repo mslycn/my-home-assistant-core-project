@@ -37,6 +37,7 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	- 将消息发送给你的邮箱
 	- 接入硬件产品——小米多功能网关
 	- 接入自定义组件-和风天气
+	- [接入Logitech media server]
 4. 操作进阶篇   
     - 设置地理位置与界面语言
 	- 实体显示属性自定义
@@ -207,7 +208,7 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	- 硬件制作(2)——画PCB板
 	- 硬件制作(3)——元器件与焊接
 ## Home Assistant Remote access
-29. Home Assistant Remote access
+29. Home Assistant Remote access - frp
 	- [buy a domain from www.namesilo.com ](https://www.iaspnetcore.com/Blog/BlogPost/5eb9e65e775d020216dbe009/wwwnamesilo-operation-manual-for-com-registration-and-domain-name-purchase)
 	- [buy a vps server from vultr]()
 	- [A to server]()
