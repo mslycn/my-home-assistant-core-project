@@ -55,6 +55,14 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	- 事件与事件消息接收
 	- 前端输入组件+packages配置
 	- 语音+音乐+灯光闹钟
+7. HomeAssistant创建模板实体(Template)
+	- [基于状态的模板(template)传感器、二元传感器、按钮、数字项和选择项](https://bbs.hassbian.com/thread-18160-1-1.html)
+	- [Template integration](https://www.home-assistant.io/integrations/template/)
+	- [HomeAssistant创建模板实体(Template)-light,开关](https://www.cnblogs.com/Luad/p/18606120)
+	- 预留
+	- 预留
+	- 预留
+
 8. 设备接入篇(1)
 	- 太阳、月亮、季节和潮汐
 	- 天气与预报——yr、DarkSky、……
@@ -110,6 +118,7 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	- DashBoard配置(2)
 	- 制作App——一个最简单的样例
 	- 制作App——应用callback
+
 ## Install Node red
 14. Installing Node red for Home Assistant Core
 	- [Install node-red](https://www.matterxiaomi.com/boards/topic/14538/node-red-node-red) - Installing Node red for Home Assistant Core 2023.2.2 in a Python vEnv on Raspberry Pi 3B+ step by step
