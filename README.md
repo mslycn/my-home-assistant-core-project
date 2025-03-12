@@ -7,6 +7,8 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 ## Contents
 * [Install homeassistant core](#install-homeassistant-core)
 * [Install Node red for home assistant core](#install-node-red)
+* [Install ESPHome for home assistant core](#install-esphome)
+
 * [Home Assistant Remote access](#Home-Assistant-Remote-access)
 
 ## Install homeassistant core
@@ -55,7 +57,6 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 
 	- [<config>/pyscript](https://hacs-pyscript.readthedocs.io/en/stable/tutorial.html#writing-your-first-script) 官方例子里，pyscript可以用来代替jinja，可以代替yaml写出自动化和script。生成的service可以直接被调用
 	- [pyscript 安装教程](https://hacs-pyscript.readthedocs.io/en/stable/installation.html)  安装好后从integration中添加即可,手动安装请见https://hacs-pyscript.readthedocs.io/en/stable/installation.html
-	- 事件与事件消息接收
 	- [pyscript使用教程](https://bbs.hassbian.com/thread-16211-1-1.html)
 	- 语音+音乐+灯光闹钟
 7. HomeAssistant创建模板实体(Template)
@@ -144,7 +145,9 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	- 服务器安装与最简单的智能灯
 	- 主题格式、状态反馈、调试……
 	- QoS、retain、last_will、自动配置……
+## Install ESPHome
 17. DIY智能硬件ESP8266篇
+    - [Installing and configuring ESPHome with ESP8266 and ESP32](https://chelmiki.com/posts/installing-and-configuring-esphome/)
 	- ESP8266——固件烧录与连接
 	- ESP8266上的MicroPython使用
 	- 连接ESP8266的DHT温湿度传感器
