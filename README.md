@@ -50,11 +50,13 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	- [home assisant project-Play audio on a Bluetooth speaker with Raspberry Pi3b+](https://github.com/freemsly/home-assistant/blob/main/home-assisant-bluetooth-speaker.MD)
 	- 使用iCloud随时定位苹果手机
 7. 自动化篇
-	- 编写简单脚本——执行系列动作
-	- 编写简单自动化规则
-	- 模板——嵌入配置文件中的程序
+	- [python_scripts中文](https://blog.51cto.com/u_16213299/11996185) 在Home Assistant 中运行 Python 代码
+	- [python_scripts](https://blog.51cto.com/u_16213299/11996185)  <config>/pyscript folder
+
+	- [<config>/pyscript](https://hacs-pyscript.readthedocs.io/en/stable/tutorial.html#writing-your-first-script) 官方例子里，pyscript可以用来代替jinja，可以代替yaml写出自动化和script。生成的service可以直接被调用
+	- [pyscript 安装教程](https://hacs-pyscript.readthedocs.io/en/stable/installation.html)  安装好后从integration中添加即可,手动安装请见https://hacs-pyscript.readthedocs.io/en/stable/installation.html
 	- 事件与事件消息接收
-	- 前端输入组件+packages配置
+	- [pyscript使用教程](https://bbs.hassbian.com/thread-16211-1-1.html)
 	- 语音+音乐+灯光闹钟
 7. HomeAssistant创建模板实体(Template)
 	- [基于状态的模板(template)传感器、二元传感器、按钮、数字项和选择项](https://bbs.hassbian.com/thread-18160-1-1.html)
@@ -84,6 +86,13 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	- 微软人脸特征检测
 	- 微软人脸识别与验证
 	- Facebox-在docker中运行人脸识别
+9. 本地离线语音篇
+	- [whisper中文语音识别服务（CPU版本]
+	- 预留
+	- 预留
+	- 预留
+	- 预留
+	- 预留	
 10. Aqara ZigBee网关设备接入篇（2）
 	- [Aqara Gateway 集成来把子设备接入 HA](https://community.aqara.com/pc/#/post/postDetail/1045)
 	- Wi-Fi 设备（例如 Aqara 的妙控开关S1E、人在FP2  设备接入 HA 里的 HomeKit 控制器
@@ -290,8 +299,10 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	- [How To Install and uninstall reinstall Mysql on Ubuntu 18.04（vultr）](https://www.iaspnetcore.com/blogpost-6449555969967f028d52f122-how-to-install-and-uninstall-reinstall-mysql-on-ubuntu-1804vultr)	
 		
 ## Useful links
-1. 真实<br>
+1. 真实案例<br>
 https://github.com/sl041400/Home-assistant
+
+全屋智能的HA设置 https://github.com/relliky/Tais_Home_Assistant_Config
 
 2. 小米有品<br>
 https://www.xiaomiyoupin.com/
