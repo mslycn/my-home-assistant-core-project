@@ -6,7 +6,9 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 
 ## Contents
 * [Install homeassistant core](#install-homeassistant-core)
-* [Install Node red for home assistant core](#install-node-red)
+* [Install Node red for home assistant core](#install-node-red)  
+* [Install Homebridge](#install-homebridge)  
+* [Install MatterBridge for home assistant core](#install-matterbridge)
 * [Install ESPHome for home assistant core](#install-esphome)
 
 * [Home Assistant Remote access](#Home-Assistant-Remote-access)
@@ -27,19 +29,20 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	  - [http://192.168.2.50:38123/profile](http://192.168.2.50:38123/profile)
 	  - [change Home Assistnant Core default port](https://www.msly.cn/boards/topic/13395/quick-start#18747)
       - [Home Assistnant Core Initial configuration](https://www.matterxiaomi.com/boards/topic/13395/quick-start#18951) - Home Assistnant Core Initial configuration , First configuration
+	  - [xshell]() you access HA directly via (xshell and xftp)SSH port 22 on windows 10
 	- [Other]
 	  - [How to Install Home Assistant core 2022.3.0 on Ubuntu 20.04（vultr VPS） Step by Step ](https://www.iaspnetcore.com/Blog/BlogPost/624b26f5bc7b674a02f93b86/how-to-install-home-assistant-core-202230-on-ubuntu-2004vultr-vps-step-by-step) - no pve + vultr VPS
 	  - [How to install full Home Assistant Core in Python virtual environment on Debian 11 operating system(x86_64 with python virtual environment) Step by Step](https://www.matterxiaomi.com/how-to-install-full-home-assistant-core-on-debian-11-operating-systemwith-python-virtual-environment-step-by-step)  - pve + vultr VPS
       - [install Home Assistant core on debian Server](https://blog.matterxiaomi.com/blog/install-home-assistant-core-debian-server/)  - pve + vultr VPS
       - [How to Get the correct Debian ISO](https://www.matterxiaomi.com/boards/topic/36/debian-11-bullseye-installation#63)
+	  - [树莓派3B安装home assistant全过程](https://www.cnblogs.com/mokou/p/14423917.html)
 	
 3. 组件接入基础篇
 	- 让设备发声——朗读文字
 	- 让设备看到——使用手机摄像头做监控
-	- 将消息发送给你的邮箱
 	- 接入硬件产品——小米多功能网关
 	- 接入自定义组件-和风天气
-	- [接入Logitech media server]
+	- [接入Logitech media server](#)
 4. 操作进阶篇   
     - 设置地理位置与界面语言
 	- 实体显示属性自定义
@@ -59,7 +62,7 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	- [pyscript 安装教程](https://hacs-pyscript.readthedocs.io/en/stable/installation.html)  安装好后从integration中添加即可,手动安装请见https://hacs-pyscript.readthedocs.io/en/stable/installation.html
 	- [pyscript使用教程](https://bbs.hassbian.com/thread-16211-1-1.html)
 	- 语音+音乐+灯光闹钟
-7. HomeAssistant创建模板实体(Template)
+7. HomeAssistant创建模板实体(Template) 通过代码模拟出各种各样的智能家居设备
 	- [基于状态的模板(template)传感器、二元传感器、按钮、数字项和选择项](https://bbs.hassbian.com/thread-18160-1-1.html)
 	- [Template integration](https://www.home-assistant.io/integrations/template/)
 	- [HomeAssistant创建模板实体(Template)-light,开关](https://www.cnblogs.com/Luad/p/18606120)
@@ -120,6 +123,15 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	- 捷径与HA的接口调用
 	- 在HA中完成语音文字处理——chrome语音控制
 	- 苹果设备语音控制全自由定制
+	- [esp-homekit-devices](https://github.com/RavenSystem/esp-homekit-devices)
+	- [c# Homekit.Net](https://www.cnblogs.com/hezp/p/18142099) 通过c#代码模拟出各种各样的智能家居设备，并添加到苹果手机的家庭app中
+11. 消息通知  短信 消息到手机 ha app
+	- [中移ML307R模块]() 购买链接：https://item.taobao.com/item.htm?ft=t&id=795927858234
+	- 将消息发送给你的邮箱
+	- 将消息发送给你的手机
+	- 通过Homekit与苹果Siri连接(2)
+	- 捷径与HA的接口调用
+	- 苹果设备语音控制全自由定制	
 12. 数据记录篇
 	- 历史数据基础概念
 	- 数据组件的配置、mysql数据库及其它
@@ -137,6 +149,20 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	- HomeAssistant节点(1)
 	- HomeAssistant节点(2)
 	- 一些样例：闹钟、自动湿度控制、门铃
+## Install Homebridge
+14. Installing Homebridge for Apple Home app
+	- [Install node-red](https://blog.matterxiaomi.com/blog/install-uninstall-reinstall-homebridge-raspbian-part1/) - Installing Homebridge for Apple Home app
+	- Node-RED配置
+	- HomeAssistant节点(1)
+	- HomeAssistant节点(2)
+	- 一些样例：闹钟、自动湿度控制、门铃	
+## Install  MatterBridge
+14. Installing MatterBridge for for Home Assistant Core
+	- [Install  MatterBridge](https://blog.matterxiaomi.com/blog/matter-bridge-part1/) - Installing MatterBridge for for Home Assistant Core
+	- Node-RED配置
+	- HomeAssistant节点(1)
+	- HomeAssistant节点(2)
+	- 一些样例：闹钟、自动湿度控制、门铃
 15. 树莓派GPIO口设备连接篇
 	- 直连树莓派的LED(1)——NodeRED接入/HA中rpi_gpio_pwm组件
 	- 直连树莓派的LED(2)——HA 中的shell_command/binary_sensor.command_line/light.template
@@ -148,6 +174,7 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 ## Install ESPHome
 17. DIY智能硬件ESP8266篇
     - [Installing and configuring ESPHome with ESP8266 and ESP32](https://chelmiki.com/posts/installing-and-configuring-esphome/)
+	- [ESP32-引脚图（ESP-WROOM-32](https://blog.csdn.net/lianyinghhh/article/details/139971338)
 	- ESP8266——固件烧录与连接
 	- ESP8266上的MicroPython使用
 	- 连接ESP8266的DHT温湿度传感器
@@ -175,11 +202,13 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	- DIY智能音箱（2）——snowboy、speech_recognition
 	- DIY智能音箱（3）——完成主程序架构
 	- DIY智能音箱（4）——与HomeAssistant交互
-	- 完善（1）——更好的音色、更多的指令
-	- 完善（2）——准确回答任意问题
-	- 完善（3）——自定义唤醒词与敏感度
-	- 完善（4）——使用微软语音识别服务
-	- 最后一课——积木构建智慧空间
+	- [Rhasspy Voice Assistant](https://rhasspy.readthedocs.io/en/latest/) it works with Hermes protocol compatible services (Snips.AI) Home Assistant and Hass.Openhub
+	- [Wyoming Satellite](https://github.com/rhasspy/wyoming-satellite) Wyoming Satellite 是一个使用 Wyoming 协议的远程语音项目，通过ESP32或类似硬件实现本地唤醒词检测和stt功能
+	- [Wyoming Satellite 远程语音卫星源码工作原理](https://mmssai.com/archives/4386) 远程语音智能音箱，使用Wyoming协议，进行本地唤醒词检测和音频增强，接入智能家居系统ha
+	- [基于esphome的语音助手]
+	- [https://github.com/OHF-Voice/speech-to-phrase]
+	- [docker wyoming-vosk](https://blog.matterxiaomi.com/blog/docker-vosk-1/)
+	- 在HA中完成语音文字处理——chrome语音控制
 23. 音乐灯带
 	- 音乐灯带——硬件连接与基本使用
 	- 音乐灯带——接入ESPHome(1)
@@ -219,6 +248,7 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	- 硬件制作(1)——画电路图
 	- 硬件制作(2)——画PCB板
 	- 硬件制作(3)——元器件与焊接
+	- [Broadlink博联设备](https://www.cnblogs.com/softlin/p/16511684.html)
 ## Home Assistant Remote access
 29. Home Assistant Remote access - frp
 	- [buy a domain from www.namesilo.com ](https://www.iaspnetcore.com/Blog/BlogPost/5eb9e65e775d020216dbe009/wwwnamesilo-operation-manual-for-com-registration-and-domain-name-purchase)
@@ -258,6 +288,8 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	- 屏幕感应背光灯带(by ZackXu)
 	- HA实时直播画面(by Bobo)
 - 精彩众创教程
+    - [Installing mirror lighting on ESPHome](https://chochol.io/en/smart-home/home-assistant-installing-mirror-lighting-on-esphome/)
+	- [ESP32 SIM800L](https://randomnerdtutorials.com/esp32-sim800l-send-text-messages-sms/) ESP32 SIM800L: Send Text Messages (SMS Alert) with Sensor Readings
 	- 魔镜系列——魔镜安装(by JonnyWong)
 	- 魔镜系列：天气组件openweather(by JonnyWong)
 	- 魔镜系列：第三方组件WeeklySchedule(by JonnyWong)
@@ -313,8 +345,8 @@ https://www.xiaomiyoupin.com/
 3. awesome-ha<br>
 [https://www.awesome-ha.com](https://www.awesome-ha.com/)
 
-4. 精心选择的实践与操作内容<br>
-全面、避免不成熟的技术方向、避免陷入超出知识体系范畴之外的坑中
+4. yeelight forum<br>
+[yeelight forum](https://forum.yeelight.com/latest)
 
 5. 便宜、实用<br>
 几百元的硬件投入，就可以实践几乎所有的视频内容
