@@ -1,4 +1,6 @@
 # home-assistant  core  project
+
+
 A Complete Smart Home Solution.It is possible to install Home Assistant Core without Docker. However, it is a more complex process that requires advanced technical knowledge. Users need to install Python, set up a virtual environment, and install Home Assistant Core manually. A step-by-step guide can be found on this doc.
 
 ### 本项目对应于《HomeAssistant智能家居实战篇》系列内容中的文档。
@@ -38,7 +40,11 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	  - [树莓派3B安装home assistant全过程](https://www.cnblogs.com/mokou/p/14423917.html)
 	
 3. 组件接入基础篇
-	- 让设备发声——朗读文字
+	- [让设备发声——朗读文字 HomePod mini]    edge tts
+	- [让设备发声——朗读文字 小度音箱]         edge tts
+	- [让设备发声——朗读文字 小爱player]
+	- [让设备发声——朗读文字 小爱pro老版]      edge tts
+	- [让设备发声——朗读文字 小米音箱pro新版]
 	- 让设备看到——使用手机摄像头做监控
 	- 接入硬件产品——小米多功能网关
 	- 接入自定义组件-和风天气
@@ -83,7 +89,7 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	- 有线树莓派CSI与USB摄像头
 	- 小米的大方摄像头
 	- 天气预报与交通状况图——另类摄像头
-9. 人脸识别篇
+9. 本地摄像头-人脸识别篇
 	- DLib配置与pip安装
 	- 本地DLib人脸探测
 	- 本地DLib人脸识别
@@ -97,6 +103,18 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	- 预留
 	- 预留
 	- 预留	
+22. 自己动手做一个智能音箱
+	- DIY智能音箱（1）——整体架构、硬件安装
+	- DIY智能音箱（2）——snowboy、speech_recognition
+	- DIY智能音箱（3）——完成主程序架构
+	- DIY智能音箱（4）——与HomeAssistant交互
+	- [Rhasspy Voice Assistant](https://rhasspy.readthedocs.io/en/latest/) it works with Hermes protocol compatible services (Snips.AI) Home Assistant and Hass.Openhub
+	- [Wyoming Satellite](https://github.com/rhasspy/wyoming-satellite) Wyoming Satellite 是一个使用 Wyoming 协议的远程语音项目，通过ESP32或类似硬件实现本地唤醒词检测和stt功能
+	- [Wyoming Satellite 远程语音卫星源码工作原理](https://mmssai.com/archives/4386) 远程语音智能音箱，使用Wyoming协议，进行本地唤醒词检测和音频增强，接入智能家居系统ha
+	- [基于esphome的语音助手]
+	- [https://github.com/OHF-Voice/speech-to-phrase]
+	- [docker wyoming-vosk](https://blog.matterxiaomi.com/blog/docker-vosk-1/)
+	- 在HA中完成语音文字处理——chrome语音控制	
 10. Aqara ZigBee网关设备接入篇（2）
 	- [Aqara Gateway 集成来把子设备接入 HA](https://community.aqara.com/pc/#/post/postDetail/1045)
 	- Wi-Fi 设备（例如 Aqara 的妙控开关S1E、人在FP2  设备接入 HA 里的 HomeKit 控制器
@@ -141,6 +159,9 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	- DashBoard配置(2)
 	- 制作App——一个最简单的样例
 	- 制作App——应用callback
+	- [Picture elements card 2D](https://thehomeautomationblog.com/how-to-create-a-floorplan-in-home-assistant-part-5-interactive/) How to create a floorplan in home assistant
+	- [Picture elements card 2D](https://pacossmarthome.co.uk/control-your-house-in-home-assistant-with-a-picture-elements-card/) Control your house in Home Assistant with a Picture Elements Card
+	-[Custom Mushroom card](https://bbs.hassbian.com/thread-21857-1-1.html)  代码使用案例
 
 ## Install Node red
 14. Installing Node red for Home Assistant Core
@@ -155,7 +176,15 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	- Node-RED配置
 	- HomeAssistant节点(1)
 	- HomeAssistant节点(2)
-	- 一些样例：闹钟、自动湿度控制、门铃	
+	- 一些样例：闹钟、自动湿度控制、门铃
+## Install  OTBR
+14. Installing Open Thread Border Router for for Home Assistant Core
+	- [options OTBR devices for Home Assistant Core](https://community.home-assistant.io/t/choosing-the-right-thread-radio-thread-border-router/824676?u=msly) - 
+	- 预留
+	- 预留
+	- 预留
+	- 预留
+
 ## Install  MatterBridge
 14. Installing MatterBridge for for Home Assistant Core
 	- [Install  MatterBridge](https://blog.matterxiaomi.com/blog/matter-bridge-part1/) - Installing MatterBridge for for Home Assistant Core
@@ -181,6 +210,8 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	- ESP8266完成各种功能
 	- 典型样例讲解：光照传感器与智能灯
 	- ESPHome——不编程，集成ESP8266
+	- 音乐灯带——接入ESPHome(1)
+	- 音乐灯带——接入ESPHome(2)	
 18. 成为HomeAssistant开发者
 	- 组件的工作原理
 	- 程序样例：二维码识别组件
@@ -197,24 +228,11 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 21. 抓取Internet信息作为传感器
 	- 即时股票行情——使用sensor.rest
 	- 各种网站页面元素——sensor.scrape组件
-22. 自己动手做一个智能音箱
-	- DIY智能音箱（1）——整体架构、硬件安装
-	- DIY智能音箱（2）——snowboy、speech_recognition
-	- DIY智能音箱（3）——完成主程序架构
-	- DIY智能音箱（4）——与HomeAssistant交互
-	- [Rhasspy Voice Assistant](https://rhasspy.readthedocs.io/en/latest/) it works with Hermes protocol compatible services (Snips.AI) Home Assistant and Hass.Openhub
-	- [Wyoming Satellite](https://github.com/rhasspy/wyoming-satellite) Wyoming Satellite 是一个使用 Wyoming 协议的远程语音项目，通过ESP32或类似硬件实现本地唤醒词检测和stt功能
-	- [Wyoming Satellite 远程语音卫星源码工作原理](https://mmssai.com/archives/4386) 远程语音智能音箱，使用Wyoming协议，进行本地唤醒词检测和音频增强，接入智能家居系统ha
-	- [基于esphome的语音助手]
-	- [https://github.com/OHF-Voice/speech-to-phrase]
-	- [docker wyoming-vosk](https://blog.matterxiaomi.com/blog/docker-vosk-1/)
-	- 在HA中完成语音文字处理——chrome语音控制
 23. 音乐灯带
 	- 音乐灯带——硬件连接与基本使用
-	- 音乐灯带——接入ESPHome(1)
-	- 音乐灯带——接入ESPHome(2)
 	- Arduino与ESP硬件
 	- 音乐灯带——音频处理过程与Arduino平台编译
+	- [雷特驱动](https://www.ltech.cn/html/Products/)
 24. 远程麦克风
 	- 声音信号的采集与播放
 	- 接入HomeAssistant的远程麦克风
@@ -334,13 +352,18 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	- [How To Install and uninstall reinstall Mysql on Ubuntu 18.04（vultr）](https://www.iaspnetcore.com/blogpost-6449555969967f028d52f122-how-to-install-and-uninstall-reinstall-mysql-on-ubuntu-1804vultr)	
 		
 ## Useful links
-1. 真实案例<br>
+1. 真实案例 share configuration<br>
+My heartfelt thanks to:
+
 https://github.com/sl041400/Home-assistant
 
 全屋智能的HA设置 https://github.com/relliky/Tais_Home_Assistant_Config
 
 2. 小米有品<br>
 https://www.xiaomiyoupin.com/
+
+2. 小米商城
+https://www.mi.com/index.html
 
 3. awesome-ha<br>
 [https://www.awesome-ha.com](https://www.awesome-ha.com/)
