@@ -232,9 +232,11 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	- 音乐灯带——硬件连接与基本使用
 	- Arduino与ESP硬件
 	- 音乐灯带——音频处理过程与Arduino平台编译
-	- [雷特驱动](https://www.ltech.cn/html/Products/)
+	- [雷特驱动查询网址](https://www.ltech.cn/html/Products/)
 24. 远程麦克风
-	- 声音信号的采集与播放
+	- [声音信号的采集与播放-Arduino IDE](https://blog.csdn.net/m0_74276051/article/details/143181595) 如何使用ESP32开发板与INMP441麦克风模块进行音频采集，并通过UDP将音频数据传输到Windows主机进行播放。
+	- [声音信号的采集与播放-Arduino IDE](https://www.180it.com/archives/2151/) 使用ESP32开发板与INMP441麦克风模块进行音频采集，c# 服务端接收代码
+	- [声音信号的采集与播放-Arduino IDE](https://lingshunlab.com/book/esp32/esp32-using-inmp441-microphone-module-for-real-time-audio-data-acquisition) 使用ESP32开发板与INMP441麦克风模块进行音频采集，c++ 代码
 	- 接入HomeAssistant的远程麦克风
 	- 使用远程麦克风——监听与录音
 	- 给智能音箱配上远程麦克风
