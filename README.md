@@ -180,8 +180,11 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	- HomeAssistant节点(2)
 	- 一些样例：闹钟、自动湿度控制、门铃
 ## Install Homebridge
-14. Installing Homebridge for Apple Home app
-	- [Install node-red](https://blog.matterxiaomi.com/blog/install-uninstall-reinstall-homebridge-raspbian-part1/) - Installing Homebridge for Apple Home app
+14. Installing Homebridge for Apple Home app  
+
+使用 Homebridge Docker 将米家设备接入 Homekit
+
+	- [Install Homebridge](https://blog.matterxiaomi.com/blog/install-uninstall-reinstall-homebridge-raspbian-part1/) - Installing Homebridge for Apple Home app
 	- Node-RED配置
 	- HomeAssistant节点(1)
 	- HomeAssistant节点(2)
