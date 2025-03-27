@@ -45,6 +45,8 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	- [让设备发声——朗读文字 小爱player]
 	- [让设备发声——朗读文字 小爱pro老版]      edge tts
 	- [让设备发声——朗读文字 小米音箱pro新版]
+	- 让设备发声——朗读文字
+	- 以不同的音色播报文字——百度tts
 	- 让设备看到——使用手机摄像头做监控
 	- 接入硬件产品——小米多功能网关
 	- 接入自定义组件-和风天气
@@ -82,6 +84,14 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	- 红外遥控——博联RM系列产品
 	- 红外遥控——小米万能遥控器
 	- 文件夹监测——FolderWatche
+8. PC接入篇
+	- [HASS.Agent](https://github.com/mslycn/HASS.Agent) c#
+	- PC RTSP协议摄像头与ffmpeg
+	- PC ONVIF协议摄像头
+	- PC 麦克风
+	- PC 音箱
+	- PC 自动开机
+	- [PC DLNA Media Renderer] 	DLNA Media Renderer  make the PC a DLNA media client.Kodi DLNA Media Renderer on pc
 8. 各种摄像头接入篇
 	- 支持MJPEG的摄像头与图片抓取
 	- RTSP协议摄像头与ffmpeg
@@ -98,7 +108,7 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	- Facebox-在docker中运行人脸识别
 9. 本地离线语音篇
 	- [whisper中文语音识别服务（CPU版本]
-	- 预留
+	- [xinnan-techxiaozhi-esp32-server](https://github.com/xinnan-tech/xiaozhi-esp32-server/pull/96/files) 增加支持home assistant语音助手,home assistant api访问令牌  https://github.com/xinnan-tech/xiaozhi-esp32-server/pull/96/files
 	- 预留
 	- 预留
 	- 预留
@@ -116,21 +126,19 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	- [docker wyoming-vosk](https://blog.matterxiaomi.com/blog/docker-vosk-1/)
 	- 在HA中完成语音文字处理——chrome语音控制	
 10. Aqara ZigBee网关设备接入篇（2）
-	- [Aqara Gateway 集成来把子设备接入 HA](https://community.aqara.com/pc/#/post/postDetail/1045)
+	- [Aqara Gateway 集成子设备接入 HA](https://community.aqara.com/pc/#/post/postDetail/1045)
 	- Wi-Fi 设备（例如 Aqara 的妙控开关S1E、人在FP2  设备接入 HA 里的 HomeKit 控制器
 	- 云端的自动化——IFTTT(2)
 	- 系统性能监控——SystemMonitor
-	- 以不同的音色播报文字——百度tts
 9. aqara设备接入篇(2)    
 	- [aqara hub M1s](https://www.msly.cn/boards/topic/5278/aqara-gatewayhub-g2h-m1s-cn-p3-cn-m2-cn-h1-cn-e1-cn-g3-cn-g2h-pro-integration-for-home-assistant#18735)
 	
 10. Aqara hub M2组件接入基础篇(IOS users)
 	- [1.Paired aqara m2 to Homekit(IOS users)](https://blog.matterxiaomi.com/blog/Add-aqara-m2-to-Homekit/)
-	- 让设备发声——朗读文字
 	- 让设备看到——使用手机摄像头做监控
 	- 将消息发送给你的邮箱
 	- 接入硬件产品——小米多功能网关
-	- 接入自定义组件-和风天气]()
+	- [接入自定义组件-和风天气]()
 	- [小米中枢网关接入Home Assistant Core专业实战教程（mi home app + Xiaomi Miot Auto Integration）](https://zhuanlan.zhihu.com/p/552370350)
 	- 将消息发送给你的邮箱
 	- 接入硬件产品——小米多功能网关
@@ -143,13 +151,14 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	- 苹果设备语音控制全自由定制
 	- [esp-homekit-devices](https://github.com/RavenSystem/esp-homekit-devices)
 	- [c# Homekit.Net](https://www.cnblogs.com/hezp/p/18142099) 通过c#代码模拟出各种各样的智能家居设备，并添加到苹果手机的家庭app中
-11. 消息通知  短信 消息到手机 ha app
+11. 手机接入篇 消息通知  短信 消息到手机 ha app
 	- [中移ML307R模块]() 购买链接：https://item.taobao.com/item.htm?ft=t&id=795927858234
 	- 将消息发送给你的邮箱
 	- 将消息发送给你的手机
 	- 通过Homekit与苹果Siri连接(2)
 	- 捷径与HA的接口调用
-	- 苹果设备语音控制全自由定制	
+	- 苹果设备语音控制全自由定制
+	- [把android手机变成dlna音箱]	  安装airpin u apk
 12. 数据记录篇
 	- 历史数据基础概念
 	- 数据组件的配置、mysql数据库及其它
@@ -177,6 +186,15 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	- HomeAssistant节点(1)
 	- HomeAssistant节点(2)
 	- 一些样例：闹钟、自动湿度控制、门铃
+## Install  matter server
+14. Installing matter server for for Home Assistant Core
+	- BLE
+	- Thread border router
+	- MatterBridge
+	- matter binding
+	- List of compatible Matter Devices
+	- Matter Bridge  Add-on
+
 ## Install  OTBR
 14. Installing Open Thread Border Router for for Home Assistant Core
 	- [options OTBR devices for Home Assistant Core](https://community.home-assistant.io/t/choosing-the-right-thread-radio-thread-border-router/824676?u=msly) - 
@@ -218,6 +236,13 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	- Python程序员的成长与代码规范
 	- 把你的代码贡献给组织
 19. IOS App的使用
+    - [https://github.com/home-assistant/iOS](https://github.com/home-assistant/iOS) IOS apk 下载
+	- IOS App——连接、定位与通知消息
+	- iBeacon定位
+	- 多媒体通知与静态文件Web服务
+	- [How to Setup a Raspberry Pi as an AirPlay Receiver](https://fleetstack.io/blog/raspberry-pi-airplay-receiver) 使用树莓派安装shairport-sync使老音响变身AirPlay音响	
+19. Home Assistant Companion App的使用
+    - [https://github.com/home-assistant/android](https://github.com/home-assistant/android) android apk 下载
 	- IOS App——连接、定位与通知消息
 	- iBeacon定位
 	- 多媒体通知与静态文件Web服务
@@ -256,7 +281,7 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	- 车载定位(1)—traccar安装与配置
 	- 车载定位(2)—车载设备diy
 28. docker
-	- docker基础(1)
+	- [docker基础(1)](https://github.com/home-assistant/core/releases)   https://github.com/home-assistant/core/releases
 	- docker基础(2)
 	- HomeAssistant的docker安装
 	- HomeAssistant docker容器的典型使用
@@ -354,12 +379,14 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	- [How To Install and uninstall reinstall Mysql on Ubuntu 18.04（vultr）](https://www.iaspnetcore.com/blogpost-6449555969967f028d52f122-how-to-install-and-uninstall-reinstall-mysql-on-ubuntu-1804vultr)	
 		
 ## Useful links
-1. 真实案例 share configuration<br>
+1. 全屋智能的HA配置 真实案例 share configuration<br>
 My heartfelt thanks to:
 
 https://github.com/sl041400/Home-assistant
 
-全屋智能的HA设置 https://github.com/relliky/Tais_Home_Assistant_Config
+https://github.com/matt8707/hass-config
+
+https://github.com/relliky/Tais_Home_Assistant_Config
 
 2. 小米有品<br>
 https://www.xiaomiyoupin.com/
