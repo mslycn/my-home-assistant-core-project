@@ -54,9 +54,9 @@ http://localhost:4999/boards/topic/27/smart-home-design-villa-renovation-plan-%E
 
 1. 人在传感器电源
 
-子擎的lite在卫生间用着挺舒服的(预留USB 5V xA插座)
+   子擎的lite在卫生间用着挺舒服的(预留USB 5V xA插座)
 
-领普人在在卫生间。(预留USB 5V xA插座)
+   领普人在在卫生间。(预留USB 5V xA插座)
 
 1. 智能能浴室镜（预留220V xA插座） 镜前灯自动亮起
 
