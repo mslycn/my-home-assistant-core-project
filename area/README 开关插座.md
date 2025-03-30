@@ -53,6 +53,7 @@ http://localhost:4999/boards/topic/27/smart-home-design-villa-renovation-plan-%E
 1. 扫地机
 
 1. 人在传感器电源
+
 子擎的lite在卫生间用着挺舒服的(预留USB 5V xA插座)
 
 领普人在在卫生间。(预留USB 5V xA插座)
