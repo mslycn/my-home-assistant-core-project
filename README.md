@@ -45,8 +45,8 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	- [让设备发声——朗读文字 小爱player]
 	- [让设备发声——朗读文字 小爱pro老版]      edge tts
 	- [让设备发声——朗读文字 小米音箱pro新版]
-	- 让设备发声——朗读文字
-	- 以不同的音色播报文字——百度tts
+	- [让设备发声——朗读文字 PC]
+	- [让设备发声——朗读文字 android phome]
 	- 让设备看到——使用手机摄像头做监控
 	- 接入硬件产品——小米多功能网关
 	- 接入自定义组件-和风天气
@@ -159,6 +159,10 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	- 捷径与HA的接口调用
 	- 苹果设备语音控制全自由定制
 	- [把android手机变成dlna音箱]	  安装airpin u apk
+12. Midea 接入篇
+
+12. haier 接入篇
+ 
 12. 数据记录篇
 	- 历史数据基础概念
 	- 数据组件的配置、mysql数据库及其它
@@ -182,7 +186,7 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 ## Install Homebridge
 14. Installing Homebridge for Apple Home app  
 
-使用 Homebridge Docker 将米家设备接入 Homekit
+    - [使用 Homebridge Docker 将米家设备接入 Homekit](https://juejin.cn/post/7265630149322997794?searchId=2025021100330020E901919E863C4359F0)
 
 	- [Install Homebridge](https://blog.matterxiaomi.com/blog/install-uninstall-reinstall-homebridge-raspbian-part1/) - Installing Homebridge for Apple Home app
 	- Node-RED配置
@@ -232,7 +236,7 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	- 典型样例讲解：光照传感器与智能灯
 	- ESPHome——不编程，集成ESP8266
 	- 音乐灯带——接入ESPHome(1)
-	- 音乐灯带——接入ESPHome(2)	
+	- [使用XIAO ESP32C6 Zigbee 连接继电器控制HomeAssistant中的单色LED条](https://www.21ic.com/a/983542.html)	XIAO ESP32C6 Zigbee固件 接入 HomeAssistant connect ZBT-1
 18. 成为HomeAssistant开发者
 	- 组件的工作原理
 	- 程序样例：二维码识别组件
