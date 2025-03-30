@@ -28,10 +28,11 @@ aqara的zigbee星形组网的设备每个房间都得放网关，不然容易掉
 底部要留三个供电插口  一个给残余垃圾处理器（方便直接把垃圾丢进下水道），一个给洗碗机，一个给净水器（买厨下式的，别摆桌上）  洗碗机的话最好直接上13套的，灶台那个宽度高度最好要能够直接塞进去（我家只能塞进8套的洗碗机，四口人的确是两餐一次），13套还能把锅丢进去洗
 确认煮菜是要用火还是用电 
 
-人在传感器电源
-洗碗机
-
+- 人在传感器电源
 领普人在在厨房用得很舒服。(预留USB 5V xA插座)
+
+- 洗碗机
+
 
 ## 歺厅
 http://localhost:4999/boards/topic/27/smart-home-design-villa-renovation-plan-%E5%89%8D%E8%A3%85%E5%B8%82%E5%9C%BA/page/2#64400
@@ -45,6 +46,7 @@ http://localhost:4999/boards/topic/27/smart-home-design-villa-renovation-plan-%E
 
 扫地机
 
+- 人在传感器电源
 子擎的lite在卫生间用着挺舒服的(预留USB 5V xA插座)
 领普人在在卫生间。(预留USB 5V xA插座)
 
