@@ -301,6 +301,12 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	- 硬件制作(2)——画PCB板
 	- 硬件制作(3)——元器件与焊接
 	- [Broadlink博联设备](https://www.cnblogs.com/softlin/p/16511684.html)
+28. Multi-Room Music Solution works with home assistant
+	- [Logitech Media Server]
+	- [synchronous multiroom audio with Snapcast]  Snapcast 是一个开源的多房间音频同步播放系统,.服务器端：需安装 snapserver 客户端：需安装 snapclient
+	- [Plex Media Server]
+	- [Music Assistant Server]
+	- [Spotify Connect]
 ## Home Assistant Remote access
 29. Home Assistant Remote access - frp
 	- [buy a domain from www.namesilo.com ](https://www.iaspnetcore.com/Blog/BlogPost/5eb9e65e775d020216dbe009/wwwnamesilo-operation-manual-for-com-registration-and-domain-name-purchase)
