@@ -307,6 +307,11 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	- [Plex Media Server]
 	- [Music Assistant Server]
 	- [Spotify Connect]
+	- [树莓派 Raspberry Pi 安装 Kodi 影音系统](https://zhuanlan.zhihu.com/p/364985735)
+28. 镜像 投屏
+	- [RPiPlay 项目](https://github.com/FD-/RPiPlay) RPiPlay项目暂只适合播放PPT,卡得要死
+	- [balena-rpiplay 项目](https://sspai.com/post/70302)  balena-rpiplay 可以把你的树莓派变成 Airplay Server，用户把苹果设备的屏幕镜像串流到树莓派上，而树莓派则通过 HDMI 连接电视/显示器/投影仪，部署了这个项目以后算是 Apple TV 盒子中 Airplay 功能的平替。
+	- [Shairport-sync]( https://github.com/mikebrady/shairport-sync) broadcast an audio stream from your phone to the main device. The broadcast will be via Airplay
 ## Home Assistant Remote access
 29. Home Assistant Remote access - frp
 	- [buy a domain from www.namesilo.com ](https://www.iaspnetcore.com/Blog/BlogPost/5eb9e65e775d020216dbe009/wwwnamesilo-operation-manual-for-com-registration-and-domain-name-purchase)
