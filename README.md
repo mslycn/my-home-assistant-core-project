@@ -3,6 +3,15 @@
 
 A Complete Smart Home Solution.It is possible to install Home Assistant Core without Docker. However, it is a more complex process that requires advanced technical knowledge. Users need to install Python, set up a virtual environment, and install Home Assistant Core manually. A step-by-step guide can be found on this doc.
 
+Home Assistant系统搭建详细教程
+Home Assistant配置详细教程
+
+
+Home assistant integration详细教程
+
+Home Assistant远程管理详细教程
+
+
 ### 本项目对应于《HomeAssistant智能家居实战篇》系列内容中的文档。
 [home-assisant.msly.cn](https://home-assisant.msly.cn)
 
@@ -91,7 +100,7 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	- PC 麦克风
 	- PC 音箱
 	- PC 自动开机
-	- [PC DLNA Media Renderer] 	DLNA Media Renderer  make the PC a DLNA media client.Kodi DLNA Media Renderer on pc
+	- [PC DLNA Media Renderer] 	DLNA Media Renderer  make the PC a DLNA media client.Kodi DLNA Media Renderer on pc.Windows Media Player ,Install VLC Media Player,Install Kodi
 8. 各种摄像头接入篇
 	- 支持MJPEG的摄像头与图片抓取
 	- RTSP协议摄像头与ffmpeg
@@ -106,14 +115,15 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	- 微软人脸特征检测
 	- 微软人脸识别与验证
 	- Facebox-在docker中运行人脸识别
-9. 本地离线语音篇
+9. 本地离线语音篇 stt
 	- [whisper中文语音识别服务（CPU版本]
 	- [xinnan-techxiaozhi-esp32-server](https://github.com/xinnan-tech/xiaozhi-esp32-server/pull/96/files) 增加支持home assistant语音助手,home assistant api访问令牌  https://github.com/xinnan-tech/xiaozhi-esp32-server/pull/96/files
-	- 预留
-	- 预留
-	- 预留
+
+	- [docker wyoming-vosk](https://blog.matterxiaomi.com/blog/docker-vosk-1/)
+	- [speech-to-phrase](https://github.com/OHF-Voice/speech-to-phrase)	 Speech-to-phrase is targeted at lower-end hardware, such as the Raspberry Pi 4 and Home Assistant Green.
+
 	- 预留	
-22. 自己动手做一个智能音箱
+22. DIY智能音箱
 	- DIY智能音箱（1）——整体架构、硬件安装
 	- DIY智能音箱（2）——snowboy、speech_recognition
 	- DIY智能音箱（3）——完成主程序架构
@@ -122,9 +132,9 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	- [Wyoming Satellite](https://github.com/rhasspy/wyoming-satellite) Wyoming Satellite 是一个使用 Wyoming 协议的远程语音项目，通过ESP32或类似硬件实现本地唤醒词检测和stt功能
 	- [Wyoming Satellite 远程语音卫星源码工作原理](https://mmssai.com/archives/4386) 远程语音智能音箱，使用Wyoming协议，进行本地唤醒词检测和音频增强，接入智能家居系统ha
 	- [基于esphome的语音助手]
-	- [https://github.com/OHF-Voice/speech-to-phrase]
-	- [docker wyoming-vosk](https://blog.matterxiaomi.com/blog/docker-vosk-1/)
-	- 在HA中完成语音文字处理——chrome语音控制	
+	- [Assist Microphone]() uses a local USB microphone to control Voice Assist.
+	- [Atom Echo语音助手教程](https://sumju.net/?p=9542#google_vignette)  Atom Echo语音助手 接入ha教程。
+
 10. Aqara ZigBee网关设备接入篇（2）
 	- [Aqara Gateway 集成子设备接入 HA](https://community.aqara.com/pc/#/post/postDetail/1045)
 	- Wi-Fi 设备（例如 Aqara 的妙控开关S1E、人在FP2  设备接入 HA 里的 HomeKit 控制器
@@ -143,6 +153,9 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	- 将消息发送给你的邮箱
 	- 接入硬件产品——小米多功能网关
 	- 接入自定义组件-和风天气 
+11. Zigbee hub接入篇
+    - [connect-zbt1 zha](https://neiltw.com/home-assistant-connect-zbt1-setup-guide/#google_vignette)	
+	- [connect-zbt1 z2m](https://blog.csdn.net/feilusia/article/details/145135102)
 11. 使用苹果设备语音控制篇
 	- 通过Homekit与苹果Siri连接(1)
 	- 通过Homekit与苹果Siri连接(2)
@@ -196,7 +209,7 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 ## Install  matter server
 14. Installing matter server for for Home Assistant Core
 	- BLE
-	- Thread border router
+	- [Thread border router](https://www.home-assistant.io/integrations/thread/#turning-home-assistant-into-a-thread-border-router)  how to use Connect ZBT-1 to turn your Home Assistant into a Thread Border router.Turning Home Assistant into a Thread border router.
 	- MatterBridge
 	- matter binding
 	- List of compatible Matter Devices
@@ -247,7 +260,6 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	- IOS App——连接、定位与通知消息
 	- iBeacon定位
 	- 多媒体通知与静态文件Web服务
-	- [How to Setup a Raspberry Pi as an AirPlay Receiver](https://fleetstack.io/blog/raspberry-pi-airplay-receiver) 使用树莓派安装shairport-sync使老音响变身AirPlay音响	
 19. Home Assistant Companion App的使用
     - [https://github.com/home-assistant/android](https://github.com/home-assistant/android) android apk 下载
 	- IOS App——连接、定位与通知消息
@@ -284,6 +296,7 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	- 使用ncn5120模块-WIFI连接模式
 27. 室外物联网
 	- 全球卫星定位
+	- [[GPS定位]Traccar使用教程]
 	- NB-IOT
 	- 车载定位(1)—traccar安装与配置
 	- 车载定位(2)—车载设备diy
@@ -302,16 +315,44 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 	- 硬件制作(3)——元器件与焊接
 	- [Broadlink博联设备](https://www.cnblogs.com/softlin/p/16511684.html)
 28. Multi-Room Music Solution works with home assistant
+   
+    I was able to cook up a fun audio setup controlled and automated with Home Assistant! It features
+Multiple room synchronised audio speakers (fixed/analog, portable Bluetooth devices and via app on phone or tablet)
+Playback of internet radio, Spotify streaming and local audio files.
+Sound notifications for Doorbell, garden gate and other sensors and home alarm events.
+    Install Plex, Jellyfin, Kodi, or Universal Media Server.Many different media servers support DLNA.
+
+Snapcast 是一个开源的多房间音频同步播放系统,
+
+专业音频：与AirPlay/Spotify Connect
+
 	- [Logitech Media Server]
 	- [synchronous multiroom audio with Snapcast]  Snapcast 是一个开源的多房间音频同步播放系统,.服务器端：需安装 snapserver 客户端：需安装 snapclient
+	- [Snapcast]  Snapcast is a multi-room client-server audio player, where all clients are time synchronized with the server to play perfectly synced audio. Snapcast Client是一个接收并同步播放来自Snapcast Server音频流的客户端程序，支持多平台和设备，允许构建低延迟同步的多房间音频系统It's not a standalone player, but an extension that turns your existing audio player into a Sonos-like multi-room solution.
 	- [Plex Media Server]
 	- [Music Assistant Server]
-	- [Spotify Connect]
+	- [Spotify Connect] Spotify Connect is a feature that allows you to stream music from Spotify to compatible devices (like speakers, TVs, or gaming consoles) over Wi-Fi or a local network, using your phone, tablet, or computer as a remote control. 
+	
 	- [树莓派 Raspberry Pi 安装 Kodi 影音系统](https://zhuanlan.zhihu.com/p/364985735)
-28. 镜像 投屏
+
+**Recommended hardware for multi room audio**
+ 
+    - [Set Up Windows 10 as DLNA Renderer]   Intall Kodi,vlc as DLNA Renderer
+
+28. 镜像投屏 Mirror Iphone to TV
+
+   一般投屏的协议通道，三种。
+   DLNA最常用，爱奇艺优酷腾讯哔哩哔哩等视频投屏都是用DLNA投屏协议。
+   MIRACAST协议，这个主要用于镜像，比较少用。
+   Airplay协议苹果手机的屏幕镜像功能，视频APP里的airplay入口都是airplay投屏协议，
+   最后是lelink协议
+    
 	- [RPiPlay 项目](https://github.com/FD-/RPiPlay) RPiPlay项目暂只适合播放PPT,卡得要死
 	- [balena-rpiplay 项目](https://sspai.com/post/70302)  balena-rpiplay 可以把你的树莓派变成 Airplay Server，用户把苹果设备的屏幕镜像串流到树莓派上，而树莓派则通过 HDMI 连接电视/显示器/投影仪，部署了这个项目以后算是 Apple TV 盒子中 Airplay 功能的平替。
 	- [Shairport-sync]( https://github.com/mikebrady/shairport-sync) broadcast an audio stream from your phone to the main device. The broadcast will be via Airplay
+	- [How to Setup a Raspberry Pi as an AirPlay Receiver](https://fleetstack.io/blog/raspberry-pi-airplay-receiver) 使用树莓派安装shairport-sync使老音响变身AirPlay音响	
+	- [iPhone镜像投屏到电视](https://www.apeaksoft.com/zh-CN/mirror-screen/mirror-iphone-to-tv/)	 如何将 iPhone 镜像到 Apple TV;将 iPhone 镜像到支持AirPlay电视
+	
 ## Home Assistant Remote access
 29. Home Assistant Remote access - frp
 	- [buy a domain from www.namesilo.com ](https://www.iaspnetcore.com/Blog/BlogPost/5eb9e65e775d020216dbe009/wwwnamesilo-operation-manual-for-com-registration-and-domain-name-purchase)
