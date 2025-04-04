@@ -313,7 +313,40 @@ Home Assistant远程管理详细教程
 	- 硬件制作(1)——画电路图
 	- 硬件制作(2)——画PCB板
 	- 硬件制作(3)——元器件与焊接
-	- [Broadlink博联设备](https://www.cnblogs.com/softlin/p/16511684.html)
+	- [Broadlink博联设备](https://www.cnblogs.com/softlin/p/16511684.html)	
+## Home Assistant Remote access
+29. Home Assistant Remote access - frp
+	- [buy a domain from www.namesilo.com ](https://www.iaspnetcore.com/Blog/BlogPost/5eb9e65e775d020216dbe009/wwwnamesilo-operation-manual-for-com-registration-and-domain-name-purchase)
+	- [buy a vps server from vultr]()
+	- [A to server]()
+	- [install nginx on Raspberry Pi](https://www.iaspnetcore.com/Blog/BlogPost/5d9865cc72c1772b244afe0f/how-to-install-and-uninstall-reinstall-nginx-on-ubuntu-1804aliyun)
+	- [config nginx for your domain](https://www.iaspnetcore.com/Blog/BlogPost/579b2ab584cd462440deb4f4/how-to-configure-aspnet-core-to-work-with-reverse-proxy-serversnginx)
+	- [install Let’s Encrypt client certbot]()
+	- [Opne Firewall port 80 and 443 on vultr]()
+	- [Install on  Frp Client on Raspberry Pi ](https://www.matterxiaomi.com/boards/topic/30/how-to-install-frp-on-home-assistant-operating-systemhassos-on-raspberry-pi-step-by-step)
+	- [CloudFlare](https://www.iaspnetcore.com/Blog/BlogPost/5ee3a43a1c73d43127f113a1/cloudflare-free-cdn-website-acceleration-practice-tutorial#mcetoc_1g37gn9lf11)
+	- Basic Firewall Setup
+	- [downloaded SSL certificates for your domain](https://www.iaspnetcore.com/blogpost-6449555969967f028d52f122-how-to-install-and-uninstall-reinstall-mysql-on-ubuntu-1804vultr)
+5. [home assisant project-remote access on Raspberry Pi3b+](https://github.com/freemsly/home-assistant/blob/main/home-assisant-remote.MD)
+	- 申请Amazon免费云主机
+	- [buy a domain from www.namesilo.com](https://www.iaspnetcore.com/Blog/BlogPost/5eb9e65e775d020216dbe009/wwwnamesilocom-registration-and-domain-name-purchase-operation-manual)
+	- frp隧道构建
+	- 免费为HA配上域名与HTTPS网站证书
+	- nginx代理
+	- [Install Let’s Encrypt Client Certbot](https://www.iaspnetcore.com/blogpost-619a0dbd5b26cb0202ae5bf1-how-to-secure-nginx-with-lets-encrypt-on-ubuntu-1804vultr#mcetoc_1g3p82cte53) - 666
+	- [Let’s Encrypt Client certbot验证域名所有权](https://www.iaspnetcore.com/Blog/BlogPost/5c2874c21d51ae0eec5ece63/the-type-verification-and-certbot-client-type-of-free-certificate-for-total-station-deployment-https-4-lets-encrypt)	- 本文描述用standalone 方式： certbot 自己运行一个 web server 来进行验证域名所有权后生成证书		
+    
+- Home Assistant Remote access
+	- Linux下的常用命令
+	- Linux下的文本编辑
+	- YAML文件格式
+	- Python虚拟环境
+- 加餐
+	- 使用TensorFlow进行物体识别
+	- 使用NFC识别不同的ID卡
+	- ESPHome中的自动化
+	- 制作树莓派镜像文件(1)
+	- 制作树莓派镜像文件(2)
 28. Multi-Room Music Solution works with home assistant
    
     I was able to cook up a fun audio setup controlled and automated with Home Assistant! It features
@@ -350,40 +383,7 @@ Snapcast 是一个开源的多房间音频同步播放系统,
 	- [Shairport-sync]( https://github.com/mikebrady/shairport-sync) broadcast an audio stream from your phone to the main device. The broadcast will be via Airplay
 	- [How to Setup a Raspberry Pi as an AirPlay Receiver](https://fleetstack.io/blog/raspberry-pi-airplay-receiver) 使用树莓派安装shairport-sync使老音响变身AirPlay音响	
 	- [iPhone镜像投屏到电视](https://www.apeaksoft.com/zh-CN/mirror-screen/mirror-iphone-to-tv/)	 如何将 iPhone 镜像到 Apple TV;将 iPhone 镜像到支持AirPlay电视
-	
-## Home Assistant Remote access
-29. Home Assistant Remote access - frp
-	- [buy a domain from www.namesilo.com ](https://www.iaspnetcore.com/Blog/BlogPost/5eb9e65e775d020216dbe009/wwwnamesilo-operation-manual-for-com-registration-and-domain-name-purchase)
-	- [buy a vps server from vultr]()
-	- [A to server]()
-	- [install nginx on Raspberry Pi](https://www.iaspnetcore.com/Blog/BlogPost/5d9865cc72c1772b244afe0f/how-to-install-and-uninstall-reinstall-nginx-on-ubuntu-1804aliyun)
-	- [config nginx for your domain](https://www.iaspnetcore.com/Blog/BlogPost/579b2ab584cd462440deb4f4/how-to-configure-aspnet-core-to-work-with-reverse-proxy-serversnginx)
-	- [install Let’s Encrypt client certbot]()
-	- [Opne Firewall port 80 and 443 on vultr]()
-	- [Install on  Frp Client on Raspberry Pi ](https://www.matterxiaomi.com/boards/topic/30/how-to-install-frp-on-home-assistant-operating-systemhassos-on-raspberry-pi-step-by-step)
-	- [CloudFlare](https://www.iaspnetcore.com/Blog/BlogPost/5ee3a43a1c73d43127f113a1/cloudflare-free-cdn-website-acceleration-practice-tutorial#mcetoc_1g37gn9lf11)
-	- Basic Firewall Setup
-	- [downloaded SSL certificates for your domain](https://www.iaspnetcore.com/blogpost-6449555969967f028d52f122-how-to-install-and-uninstall-reinstall-mysql-on-ubuntu-1804vultr)
-5. [home assisant project-remote access on Raspberry Pi3b+](https://github.com/freemsly/home-assistant/blob/main/home-assisant-remote.MD)
-	- 申请Amazon免费云主机
-	- [buy a domain from www.namesilo.com](https://www.iaspnetcore.com/Blog/BlogPost/5eb9e65e775d020216dbe009/wwwnamesilocom-registration-and-domain-name-purchase-operation-manual)
-	- frp隧道构建
-	- 免费为HA配上域名与HTTPS网站证书
-	- nginx代理
-	- [Install Let’s Encrypt Client Certbot](https://www.iaspnetcore.com/blogpost-619a0dbd5b26cb0202ae5bf1-how-to-secure-nginx-with-lets-encrypt-on-ubuntu-1804vultr#mcetoc_1g3p82cte53) - 666
-	- [Let’s Encrypt Client certbot验证域名所有权](https://www.iaspnetcore.com/Blog/BlogPost/5c2874c21d51ae0eec5ece63/the-type-verification-and-certbot-client-type-of-free-certificate-for-total-station-deployment-https-4-lets-encrypt)	- 本文描述用standalone 方式： certbot 自己运行一个 web server 来进行验证域名所有权后生成证书		
-    
-- Home Assistant Remote access
-	- Linux下的常用命令
-	- Linux下的文本编辑
-	- YAML文件格式
-	- Python虚拟环境
-- 加餐
-	- 使用TensorFlow进行物体识别
-	- 使用NFC识别不同的ID卡
-	- ESPHome中的自动化
-	- 制作树莓派镜像文件(1)
-	- 制作树莓派镜像文件(2)
+
 - 直播源
 	- [一个国内可直连的直播源分享项目](https://github.com/fanmingming/live) - 一个国内可直连的直播源分享项目
 	- [https://github.com/topics/tv](https://github.com/topics/tv) - https://github.com/topics/tv
