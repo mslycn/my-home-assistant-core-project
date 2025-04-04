@@ -218,8 +218,8 @@ Home Assistant远程管理详细教程
 ## Install  OTBR
 14. Installing Open Thread Border Router for for Home Assistant Core
 	- [options OTBR devices for Home Assistant Core](https://community.home-assistant.io/t/choosing-the-right-thread-radio-thread-border-router/824676?u=msly) - 
-	- 预留
-	- 预留
+	- [Notes on implementing Matter](https://community.home-assistant.io/t/notes-on-implementing-matter/423484)
+	- [SkyConnect - silabs multiprotocol and docker](https://community.home-assistant.io/t/skyconnect-silabs-multiprotocol-and-docker/526779)  This solution takes an HA OTBR AddOn and modifies it to run as a stand-alone Docker container
 	- 预留
 	- 预留
 
@@ -332,13 +332,11 @@ Snapcast 是一个开源的多房间音频同步播放系统,
 	- [Plex Media Server]
 	- [Music Assistant Server]
 	- [Spotify Connect] Spotify Connect is a feature that allows you to stream music from Spotify to compatible devices (like speakers, TVs, or gaming consoles) over Wi-Fi or a local network, using your phone, tablet, or computer as a remote control. 
-	
-	- [树莓派 Raspberry Pi 安装 Kodi 影音系统](https://zhuanlan.zhihu.com/p/364985735)
-
 **Recommended hardware for multi room audio**
  
     - [Set Up Windows 10 as DLNA Renderer]   Intall Kodi,vlc as DLNA Renderer
-
+28. 影音系统	
+	- [树莓派 Raspberry Pi 安装 Kodi 影音系统](https://zhuanlan.zhihu.com/p/364985735)
 28. 镜像投屏 Mirror Iphone to TV
 
    一般投屏的协议通道，三种。
@@ -459,5 +457,5 @@ https://www.mi.com/index.html
 4. yeelight forum<br>
 [yeelight forum](https://forum.yeelight.com/latest)
 
-5. 便宜、实用<br>
-几百元的硬件投入，就可以实践几乎所有的视频内容
+5. bbs<br>
+https://www.mydigit.cn/thread-475884-1-1.html
