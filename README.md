@@ -3,6 +3,8 @@
 
 A Complete Smart Home Solution.It is possible to install Home Assistant Core without Docker. However, it is a more complex process that requires advanced technical knowledge. Users need to install Python, set up a virtual environment, and install Home Assistant Core manually. A step-by-step guide can be found on this doc.
 
+To learn the Home Assistant system from the beginning, it is best to install manually, from a virtualenv!
+
 Home Assistant系统搭建详细教程
 Home Assistant配置详细教程
 
@@ -49,7 +51,6 @@ Home Assistant远程管理详细教程
 	  - [树莓派3B安装home assistant全过程](https://www.cnblogs.com/mokou/p/14423917.html)
 	
 3. 组件接入基础篇
-	- [让设备发声——朗读文字 HomePod mini]    edge tts
 	- [让设备发声——朗读文字 小度音箱]         edge tts
 	- [让设备发声——朗读文字 小爱player]
 	- [让设备发声——朗读文字 小爱pro老版]      edge tts
@@ -86,6 +87,13 @@ Home Assistant远程管理详细教程
 	- 预留
 	- 预留
 	- 预留
+7. 设备接入篇 Light
+	- [通断器]()   不支持凌动，不支持调节亮度和色温；
+	- [凌动通断器]()   不支持调光
+	- [3C凌动通断器]()  不安全
+	- [调光驱动]        调色温
+	- [电源驱动]
+	- 预留	
 
 8. 设备接入篇(1)
 	- 太阳、月亮、季节和潮汐
@@ -100,7 +108,11 @@ Home Assistant远程管理详细教程
 	- PC 麦克风
 	- PC 音箱
 	- PC 自动开机
-	- [PC DLNA Media Renderer] 	DLNA Media Renderer  make the PC a DLNA media client.Kodi DLNA Media Renderer on pc.Windows Media Player ,Install VLC Media Player,Install Kodi
+
+8. Player Providers - DLNA
+    - [Android手机DLNA]   Android手机：全功能DLNA：安装MirageDLNA
+	- [PC DLNA Media Renderer](http://localhost:4999/boards/topic/21966) 	Kodi DLNA Media Renderer on pc.Windows Media Player ,Install VLC Media Player,Install Kodi
+
 8. 各种摄像头接入篇
 	- 支持MJPEG的摄像头与图片抓取
 	- RTSP协议摄像头与ffmpeg
@@ -120,8 +132,9 @@ Home Assistant远程管理详细教程
 	- [xinnan-techxiaozhi-esp32-server](https://github.com/xinnan-tech/xiaozhi-esp32-server/pull/96/files) 增加支持home assistant语音助手,home assistant api访问令牌  https://github.com/xinnan-tech/xiaozhi-esp32-server/pull/96/files
 
 	- [docker wyoming-vosk](https://blog.matterxiaomi.com/blog/docker-vosk-1/)
-	- [speech-to-phrase](https://github.com/OHF-Voice/speech-to-phrase)	 Speech-to-phrase is targeted at lower-end hardware, such as the Raspberry Pi 4 and Home Assistant Green.
-
+	- [rhasspy/wyoming-speech-to-phrase](https://github.com/OHF-Voice/speech-to-phrase)	 Speech-to-phrase is targeted at lower-end hardware.
+    - [yaming116/sherpa-onnx-asr]
+	- [yaming116/fun-asr]
 	- 预留	
 22. DIY智能音箱
 	- DIY智能音箱（1）——整体架构、硬件安装
@@ -134,6 +147,9 @@ Home Assistant远程管理详细教程
 	- [基于esphome的语音助手]
 	- [Assist Microphone]() uses a local USB microphone to control Voice Assist.
 	- [Atom Echo语音助手教程](https://sumju.net/?p=9542#google_vignette)  Atom Echo语音助手 接入ha教程。
+9. 本地离线语音篇 AI
+	- [Home Assistant 接入 ChatGPT](https://tonnie17.github.io/posts/home-assistant-chatgpt/)
+	- 预留		
 
 10. Aqara ZigBee网关设备接入篇（2）
 	- [Aqara Gateway 集成子设备接入 HA](https://community.aqara.com/pc/#/post/postDetail/1045)
@@ -239,7 +255,8 @@ Home Assistant远程管理详细教程
 	- 主题格式、状态反馈、调试……
 	- QoS、retain、last_will、自动配置……
 ## Install ESPHome
-17. DIY智能硬件ESP8266篇
+17. DIY智能硬件ESP32篇
+    - [开始使用ESPHome：如何安装和集成它与家庭助理?](https://www.21ic.com/a/977576.html)
     - [Installing and configuring ESPHome with ESP8266 and ESP32](https://chelmiki.com/posts/installing-and-configuring-esphome/)
 	- [ESP32-引脚图（ESP-WROOM-32](https://blog.csdn.net/lianyinghhh/article/details/139971338)
 	- ESP8266——固件烧录与连接
@@ -249,12 +266,18 @@ Home Assistant远程管理详细教程
 	- 典型样例讲解：光照传感器与智能灯
 	- ESPHome——不编程，集成ESP8266
 	- 音乐灯带——接入ESPHome(1)
+	- [ESPHome 继电器控制](https://blog.csdn.net/yueyeguzhuo/article/details/118060420)
 	- [使用XIAO ESP32C6 Zigbee 连接继电器控制HomeAssistant中的单色LED条](https://www.21ic.com/a/983542.html)	XIAO ESP32C6 Zigbee固件 接入 HomeAssistant connect ZBT-1
+    - [Installing mirror lighting on ESPHome](https://chochol.io/en/smart-home/home-assistant-installing-mirror-lighting-on-esphome/)
+	- [ESP32 SIM800L](https://randomnerdtutorials.com/esp32-sim800l-send-text-messages-sms/) ESP32 SIM800L: Send Text Messages (SMS Alert) with Sensor Readings
+	- [esphome制作零火智能开关](https://blog.csdn.net/zuobianfy/article/details/118432775) esphome制作零火智能开关,esp01s继电器一个
+	- [Touch Screen Controller](https://esphome.io/components/touchscreen/tt21100.html) Touch Scr	
 18. 成为HomeAssistant开发者
 	- 组件的工作原理
 	- 程序样例：二维码识别组件
 	- Python程序员的成长与代码规范
-	- 把你的代码贡献给组织
+	- [DIY集成](https://blog.iin0.cn/blogs/skill/node/ha-to-koishi.html#koishi%E6%8E%A5%E5%85%A5ha)
+	- [基于 STM32 和米家WiFi模块 ESP8266 的智能插座的设计与实现](https://blog.csdn.net/qq_40431685/article/details/140263631)	IOT开发  基于 STM32 和 ESP8266 的智能插座的设计与实现
 19. IOS App的使用
     - [https://github.com/home-assistant/iOS](https://github.com/home-assistant/iOS) IOS apk 下载
 	- IOS App——连接、定位与通知消息
@@ -347,32 +370,39 @@ Home Assistant远程管理详细教程
 	- ESPHome中的自动化
 	- 制作树莓派镜像文件(1)
 	- 制作树莓派镜像文件(2)
-28. Multi-Room Music Solution works with home assistant
+28. Multi-Room Music Solution works with home assistant 实现音乐服务器
+
+
    
-    I was able to cook up a fun audio setup controlled and automated with Home Assistant! It features
+I was able to cook up a fun audio setup controlled and automated with Home Assistant! It features
 Multiple room synchronised audio speakers (fixed/analog, portable Bluetooth devices and via app on phone or tablet)
 Playback of internet radio, Spotify streaming and local audio files.
 Sound notifications for Doorbell, garden gate and other sensors and home alarm events.
-    Install Plex, Jellyfin, Kodi, or Universal Media Server.Many different media servers support DLNA.
+
+Install Plex, Jellyfin, Kodi, or Universal Media Server.Many different media servers support DLNA.
+
+Options for Multi-Room Music Solution
 
 Snapcast 是一个开源的多房间音频同步播放系统,
 
 专业音频：与AirPlay/Spotify Connect
-
-	- [Logitech Media Server]
+    - [Mopidy Server]()  a music server that can play local files, or connect to streaming music services like Spotify.
+	- [Logitech Media Server](https://community.home-assistant.io/t/how-to-build-a-lms-based-whole-house-audio-system/436016)  Logitech Media Server服务器,通过安装插件，LMS可以将局域网内支持airplay、Chromecast、DLNA等协议的设备进行统一管理，统一控制；
 	- [synchronous multiroom audio with Snapcast]  Snapcast 是一个开源的多房间音频同步播放系统,.服务器端：需安装 snapserver 客户端：需安装 snapclient
-	- [Snapcast]  Snapcast is a multi-room client-server audio player, where all clients are time synchronized with the server to play perfectly synced audio. Snapcast Client是一个接收并同步播放来自Snapcast Server音频流的客户端程序，支持多平台和设备，允许构建低延迟同步的多房间音频系统It's not a standalone player, but an extension that turns your existing audio player into a Sonos-like multi-room solution.
-	- [Plex Media Server]
-	- [Music Assistant Server]
+	- [Snapcast Server]() which enables synchronized audio streaming across your network.  Snapcast is a multi-room client-server audio player, where all clients are time synchronized with the server to play perfectly synced audio. Snapcast Client是一个接收并同步播放来自Snapcast Server音频流的客户端程序，支持多平台和设备，允许构建低延迟同步的多房间音频系统It's not a standalone player, but an extension that turns your existing audio player into a Sonos-like multi-room solution.
+	- [Plex Media Server]() 树莓派Raspberry Pi 安装Plex Media Server并挂载USB硬盘打造微型家庭影音服务器
+	- [Music Assistant Server](https://www.michaelsleen.com/music-assistant/)  How to Setup Music Assistant in Home Assistant 
+	- [Music Assistant Server-Add Player Provider](https://alshowto.com/add-multi-room-to-home-assistant/)  Add Player Provider(squeezelite)
 	- [Spotify Connect] Spotify Connect is a feature that allows you to stream music from Spotify to compatible devices (like speakers, TVs, or gaming consoles) over Wi-Fi or a local network, using your phone, tablet, or computer as a remote control. 
+	- [picoreplayer](https://www.picoreplayer.org/)
 **Recommended hardware for multi room audio**
  
     - [Set Up Windows 10 as DLNA Renderer]   Intall Kodi,vlc as DLNA Renderer
-28. 影音系统	
+28. 影音系统	实现影音服务器
 	- [树莓派 Raspberry Pi 安装 Kodi 影音系统](https://zhuanlan.zhihu.com/p/364985735)
 28. 镜像投屏 Mirror Iphone to TV
 
-   一般投屏的协议通道，三种。
+一般投屏的协议通道，三种。
    DLNA最常用，爱奇艺优酷腾讯哔哩哔哩等视频投屏都是用DLNA投屏协议。
    MIRACAST协议，这个主要用于镜像，比较少用。
    Airplay协议苹果手机的屏幕镜像功能，视频APP里的airplay入口都是airplay投屏协议，
@@ -387,11 +417,11 @@ Snapcast 是一个开源的多房间音频同步播放系统,
 - 直播源
 	- [一个国内可直连的直播源分享项目](https://github.com/fanmingming/live) - 一个国内可直连的直播源分享项目
 	- [https://github.com/topics/tv](https://github.com/topics/tv) - https://github.com/topics/tv
-	- 屏幕感应背光灯带(by ZackXu)
+	- [树莓派DIY电视盒子Libreelec](https://blog.csdn.net/saga1979/article/details/109570366) 树莓派DIY电视盒子,安装Libreelec + 小米蓝牙遥控器
+	- [Libreelec in ProxMox]()   Quick guide to running Libreelec in ProxMox
+	
 	- HA实时直播画面(by Bobo)
 - 精彩众创教程
-    - [Installing mirror lighting on ESPHome](https://chochol.io/en/smart-home/home-assistant-installing-mirror-lighting-on-esphome/)
-	- [ESP32 SIM800L](https://randomnerdtutorials.com/esp32-sim800l-send-text-messages-sms/) ESP32 SIM800L: Send Text Messages (SMS Alert) with Sensor Readings
 	- 魔镜系列——魔镜安装(by JonnyWong)
 	- 魔镜系列：天气组件openweather(by JonnyWong)
 	- 魔镜系列：第三方组件WeeklySchedule(by JonnyWong)
@@ -408,7 +438,8 @@ Snapcast 是一个开源的多房间音频同步播放系统,
 	- 设计与制作PCB板(by Zack-Xu)
 	- 树莓派安装HASS.IO(by Zack-Xu)
 	- HASSIO.IO与常规运行环境区别(by Zack-Xu)
-	- x86下ubuntu虚机及HomeAssistant安装（by 猛将兄）	
+	- x86下ubuntu虚机及HomeAssistant安装（by 猛将兄）
+	
 4. matterxiaomi
 	- [create vps on vultr](https://www.iaspnetcore.com/Blog/BlogPost/6199ff495b26cb0202ad6ce8/how-to-deploy-a-new-instance-on-vultr-step-by-step)
 	- [Install xshell7 on windows 10](https://www.iaspnetcore.com/Blog/blogpost/635d3024da4aea5b6ab5891e)
@@ -417,7 +448,9 @@ Snapcast 是一个开源的多房间音频同步播放系统,
 	- [how to Configure ASP.NET Core to work with Reverse Proxy servers(client <-> proxy(nginx) <-> backend web server)](https://www.iaspnetcore.com/Blog/BlogPost/579b2ab584cd462440deb4f4/how-to-configure-aspnet-core-to-work-with-reverse-proxy-serversnginx)
 	- [How To Install and uninstall reinstall Nginx on Ubuntu 18.04（aliyun/vultr）](https://www.iaspnetcore.com/Blog/BlogPost/5d9865cc72c1772b244afe0f/how-to-install-and-uninstall-reinstall-nginx-on-ubuntu-1804aliyun)
 	- [Firewall Setup on vultr](https://www.iaspnetcore.com/Blog/BlogPost/6199ff495b26cb0202ad6ce8/how-to-deploy-a-new-instance-on-vultr-step-by-step#mcetoc_1g2gdbgp550)
-	- [www.namesilo.com](https://www.iaspnetcore.com/Blog/BlogPost/5eb9e65e775d020216dbe009/wwwnamesilo-operation-manual-for-com-registration-and-domain-name-purchase)
+	- [www.namesilo.com域名购买教程](https://xmmblog.com/namesilo-domain-registration/)
+	- [www.namesilo.com域名购买教程](https://blog.csdn.net/dafei5210/article/details/115410981)
+	- [www.namesilo.com](https://www.iaspnetcore.com/Blog/BlogPost/5eb9e65e775d020216dbe009wwnamesilo-operation-manual-for-com-registration-and-domain-name-purchase)
 	- [CloudFlare](https://www.iaspnetcore.com/Blog/BlogPost/5ee3a43a1c73d43127f113a1/cloudflare-free-cdn-website-acceleration-practice-tutorial#mcetoc_1g37gn9lf11)
 	- Basic Firewall Setup
 	- [How To Install and uninstall reinstall Mysql on Ubuntu 18.04（vultr）](https://www.iaspnetcore.com/blogpost-6449555969967f028d52f122-how-to-install-and-uninstall-reinstall-mysql-on-ubuntu-1804vultr)	
@@ -459,3 +492,13 @@ https://www.mi.com/index.html
 
 5. bbs<br>
 https://www.mydigit.cn/thread-475884-1-1.html
+
+https://www.right.com.cn/
+
+https://post.smzdm.com/
+
+https://www.chiphell.com/
+
+6. blog<br>
+
+https://blog.iin0.cn/
