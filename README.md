@@ -1,5 +1,7 @@
 # home-assistant  core  project
+# Beginners guide to use smart devicesgit with HomeAssistant
 
+从零搭建一套HomeAssistant智能家居系统
 
 A Complete Smart Home Solution.It is possible to install Home Assistant Core without Docker. However, it is a more complex process that requires advanced technical knowledge. Users need to install Python, set up a virtual environment, and install Home Assistant Core manually. A step-by-step guide can be found on this doc.
 
@@ -9,7 +11,7 @@ Home Assistant系统搭建详细教程
 Home Assistant配置详细教程
 
 
-Home assistant integration详细教程
+Home assistant integration设备接入详细教程
 
 Home Assistant远程管理详细教程
 
@@ -101,6 +103,8 @@ Home Assistant远程管理详细教程
 	- 红外遥控——博联RM系列产品
 	- 红外遥控——小米万能遥控器
 	- 文件夹监测——FolderWatche
+	- 云端的自动化——IFTTT(2)
+	- 系统性能监控——SystemMonitor
 8. PC接入篇
 	- [HASS.Agent](https://github.com/mslycn/HASS.Agent) c#
 	- PC RTSP协议摄像头与ffmpeg
@@ -131,11 +135,17 @@ Home Assistant远程管理详细教程
 	- [whisper中文语音识别服务（CPU版本]
 	- [xinnan-techxiaozhi-esp32-server](https://github.com/xinnan-tech/xiaozhi-esp32-server/pull/96/files) 增加支持home assistant语音助手,home assistant api访问令牌  https://github.com/xinnan-tech/xiaozhi-esp32-server/pull/96/files
 
-	- [docker wyoming-vosk](https://blog.matterxiaomi.com/blog/docker-vosk-1/)
+	- [docker wyoming-vosk](https://blog.matterxiaomi.com/blog/docker-vosk-1/) how to build a standalone container for vosk using the wyoming protocol. 
+	- [Docker wyoming-vosk for Home Assistant]()  github.com/mslycn
 	- [rhasspy/wyoming-speech-to-phrase](https://github.com/OHF-Voice/speech-to-phrase)	 Speech-to-phrase is targeted at lower-end hardware.
     - [yaming116/sherpa-onnx-asr]
 	- [yaming116/fun-asr]
 	- 预留	
+9. 本地离线语音篇 stt projects that use Vosk
+	- [docker wyoming-vosk](https://blog.matterxiaomi.com/blog/docker-vosk-1/)  A standalone container for vosk using the wyoming protocol. for home assistant docker
+	- 预留		
+
+	
 22. DIY智能音箱
 	- DIY智能音箱（1）——整体架构、硬件安装
 	- DIY智能音箱（2）——snowboy、speech_recognition
@@ -151,11 +161,17 @@ Home Assistant远程管理详细教程
 	- [Home Assistant 接入 ChatGPT](https://tonnie17.github.io/posts/home-assistant-chatgpt/)
 	- 预留		
 
-10. Aqara ZigBee网关设备接入篇（2）
+10. Brand ZigBee网关设备接入篇（2）
 	- [Aqara Gateway 集成子设备接入 HA](https://community.aqara.com/pc/#/post/postDetail/1045)
 	- Wi-Fi 设备（例如 Aqara 的妙控开关S1E、人在FP2  设备接入 HA 里的 HomeKit 控制器
-	- 云端的自动化——IFTTT(2)
-	- 系统性能监控——SystemMonitor
+	- [Integrating Philips Hue Bridge with Home Assistant](https://pimylifeup.com/home-assistant-philips-hue/)  Philips Hue Bridge
+	- [Ikea]
+	- [tuya]
+11. 开源Zigbee hub接入篇
+    - [connect-zbt1 zha](https://neiltw.com/home-assistant-connect-zbt1-setup-guide/#google_vignette)	
+	- [connect-zbt1 z2m](https://blog.csdn.net/feilusia/article/details/145135102)
+	- [connect-zbt1 Zigbee2MQTT](https://neiltw.com/how-to-use-zigbee2mqtt-to-intergrate-zigbee-devices-in-home-assistant)	
+	- [SONOFF Zigbee 3.0 USB Dongle Plus Gateway]()  use a Sonoff Zigbee stick for mine and it works well and is as plug and play as anything. where to buy? https://www.amazon.com/SONOFF-Gateway-Universal-Assistant-Wireless/dp/B09KXTCMSC
 9. aqara设备接入篇(2)    
 	- [aqara hub M1s](https://www.msly.cn/boards/topic/5278/aqara-gatewayhub-g2h-m1s-cn-p3-cn-m2-cn-h1-cn-e1-cn-g3-cn-g2h-pro-integration-for-home-assistant#18735)
 	
@@ -169,9 +185,7 @@ Home Assistant远程管理详细教程
 	- 将消息发送给你的邮箱
 	- 接入硬件产品——小米多功能网关
 	- 接入自定义组件-和风天气 
-11. Zigbee hub接入篇
-    - [connect-zbt1 zha](https://neiltw.com/home-assistant-connect-zbt1-setup-guide/#google_vignette)	
-	- [connect-zbt1 z2m](https://blog.csdn.net/feilusia/article/details/145135102)
+	
 11. 使用苹果设备语音控制篇
 	- 通过Homekit与苹果Siri连接(1)
 	- 通过Homekit与苹果Siri连接(2)
@@ -182,7 +196,9 @@ Home Assistant远程管理详细教程
 	- [c# Homekit.Net](https://www.cnblogs.com/hezp/p/18142099) 通过c#代码模拟出各种各样的智能家居设备，并添加到苹果手机的家庭app中
 11. 手机接入篇 消息通知  短信 消息到手机 ha app
 	- [中移ML307R模块]() 购买链接：https://item.taobao.com/item.htm?ft=t&id=795927858234
-	- 将消息发送给你的邮箱
+	- [GSM-modem Integration]()  you can explore the SMS notification via GSM-modem integration in Home Assistant to directly send messages to your Home Assistant instance
+	- [List of USB GSM stick modem or device](https://www.home-assistant.io/integrations/sms/#required-hardware) USB GSM stick modem or device like SIM800L v2 connected via USB UART.
+	- 将消息发送给你的邮箱     send an email
 	- 将消息发送给你的手机
 	- 通过Homekit与苹果Siri连接(2)
 	- 捷径与HA的接口调用
@@ -242,10 +258,8 @@ Home Assistant远程管理详细教程
 ## Install  MatterBridge
 14. Installing MatterBridge for for Home Assistant Core
 	- [Install  MatterBridge](https://blog.matterxiaomi.com/blog/matter-bridge-part1/) - Installing MatterBridge for for Home Assistant Core
-	- Node-RED配置
-	- HomeAssistant节点(1)
-	- HomeAssistant节点(2)
-	- 一些样例：闹钟、自动湿度控制、门铃
+	- [https://github.com/Luligu/matterbridge](https://github.com/Luligu/matterbridge)
+	- [https://github.com/t0bst4r/home-assistant-matter-hub](https://github.com/t0bst4r/home-assistant-matter-hub)
 15. 树莓派GPIO口设备连接篇
 	- 直连树莓派的LED(1)——NodeRED接入/HA中rpi_gpio_pwm组件
 	- 直连树莓派的LED(2)——HA 中的shell_command/binary_sensor.command_line/light.template
@@ -267,11 +281,12 @@ Home Assistant远程管理详细教程
 	- ESPHome——不编程，集成ESP8266
 	- 音乐灯带——接入ESPHome(1)
 	- [ESPHome 继电器控制](https://blog.csdn.net/yueyeguzhuo/article/details/118060420)
-	- [使用XIAO ESP32C6 Zigbee 连接继电器控制HomeAssistant中的单色LED条](https://www.21ic.com/a/983542.html)	XIAO ESP32C6 Zigbee固件 接入 HomeAssistant connect ZBT-1
     - [Installing mirror lighting on ESPHome](https://chochol.io/en/smart-home/home-assistant-installing-mirror-lighting-on-esphome/)
 	- [ESP32 SIM800L](https://randomnerdtutorials.com/esp32-sim800l-send-text-messages-sms/) ESP32 SIM800L: Send Text Messages (SMS Alert) with Sensor Readings
 	- [esphome制作零火智能开关](https://blog.csdn.net/zuobianfy/article/details/118432775) esphome制作零火智能开关,esp01s继电器一个
 	- [Touch Screen Controller](https://esphome.io/components/touchscreen/tt21100.html) Touch Scr	
+
+	- [使用XIAO ESP32C6 Zigbee 连接继电器控制HomeAssistant中的单色LED条](https://www.21ic.com/a/983542.html)	XIAO ESP32C6 Zigbee固件 接入 HomeAssistant connect ZBT-1
 18. 成为HomeAssistant开发者
 	- 组件的工作原理
 	- 程序样例：二维码识别组件
@@ -371,10 +386,8 @@ Home Assistant远程管理详细教程
 	- 制作树莓派镜像文件(1)
 	- 制作树莓派镜像文件(2)
 28. Multi-Room Music Solution works with home assistant 实现音乐服务器
-
-
    
-I was able to cook up a fun audio setup controlled and automated with Home Assistant! It features
+_I was able to cook up a fun audio setup controlled and automated with Home Assistant! It features
 Multiple room synchronised audio speakers (fixed/analog, portable Bluetooth devices and via app on phone or tablet)
 Playback of internet radio, Spotify streaming and local audio files.
 Sound notifications for Doorbell, garden gate and other sensors and home alarm events.
@@ -383,7 +396,7 @@ Install Plex, Jellyfin, Kodi, or Universal Media Server.Many different media ser
 
 Options for Multi-Room Music Solution
 
-Snapcast 是一个开源的多房间音频同步播放系统,
+Snapcast 是一个开源的多房间音频同步播放系统._
 
 专业音频：与AirPlay/Spotify Connect
     - [Mopidy Server]()  a music server that can play local files, or connect to streaming music services like Spotify.
@@ -495,10 +508,16 @@ https://www.mydigit.cn/thread-475884-1-1.html
 
 https://www.right.com.cn/
 
-https://post.smzdm.com/
+
 
 https://www.chiphell.com/
 
+https://ngabbs.com/
+
 6. blog<br>
+https://post.smzdm.com/
 
 https://blog.iin0.cn/
+
+7. web<br>
+https://neiltw.com/
