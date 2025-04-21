@@ -163,15 +163,19 @@ Home Assistant远程管理详细教程
 
 10. Brand ZigBee网关设备接入篇（2）
 	- [Aqara Gateway 集成子设备接入 HA](https://community.aqara.com/pc/#/post/postDetail/1045)
+	- [Aqara Bridge integration](https://github.com/bernard3378/AqaraBridge)  Aqara Bridge - 用官方云API把Aqara设备接入HA
 	- Wi-Fi 设备（例如 Aqara 的妙控开关S1E、人在FP2  设备接入 HA 里的 HomeKit 控制器
 	- [Integrating Philips Hue Bridge with Home Assistant](https://pimylifeup.com/home-assistant-philips-hue/)  Philips Hue Bridge
 	- [Ikea]
 	- [tuya]
-11. 开源Zigbee hub接入篇
-    - [connect-zbt1 zha](https://neiltw.com/home-assistant-connect-zbt1-setup-guide/#google_vignette)	
+	- [terncy hub](https://github.com/rxwen/homeassistant-terncy-component)  吧网关接入ha https://github.com/rxwen/homeassistant-terncy-component
+
+11. 开源Zigbee hub接入篇(Diy Zigbee network)
+    - [connect-zbt1 zha](https://neiltw.com/home-assistant-connect-zbt1-setup-guide/#google_vignette)	Best way to add Zigbee and Matter to Home Assistant.
 	- [connect-zbt1 z2m](https://blog.csdn.net/feilusia/article/details/145135102)
 	- [connect-zbt1 Zigbee2MQTT](https://neiltw.com/how-to-use-zigbee2mqtt-to-intergrate-zigbee-devices-in-home-assistant)	
 	- [SONOFF Zigbee 3.0 USB Dongle Plus Gateway]()  use a Sonoff Zigbee stick for mine and it works well and is as plug and play as anything. where to buy? https://www.amazon.com/SONOFF-Gateway-Universal-Assistant-Wireless/dp/B09KXTCMSC
+	- [SONOFF Zigbee 3.0 USB Dongle Plus V2]
 9. aqara设备接入篇(2)    
 	- [aqara hub M1s](https://www.msly.cn/boards/topic/5278/aqara-gatewayhub-g2h-m1s-cn-p3-cn-m2-cn-h1-cn-e1-cn-g3-cn-g2h-pro-integration-for-home-assistant#18735)
 	
@@ -228,7 +232,7 @@ Home Assistant远程管理详细教程
 	- HomeAssistant节点(1)
 	- HomeAssistant节点(2)
 	- 一些样例：闹钟、自动湿度控制、门铃
-## Install Homebridge
+## Install Homebridge Integration
 14. Installing Homebridge for Apple Home app  
 
     - [使用 Homebridge Docker 将米家设备接入 Homekit](https://juejin.cn/post/7265630149322997794?searchId=2025021100330020E901919E863C4359F0)
@@ -238,7 +242,7 @@ Home Assistant远程管理详细教程
 	- HomeAssistant节点(1)
 	- HomeAssistant节点(2)
 	- 一些样例：闹钟、自动湿度控制、门铃
-## Install  matter server
+## Install  matter server Integration
 14. Installing matter server for for Home Assistant Core
 	- BLE
 	- [Thread border router](https://www.home-assistant.io/integrations/thread/#turning-home-assistant-into-a-thread-border-router)  how to use Connect ZBT-1 to turn your Home Assistant into a Thread Border router.Turning Home Assistant into a Thread border router.
@@ -246,29 +250,31 @@ Home Assistant远程管理详细教程
 	- matter binding
 	- List of compatible Matter Devices
 	- Matter Bridge  Add-on
+	- [树莓派配置mDNS服务 Avahi](http://localhost:4999/boards/topic/21933/%E4%B8%BA%E6%A0%91%E8%8E%93%E6%B4%BE%E9%85%8D%E7%BD%AEmdns%E6%9C%8D%E5%8A%A1-avahi)  http://localhost:4999/boards/topic/21933/%E4%B8%BA%E6%A0%91%E8%8E%93%E6%B4%BE%E9%85%8D%E7%BD%AEmdns%E6%9C%8D%E5%8A%A1-avahi
 
-## Install  OTBR
+## Install  OTBR Integration
 14. Installing Open Thread Border Router for for Home Assistant Core
 	- [options OTBR devices for Home Assistant Core](https://community.home-assistant.io/t/choosing-the-right-thread-radio-thread-border-router/824676?u=msly) - 
 	- [Notes on implementing Matter](https://community.home-assistant.io/t/notes-on-implementing-matter/423484)
 	- [SkyConnect - silabs multiprotocol and docker](https://community.home-assistant.io/t/skyconnect-silabs-multiprotocol-and-docker/526779)  This solution takes an HA OTBR AddOn and modifies it to run as a stand-alone Docker container
-	- 预留
-	- 预留
+	- [SLZB-06](https://smlight.tech/manual/slzb-06/guide/thread-matter/)
+	- [SONOFF Dongle-E]
+	- [a Stable Matter over Thread Network](https://www.derekseaman.com/2024/09/essential-tips-for-a-stable-matter-over-thread-network.html)
 
-## Install  MatterBridge
+## Install  MatterBridge Integration
 14. Installing MatterBridge for for Home Assistant Core
 	- [Install  MatterBridge](https://blog.matterxiaomi.com/blog/matter-bridge-part1/) - Installing MatterBridge for for Home Assistant Core
 	- [https://github.com/Luligu/matterbridge](https://github.com/Luligu/matterbridge)
-	- [https://github.com/t0bst4r/home-assistant-matter-hub](https://github.com/t0bst4r/home-assistant-matter-hub)
+	- [https://github.com/t0bst4r/home-assistant-matter-hub](https://github.com/t0bst4r/home-assistant-matter-hub)  This project simulates bridges to publish your entities from Home Assistant to any Matter-compatible controller like Alexa, Apple Home or Google Home.
 15. 树莓派GPIO口设备连接篇
 	- 直连树莓派的LED(1)——NodeRED接入/HA中rpi_gpio_pwm组件
 	- 直连树莓派的LED(2)——HA 中的shell_command/binary_sensor.command_line/light.template
 	- 直连树莓派的温湿度传感器
-16. MQTT篇
+16. MQTT Integration篇
 	- 服务器安装与最简单的智能灯
 	- 主题格式、状态反馈、调试……
 	- QoS、retain、last_will、自动配置……
-## Install ESPHome
+## Install ESPHome Integration
 17. DIY智能硬件ESP32篇
     - [开始使用ESPHome：如何安装和集成它与家庭助理?](https://www.21ic.com/a/977576.html)
     - [Installing and configuring ESPHome with ESP8266 and ESP32](https://chelmiki.com/posts/installing-and-configuring-esphome/)
@@ -287,6 +293,10 @@ Home Assistant远程管理详细教程
 	- [Touch Screen Controller](https://esphome.io/components/touchscreen/tt21100.html) Touch Scr	
 
 	- [使用XIAO ESP32C6 Zigbee 连接继电器控制HomeAssistant中的单色LED条](https://www.21ic.com/a/983542.html)	XIAO ESP32C6 Zigbee固件 接入 HomeAssistant connect ZBT-1
+18. 成为ESPHome开发者
+	- [POE Bluetooth Proxy and ESPHome](https://smlight.tech/manual/slzb-06/guide/bluetooth-proxy/)  SLZB-06x utilize ESP32 chip so can be used as a ESPHome Bluetooth proxy adapter for Home Assistant
+
+
 18. 成为HomeAssistant开发者
 	- 组件的工作原理
 	- 程序样例：二维码识别组件
@@ -299,7 +309,8 @@ Home Assistant远程管理详细教程
 	- iBeacon定位
 	- 多媒体通知与静态文件Web服务
 19. Home Assistant Companion App的使用
-    - [https://github.com/home-assistant/android](https://github.com/home-assistant/android) android apk 下载
+    - [https://github.com/home-assistant/android](https://github.com/home-assistant/android) android apk 下载  Dowanload mobile app  on your Android or iPhone
+    - [https://github.com/home-assistant/iOS](https://github.com/home-assistant/iOS) IOS apk 下载
 	- IOS App——连接、定位与通知消息
 	- iBeacon定位
 	- 多媒体通知与静态文件Web服务
@@ -322,6 +333,8 @@ Home Assistant远程管理详细教程
 	- 接入HomeAssistant的远程麦克风
 	- 使用远程麦克风——监听与录音
 	- 给智能音箱配上远程麦克风
+	- [ESP32-S3-Box3-Custom-ESPHome](https://github.com/BigBobbas/ESP32-S3-Box3-Custom-ESPHome)  This firmware will enable your S3 Box 3 to use the touch screen and home button, and configure the box to act like a dashboard for Home Assistant. Giving you the power to control your entitities and display sensor information.
+The box will also be configured as a media player, giving you volume control (also improves the overall volume of the internal speaker compared to the ESPHome stock config) and easily broadcast messages to the device or stream media. Oh, and don't forget! it is also a Voice Assistant!!
 25. 485总线
 	- 实现485总线通讯
 	- 接入自定义ascii码指令集的设备
@@ -339,7 +352,7 @@ Home Assistant远程管理详细教程
 	- 车载定位(1)—traccar安装与配置
 	- 车载定位(2)—车载设备diy
 28. docker
-	- [docker基础(1)](https://github.com/home-assistant/core/releases)   https://github.com/home-assistant/core/releases
+	- [docker home assistant基础(1)](https://github.com/home-assistant/core/releases)   https://github.com/home-assistant/core/releases
 	- docker基础(2)
 	- HomeAssistant的docker安装
 	- HomeAssistant docker容器的典型使用
@@ -351,7 +364,7 @@ Home Assistant远程管理详细教程
 	- 硬件制作(1)——画电路图
 	- 硬件制作(2)——画PCB板
 	- 硬件制作(3)——元器件与焊接
-	- [Broadlink博联设备](https://www.cnblogs.com/softlin/p/16511684.html)	
+	- [博联设备 via Broadlink Integration](https://www.cnblogs.com/softlin/p/16511684.html)	
 ## Home Assistant Remote access
 29. Home Assistant Remote access - frp
 	- [buy a domain from www.namesilo.com ](https://www.iaspnetcore.com/Blog/BlogPost/5eb9e65e775d020216dbe009/wwwnamesilo-operation-manual-for-com-registration-and-domain-name-purchase)
@@ -434,6 +447,12 @@ Snapcast 是一个开源的多房间音频同步播放系统._
 	- [Libreelec in ProxMox]()   Quick guide to running Libreelec in ProxMox
 	
 	- HA实时直播画面(by Bobo)
+28. NAS
+	- [How to Use Home Assistant as an NAS Server](https://umatechnology.org/how-to-use-home-assistant-as-an-nas-server/)
+
+- Home assistant training course
+    - Home assistant online course for developers
+
 - 精彩众创教程
 	- 魔镜系列——魔镜安装(by JonnyWong)
 	- 魔镜系列：天气组件openweather(by JonnyWong)
