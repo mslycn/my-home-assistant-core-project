@@ -251,6 +251,10 @@ Home Assistant远程管理详细教程
 	- List of compatible Matter Devices
 	- Matter Bridge  Add-on
 	- [树莓派配置mDNS服务 Avahi](http://localhost:4999/boards/topic/21933/%E4%B8%BA%E6%A0%91%E8%8E%93%E6%B4%BE%E9%85%8D%E7%BD%AEmdns%E6%9C%8D%E5%8A%A1-avahi)  http://localhost:4999/boards/topic/21933/%E4%B8%BA%E6%A0%91%E8%8E%93%E6%B4%BE%E9%85%8D%E7%BD%AEmdns%E6%9C%8D%E5%8A%A1-avahi
+	- [Part 1 - Matter Server in Home Assistant](https://blog.matterxiaomi.com/blog/Matter-Home-Assistant-part1/)
+	- [Part 5 - Install Matter Server using docker image via docker run](https://blog.matterxiaomi.com/blog/matter-home-assistant-part5/)
+
+	
 
 ## Install  OTBR Integration
 14. Installing Open Thread Border Router for for Home Assistant Core
@@ -335,6 +339,10 @@ Home Assistant远程管理详细教程
 	- 给智能音箱配上远程麦克风
 	- [ESP32-S3-Box3-Custom-ESPHome](https://github.com/BigBobbas/ESP32-S3-Box3-Custom-ESPHome)  This firmware will enable your S3 Box 3 to use the touch screen and home button, and configure the box to act like a dashboard for Home Assistant. Giving you the power to control your entitities and display sensor information.
 The box will also be configured as a media player, giving you volume control (also improves the overall volume of the internal speaker compared to the ESPHome stock config) and easily broadcast messages to the device or stream media. Oh, and don't forget! it is also a Voice Assistant!!
+    - [ESP32-S3-BOX-3 部署 Home Assistant 本地化語音助理教程](https://neiltw.com/esp32-s3-box-3-ha-local-voice-assistant-guide/)
+	- [ESP32-S3-BOX-3 部署 Home Assistant 本地化語音助理教程2](https://neiltw.com/en/esp32-s3-box-3-ha-local-voice-assistant-guide/)  修改支持的语言
+	- [如何给Home Assistant添加一个ESP32-S3-BOX-3开源硬件语音助手设备](https://blog.csdn.net/Slaven230101/article/details/145813994)   csdn
+	
 25. 485总线
 	- 实现485总线通讯
 	- 接入自定义ascii码指令集的设备
@@ -499,6 +507,13 @@ Snapcast 是一个开源的多房间音频同步播放系统._
 	- [CloudFlare](https://www.iaspnetcore.com/Blog/BlogPost/5ee3a43a1c73d43127f113a1/cloudflare-free-cdn-website-acceleration-practice-tutorial#mcetoc_1g37gn9lf11)
 	- Basic Firewall Setup
 	- [How To Install and uninstall reinstall Mysql on Ubuntu 18.04（vultr）](https://www.iaspnetcore.com/blogpost-6449555969967f028d52f122-how-to-install-and-uninstall-reinstall-mysql-on-ubuntu-1804vultr)	
+
+## 树莓派
+   - [亚博 树莓派 非官方代理](https://www.yahboom.com/study/4wd-Pi)  taobao:树莓派精品销售商 https://shop101688001.taobao.com/ 
+   - [上海上海晶珩 8G/4G](https://edatec.cn/zh/sbc/Pi5?src=raspberrypi)  taobao:树莓派特卖店 https://2etuqghaurnjs9utgnob2rkzr1rc15a.taobao.com/
+                                               
+
+ - [全屋wifi history](https://mp.weixin.qq.com/s?__biz=MzkwNDMyNjE1OQ==&mid=2247487843&idx=1&sn=b96486858569c4ffb4bcb5f554f2f7ff&chksm=c089ec03f7fe6515cf331a95c05083125c7277fcc86f5a6023fc73466e30e4cd9c92e4275073#rd)	
 		
 ## Useful links
 1. 全屋智能的HA配置 真实案例 share configuration<br>
@@ -527,7 +542,7 @@ https://www.mydigit.cn/thread-475884-1-1.html
 
 https://www.right.com.cn/
 
-
+https://bbs.eeworld.com.cn/
 
 https://www.chiphell.com/
 
@@ -540,3 +555,8 @@ https://blog.iin0.cn/
 
 7. web<br>
 https://neiltw.com/
+
+8. project
+https://oshwhub.com/
+
+https://www.szlcsc.com/
