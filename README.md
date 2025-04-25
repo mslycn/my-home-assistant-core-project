@@ -32,7 +32,7 @@ Home Assistant远程管理详细教程
 
 1. [home assisant project-install home assisant core 2022.3.0 on Raspberry Pi3b+](https://github.com/mslycn/home-assistant/blob/main/home-assisant-core-install.MD)
 	- [硬件环境准备——安装树莓派]
-    - [软件环境环境准备——树莓派操作系统](https://www.matterxiaomi.com/boards/topic/57/installing-home-assistant-core-202230-on-raspberry-pi-3b-step-by-step/page/3#18932)  - Raspberry Pi system information and version
+    - [软件环境环境准备——树莓派操作系统](https://www.matterxiaomi.com/boards/topic/57/installing-home-assistant-core-202230-on-raspberry-pi-3b-step-by-step/page/3#18932)  - Raspberry Pi system information and version   Raspberry Pi OS 是基于 Debian 的免费操作系统，针对 Raspberry Pi 硬件进行了优化.
 	- [系统环境设置——树莓派基础配置](https://www.matterxiaomi.com/raspberry-pi-3)  - Raspberry Pi hardware version
 	- [Install Raspberry Pi OS on a Raspberry PI SD-card 树莓派安装 Raspberry Pi OS 系统](https://www.msly.cn/boards/topic/2184/install-raspberry-pi-os-on-a-raspberry-pi-sd-card) - 首先，树莓派需要安装 Raspberry Pi OS 系统，教程:烧录 镜像 到sd卡
 	- [How to Upgrade Raspberry Pi OS to the Latest Version? (Debian 12,Bookworm)](https://www.matterxiaomi.com/how-to-upgrade-raspberry-pi-os-to-the-latest-version-2022) -升级 Raspberry Pi OS 系统教程:
@@ -51,6 +51,7 @@ Home Assistant远程管理详细教程
       - [install Home Assistant core on debian Server](https://blog.matterxiaomi.com/blog/install-home-assistant-core-debian-server/)  - pve + vultr VPS
       - [How to Get the correct Debian ISO](https://www.matterxiaomi.com/boards/topic/36/debian-11-bullseye-installation#63)
 	  - [树莓派3B安装home assistant全过程](https://www.cnblogs.com/mokou/p/14423917.html)
+	  - [Raspberry Pi 5中文文档](https://pidoc.cn/docs/computers/raspberry-pi-5)
 	
 3. 组件接入基础篇
 	- [让设备发声——朗读文字 小度音箱]         edge tts
@@ -230,8 +231,8 @@ Home Assistant远程管理详细教程
 	- [Install node-red](https://www.matterxiaomi.com/boards/topic/14538/node-red-node-red) - Installing Node red for Home Assistant Core 2023.2.2 in a Python vEnv on Raspberry Pi 3B+ step by step
 	- Node-RED配置
 	- HomeAssistant节点(1)
-	- HomeAssistant节点(2)
-	- 一些样例：闹钟、自动湿度控制、门铃
+	- [https://nodered.org/docs/getting-started/docker](https://nodered.org/docs/getting-started/docker) run node-red in docker
+	- [https://github.com/node-red/node-red](https://github.com/node-red/node-red)
 ## Install Homebridge Integration
 14. Installing Homebridge for Apple Home app  
 
@@ -547,6 +548,8 @@ https://bbs.eeworld.com.cn/
 https://www.chiphell.com/
 
 https://ngabbs.com/
+
+https://www.chinadsl.net/
 
 6. blog<br>
 https://post.smzdm.com/
