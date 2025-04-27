@@ -1,4 +1,4 @@
-# home-assistant  core  project
+
 <p align="center">
   <strong>
     <a href="">website</a>
@@ -10,6 +10,9 @@
     <a href="">add-ons</a>
   </strong>
 </p>
+
+# home-assistant  core  project
+
 # Beginners guide to use smart devicesgit with HomeAssistant
 
 从零搭建一套HomeAssistant智能家居系统
