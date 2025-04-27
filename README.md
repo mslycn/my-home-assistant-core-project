@@ -1,4 +1,15 @@
 # home-assistant  core  project
+<p align="center">
+  <strong>
+    <a href="">website</a>
+    •
+    <a href="">docs</a>
+    •
+    <a href="">community</a>
+    •
+    <a href="">add-ons</a>
+  </strong>
+</p>
 # Beginners guide to use smart devicesgit with HomeAssistant
 
 从零搭建一套HomeAssistant智能家居系统
@@ -8,6 +19,10 @@ A Complete Smart Home Solution.It is possible to install Home Assistant Core wit
 To learn the Home Assistant system from the beginning, it is best to install manually, from a virtualenv!
 
 Home Assistant系统搭建详细教程
+
+树莓派安装操作系统
+树莓派安装Home Assistant
+
 Home Assistant配置详细教程
 
 
@@ -231,7 +246,7 @@ Home Assistant远程管理详细教程
 	- [Install node-red](https://www.matterxiaomi.com/boards/topic/14538/node-red-node-red) - Installing Node red for Home Assistant Core 2023.2.2 in a Python vEnv on Raspberry Pi 3B+ step by step
 	- Node-RED配置
 	- HomeAssistant节点(1)
-	- [https://nodered.org/docs/getting-started/docker](https://nodered.org/docs/getting-started/docker) run node-red in docker
+	- [https://nodered.org/docs/getting-started/docker](https://nodered.org/docs/getting-started/docker) install configure and run node-red in docker
 	- [https://github.com/node-red/node-red](https://github.com/node-red/node-red)
 ## Install Homebridge Integration
 14. Installing Homebridge for Apple Home app  
@@ -265,6 +280,7 @@ Home Assistant远程管理详细教程
 	- [SLZB-06](https://smlight.tech/manual/slzb-06/guide/thread-matter/)
 	- [SONOFF Dongle-E]
 	- [a Stable Matter over Thread Network](https://www.derekseaman.com/2024/09/essential-tips-for-a-stable-matter-over-thread-network.html)
+	- [https://openthread.google.cn/guides/border-router/build?hl=zh-cn](https://openthread.google.cn/guides/border-router/build?hl=zh-cn)  OpenThread 边界路由器构建和配置
 
 ## Install  MatterBridge Integration
 14. Installing MatterBridge for for Home Assistant Core
@@ -276,8 +292,8 @@ Home Assistant远程管理详细教程
 	- 直连树莓派的LED(2)——HA 中的shell_command/binary_sensor.command_line/light.template
 	- 直连树莓派的温湿度传感器
 16. MQTT Integration篇
-	- 服务器安装与最简单的智能灯
-	- 主题格式、状态反馈、调试……
+	- [服务器安装EMQX](https://blog.csdn.net/weixin_43808708/article/details/145711960)
+    - [MQTT服务器接入Home Assistant和.NET程序](https://blog.csdn.net/farway000/article/details/142548023) 搭建EMQX MQTT服务器并接入Home Assistant和.NET程序
 	- QoS、retain、last_will、自动配置……
 ## Install ESPHome Integration
 17. DIY智能硬件ESP32篇
@@ -360,6 +376,8 @@ The box will also be configured as a media player, giving you volume control (al
 	- NB-IOT
 	- 车载定位(1)—traccar安装与配置
 	- 车载定位(2)—车载设备diy
+	- [Gpslogger app]
+	- [Owntracks app]
 28. docker
 	- [docker home assistant基础(1)](https://github.com/home-assistant/core/releases)   https://github.com/home-assistant/core/releases
 	- docker基础(2)
@@ -434,7 +452,7 @@ Snapcast 是一个开源的多房间音频同步播放系统._
  
     - [Set Up Windows 10 as DLNA Renderer]   Intall Kodi,vlc as DLNA Renderer
 28. 影音系统	实现影音服务器
-	- [树莓派 Raspberry Pi 安装 Kodi 影音系统](https://zhuanlan.zhihu.com/p/364985735)
+	- [树莓派 Raspberry Pi 安装 Kodi 影音系统](https://zhuanlan.zhihu.com/p/364985735)   安装LibreElec系统
 28. 镜像投屏 Mirror Iphone to TV
 
 一般投屏的协议通道，三种。
@@ -458,6 +476,8 @@ Snapcast 是一个开源的多房间音频同步播放系统._
 	- HA实时直播画面(by Bobo)
 28. NAS
 	- [How to Use Home Assistant as an NAS Server](https://umatechnology.org/how-to-use-home-assistant-as-an-nas-server/)
+28. NAS - 飞牛fnos
+	- [群晖或者飞牛OS部署docker mqtt](https://post.smzdm.com/p/al8w60pp/)	群晖或者飞牛OS部署docker mqtt
 
 - Home assistant training course
     - Home assistant online course for developers
@@ -562,4 +582,13 @@ https://neiltw.com/
 8. project
 https://oshwhub.com/
 
+立创商城
 https://www.szlcsc.com/
+
+
+9. web search
+https://www.aipan.me/
+
+10. ai search
+https://chat.deepseek.com/
+https://yuanbao.tencent.com/
