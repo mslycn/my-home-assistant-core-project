@@ -594,6 +594,7 @@ https://www.szlcsc.com/
 9. web search
 https://www.aipan.me/
 
-10. ai search
+10. web ai search
 https://chat.deepseek.com/
+
 https://yuanbao.tencent.com/
