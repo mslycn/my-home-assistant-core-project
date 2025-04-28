@@ -112,7 +112,9 @@ Home Assistant远程管理详细教程
 	- [通断器]()   不支持凌动，不支持调节亮度和色温；
 	- [凌动通断器]()   不支持调光
 	- [3C凌动通断器]()  不安全
-	- [调光驱动]        调色温
+	- [单色温调光驱动]        调色温
+	- [双色温调光驱动]        调色温
+	- [三色温调光驱动]        调色温
 	- [电源驱动]
 	- 预留	
 
@@ -417,11 +419,11 @@ The box will also be configured as a media player, giving you volume control (al
 	- [Install Let’s Encrypt Client Certbot](https://www.iaspnetcore.com/blogpost-619a0dbd5b26cb0202ae5bf1-how-to-secure-nginx-with-lets-encrypt-on-ubuntu-1804vultr#mcetoc_1g3p82cte53) - 666
 	- [Let’s Encrypt Client certbot验证域名所有权](https://www.iaspnetcore.com/Blog/BlogPost/5c2874c21d51ae0eec5ece63/the-type-verification-and-certbot-client-type-of-free-certificate-for-total-station-deployment-https-4-lets-encrypt)	- 本文描述用standalone 方式： certbot 自己运行一个 web server 来进行验证域名所有权后生成证书		
     
-- Home Assistant Remote access
-	- Linux下的常用命令
-	- Linux下的文本编辑
-	- YAML文件格式
-	- Python虚拟环境
+- Home Assistant Remote access - The Possible Solutions
+	- [Securing Home Assistant with Cloudflare Zero Trust](https://empty.coffee/home-assistant-cloudflare-zero-trust-setup/)  Cloudflare Add-on
+	- []
+	- [Tailscale]( ) WireGuard-based
+	- [Python虚拟环境]
 - 加餐
 	- 使用TensorFlow进行物体识别
 	- 使用NFC识别不同的ID卡
