@@ -603,15 +603,15 @@ https://yuanbao.tencent.com/
 
 10. Only for china user
 
-Home Assistant OS 极速版
+- Home Assistant OS 极速版
 
 https://www.hasscn.top/about.html
 
-HassBox
+- HassBox
 
 https://hassbox.cn/
 
 
-冬瓜HAOS
+- 冬瓜HAOS
 
 https://www.wghaos.com/
