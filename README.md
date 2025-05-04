@@ -197,6 +197,7 @@ Home Assistant远程管理详细教程
 	- [connect-zbt1 Zigbee2MQTT](https://neiltw.com/how-to-use-zigbee2mqtt-to-intergrate-zigbee-devices-in-home-assistant)	
 	- [SONOFF Zigbee 3.0 USB Dongle Plus Gateway]()  use a Sonoff Zigbee stick for mine and it works well and is as plug and play as anything. where to buy? https://www.amazon.com/SONOFF-Gateway-Universal-Assistant-Wireless/dp/B09KXTCMSC
 	- [SONOFF Zigbee 3.0 USB Dongle Plus V2]
+	- [Home Assistant 基于EZSP Zigbee Dongle创建Zigbee智能家居系统](https://www.smartlabs.cn/home-assistant-%e5%9f%ba%e4%ba%8eezsp-zigbee-dongle%e5%88%9b%e5%bb%bazigbee%e6%99%ba%e8%83%bd%e5%ae%b6%e5%b1%85%e7%b3%bb%e7%bb%9f/)  zigbee zha
 9. aqara设备接入篇(2)    
 	- [aqara hub M1s](https://www.msly.cn/boards/topic/5278/aqara-gatewayhub-g2h-m1s-cn-p3-cn-m2-cn-h1-cn-e1-cn-g3-cn-g2h-pro-integration-for-home-assistant#18735)
 	
@@ -325,9 +326,9 @@ Home Assistant远程管理详细教程
 
 18. 成为HomeAssistant开发者
 	- 组件的工作原理
-	- 程序样例：二维码识别组件
-	- Python程序员的成长与代码规范
-	- [DIY集成](https://blog.iin0.cn/blogs/skill/node/ha-to-koishi.html#koishi%E6%8E%A5%E5%85%A5ha)
+	- [https://github.com/ludeeus/integration_blueprint](https://github.com/ludeeus/integration_blueprint) a "blueprint" that custom integration blueprint developers 
+	- [https://github.com/krahabb/meross_lan](https://github.com/krahabb/meross_lan) a realwore sample that use https://github.com/ludeeus/integration_blueprint
+	- [DIY集成](https://blog.iin0.cn/blogs/skill/node/ha-to-koishi.html#koishi%E6%8E%A5%E5%85%A5ha)  blog
 	- [基于 STM32 和米家WiFi模块 ESP8266 的智能插座的设计与实现](https://blog.csdn.net/qq_40431685/article/details/140263631)	IOT开发  基于 STM32 和 ESP8266 的智能插座的设计与实现
 19. IOS App的使用
     - [https://github.com/home-assistant/iOS](https://github.com/home-assistant/iOS) IOS apk 下载
@@ -337,7 +338,7 @@ Home Assistant远程管理详细教程
 19. Home Assistant Companion App的使用
     - [https://github.com/home-assistant/android](https://github.com/home-assistant/android) android apk 下载  Dowanload mobile app  on your Android or iPhone
     - [https://github.com/home-assistant/iOS](https://github.com/home-assistant/iOS) IOS apk 下载
-	- IOS App——连接、定位与通知消息
+	- [nesror大佬的ha app](https://github.com/nesror/Home-Assistant-Companion-for-Android) github的nesror大佬的ha app，非常好用，推荐指数五颗星。Github（Android+iOS）
 	- iBeacon定位
 	- 多媒体通知与静态文件Web服务
 20. Lovelace定制界面
@@ -599,3 +600,18 @@ https://www.aipan.me/
 https://chat.deepseek.com/
 
 https://yuanbao.tencent.com/
+
+10. Only for china user
+
+Home Assistant OS 极速版
+
+https://www.hasscn.top/about.html
+
+HassBox
+
+https://hassbox.cn/
+
+
+冬瓜HAOS
+
+https://www.wghaos.com/
