@@ -66,6 +66,7 @@ Home Assistant远程管理详细教程
 
 ## ssh client
 
+2. [ssh client]
 	- [xshell]() you access HA directly via (xshell and xftp)SSH port 22 on windows 10
 	- [Enable SSH on Raspberry Pi](https://blog.matterxiaomi.com/blog/raspberry-pi-ssh-server-part1/) Enable SSH on Raspberry Pi raspberry pi os lite (64-bit)
 	- [Other]
