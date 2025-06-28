@@ -15,7 +15,7 @@
 
 # Beginners guide to use smart devicesgit with HomeAssistant
 
-从零搭建一套HomeAssistant智能家居系统
+从零开始搭建一套HomeAssistant智能家居系统
 
 A Complete Smart Home Solution.It is possible to install Home Assistant Core without Docker. However, it is a more complex process that requires advanced technical knowledge. Users need to install Python, set up a virtual environment, and install Home Assistant Core manually. A step-by-step guide can be found on this doc.
 
@@ -61,8 +61,10 @@ Home Assistant远程管理详细教程
 	- [HomeAssistant core 20221102配置、文件结构、升级]
 	  - [http://192.168.2.50:38123/profile](http://192.168.2.50:38123/profile)
 	  - [change Home Assistnant Core default port](https://www.msly.cn/boards/topic/13395/quick-start#18747)
-      - [Home Assistnant Core Initial configuration](https://www.matterxiaomi.com/boards/topic/13395/quick-start#18951) - Home Assistnant Core Initial configuration , First configuration
-	  - [xshell]() you access HA directly via (xshell and xftp)SSH port 22 on windows 10
+      - [Home Assistnant Core Initial configuration](https://www.matterxiaomi.com/boards/topic/13395/quick-start#18951) - Home Assistnant Core
+	Initial configuration , First configuration
+	- [xshell]() you access HA directly via (xshell and xftp)SSH port 22 on windows 10
+	- [Enable SSH on Raspberry Pi](https://blog.matterxiaomi.com/blog/raspberry-pi-ssh-server-part1/) Enable SSH on Raspberry Pi raspberry pi os lite (64-bit)
 	- [Other]
 	  - [How to Install Home Assistant core 2022.3.0 on Ubuntu 20.04（vultr VPS） Step by Step ](https://www.iaspnetcore.com/Blog/BlogPost/624b26f5bc7b674a02f93b86/how-to-install-home-assistant-core-202230-on-ubuntu-2004vultr-vps-step-by-step) - no pve + vultr VPS
 	  - [How to install full Home Assistant Core in Python virtual environment on Debian 11 operating system(x86_64 with python virtual environment) Step by Step](https://www.matterxiaomi.com/how-to-install-full-home-assistant-core-on-debian-11-operating-systemwith-python-virtual-environment-step-by-step)  - pve + vultr VPS
@@ -70,7 +72,15 @@ Home Assistant远程管理详细教程
       - [How to Get the correct Debian ISO](https://www.matterxiaomi.com/boards/topic/36/debian-11-bullseye-installation#63)
 	  - [树莓派3B安装home assistant全过程](https://www.cnblogs.com/mokou/p/14423917.html)
 	  - [Raspberry Pi 5中文文档](https://pidoc.cn/docs/computers/raspberry-pi-5)
-	
+
+
+3. Docker
+	- [Learn to install Docker properly on Raspberry Pi OS](https://itsfoss.com/raspberry-pi-install-docker/) 
+	- [Learn to How To Install Docker and Docker-Compose On Raspberry Pi properly](https://www.dotruby.com/articles/how-to-install-docker-and-docker-compose-on-raspberry-pi#4-install-docker-compose)     
+
+	   
+
+Learn to install Docker properly on Raspberry Pi OS in this tutorial.	
 3. 组件接入基础篇
 	- [让设备发声——朗读文字 小度音箱]         edge tts
 	- [让设备发声——朗读文字 小爱player]
@@ -145,7 +155,8 @@ Home Assistant远程管理详细教程
 	- 有线树莓派CSI与USB摄像头
 	- 小米的大方摄像头
 	- 天气预报与交通状况图——另类摄像头
-9. 本地摄像头-人脸识别篇
+9. 本地AI摄像头-人脸识别篇
+    - [Reolink RLC-810A AI camera with local Person & Vehicle detection](http://localhost:4999/boards/topic/48305/reolink-rlc-810a-ai-camera-with-local-person-vehicle-detection)  connect Reolink RLC-810A AI camera to home assistant
 	- DLib配置与pip安装
 	- 本地DLib人脸探测
 	- 本地DLib人脸识别
@@ -180,7 +191,10 @@ Home Assistant远程管理详细教程
 	- [Atom Echo语音助手教程](https://sumju.net/?p=9542#google_vignette)  Atom Echo语音助手 接入ha教程。
 9. 本地离线语音篇 AI
 	- [Home Assistant 接入 ChatGPT](https://tonnie17.github.io/posts/home-assistant-chatgpt/)
-	- 预留		
+	- 预留	
+9. 本地离线语音篇 mcp
+	- [mcp server and mcp client](https://www.cnblogs.com/edisonchou/p/-/introduction-to-mcp-csharp-sdk)  此时与ha无关，分为客户端和服务端
+	- 预留			
 
 10. Brand ZigBee网关设备接入篇（2）
 	- [Aqara Gateway 集成子设备接入 HA](https://community.aqara.com/pc/#/post/postDetail/1045)
@@ -301,34 +315,14 @@ Home Assistant远程管理详细教程
 	- [服务器安装EMQX](https://blog.csdn.net/weixin_43808708/article/details/145711960)
     - [MQTT服务器接入Home Assistant和.NET程序](https://blog.csdn.net/farway000/article/details/142548023) 搭建EMQX MQTT服务器并接入Home Assistant和.NET程序
 	- QoS、retain、last_will、自动配置……
-## Install ESPHome Integration
-17. DIY智能硬件ESP32篇
-    - [开始使用ESPHome：如何安装和集成它与家庭助理?](https://www.21ic.com/a/977576.html)
-    - [Installing and configuring ESPHome with ESP8266 and ESP32](https://chelmiki.com/posts/installing-and-configuring-esphome/)
-	- [ESP32-引脚图（ESP-WROOM-32](https://blog.csdn.net/lianyinghhh/article/details/139971338)
-	- ESP8266——固件烧录与连接
-	- ESP8266上的MicroPython使用
-	- 连接ESP8266的DHT温湿度传感器
-	- ESP8266完成各种功能
-	- 典型样例讲解：光照传感器与智能灯
-	- ESPHome——不编程，集成ESP8266
-	- 音乐灯带——接入ESPHome(1)
-	- [ESPHome 继电器控制](https://blog.csdn.net/yueyeguzhuo/article/details/118060420)
-    - [Installing mirror lighting on ESPHome](https://chochol.io/en/smart-home/home-assistant-installing-mirror-lighting-on-esphome/)
-	- [ESP32 SIM800L](https://randomnerdtutorials.com/esp32-sim800l-send-text-messages-sms/) ESP32 SIM800L: Send Text Messages (SMS Alert) with Sensor Readings
-	- [esphome制作零火智能开关](https://blog.csdn.net/zuobianfy/article/details/118432775) esphome制作零火智能开关,esp01s继电器一个
-	- [Touch Screen Controller](https://esphome.io/components/touchscreen/tt21100.html) Touch Scr	
-
-	- [使用XIAO ESP32C6 Zigbee 连接继电器控制HomeAssistant中的单色LED条](https://www.21ic.com/a/983542.html)	XIAO ESP32C6 Zigbee固件 接入 HomeAssistant connect ZBT-1
-18. 成为ESPHome开发者
-	- [POE Bluetooth Proxy and ESPHome](https://smlight.tech/manual/slzb-06/guide/bluetooth-proxy/)  SLZB-06x utilize ESP32 chip so can be used as a ESPHome Bluetooth proxy adapter for Home Assistant
 
 
 18. 成为HomeAssistant开发者
 	- 组件的工作原理
-	- [https://github.com/ludeeus/integration_blueprint](https://github.com/ludeeus/integration_blueprint) a "blueprint" that custom integration blueprint developers 
+	- [integration template](https://github.com/ludeeus/integration_blueprint) a template for HA integrations. a "blueprint" that custom integration blueprint developers 
 	- [https://github.com/krahabb/meross_lan](https://github.com/krahabb/meross_lan) a realwore sample that use https://github.com/ludeeus/integration_blueprint
 	- [DIY集成](https://blog.iin0.cn/blogs/skill/node/ha-to-koishi.html#koishi%E6%8E%A5%E5%85%A5ha)  blog
+	- [DIY集成开发-脚手架脚本-ZhongshengConfig设备](https://blog.csdn.net/Cubar/article/details/143158313) python3 -m script.scaffold inetgration vscode 方式开发，包含自动发现
 	- [基于 STM32 和米家WiFi模块 ESP8266 的智能插座的设计与实现](https://blog.csdn.net/qq_40431685/article/details/140263631)	IOT开发  基于 STM32 和 ESP8266 的智能插座的设计与实现
 19. IOS App的使用
     - [https://github.com/home-assistant/iOS](https://github.com/home-assistant/iOS) IOS apk 下载
@@ -480,13 +474,37 @@ Snapcast 是一个开源的多房间音频同步播放系统._
 	- [Libreelec in ProxMox]()   Quick guide to running Libreelec in ProxMox
 	
 	- HA实时直播画面(by Bobo)
-28. NAS
+28. NAS - Synology
+    - [Installing Home Assistant docker on a Synology  NAS](https://philhawthorne.com/installing-home-assistant-io-on-a-synology-diskstation-nas/)
 	- [How to Use Home Assistant as an NAS Server](https://umatechnology.org/how-to-use-home-assistant-as-an-nas-server/)
 28. NAS - 飞牛fnos
-	- [群晖或者飞牛OS部署docker mqtt](https://post.smzdm.com/p/al8w60pp/)	群晖或者飞牛OS部署docker mqtt
+	- [飞牛OS部署docker mqtt](https://post.smzdm.com/p/al8w60pp/)	群晖或者飞牛OS部署docker mqtt
+    - [飞牛NAS 虚拟机 安装Home Assistant OS(HAOS)](https://www.xiaoxu.vip/archives/218.html)
 
-- Home assistant training course
-    - Home assistant online course for developers
+
+## Install ESPHome Integration
+17. DIY智能硬件ESP32篇
+    - [开始使用ESPHome：如何安装和集成它与家庭助理?](https://www.21ic.com/a/977576.html)
+    - [Installing and configuring ESPHome with ESP8266 and ESP32](https://chelmiki.com/posts/installing-and-configuring-esphome/)
+	- [ESP32-引脚图（ESP-WROOM-32](https://blog.csdn.net/lianyinghhh/article/details/139971338)
+	- ESP8266——固件烧录与连接
+	- ESP8266上的MicroPython使用
+	- 连接ESP8266的DHT温湿度传感器
+	- ESP8266完成各种功能
+	- 典型样例讲解：光照传感器与智能灯
+	- [搭建个人智能家居 3 -第一个设备“点灯”](https://blog.csdn.net/qq_42250136/article/details/136673356)
+	- ESPHome——不编程，集成ESP8266
+	- 音乐灯带——接入ESPHome(1)
+	- [ESPHome 继电器控制](https://blog.csdn.net/yueyeguzhuo/article/details/118060420)
+    - [Installing mirror lighting on ESPHome](https://chochol.io/en/smart-home/home-assistant-installing-mirror-lighting-on-esphome/)
+	- [ESP32 SIM800L](https://randomnerdtutorials.com/esp32-sim800l-send-text-messages-sms/) ESP32 SIM800L: Send Text Messages (SMS Alert) with Sensor Readings
+	- [esphome制作零火智能开关](https://blog.csdn.net/zuobianfy/article/details/118432775) esphome制作零火智能开关,esp01s继电器一个
+	- [Touch Screen Controller](https://esphome.io/components/touchscreen/tt21100.html) Touch Scr	
+
+	- [使用XIAO ESP32C6 Zigbee 连接继电器控制HomeAssistant中的单色LED条](https://www.21ic.com/a/983542.html)	XIAO ESP32C6 Zigbee固件 接入 HomeAssistant connect ZBT-1
+18. 成为ESPHome开发者
+	- [POE Bluetooth Proxy and ESPHome](https://smlight.tech/manual/slzb-06/guide/bluetooth-proxy/)  SLZB-06x utilize ESP32 chip so can be used as a ESPHome Bluetooth proxy adapter for Home Assistant
+
 
 - 精彩众创教程
 	- 魔镜系列——魔镜安装(by JonnyWong)
@@ -535,12 +553,16 @@ Snapcast 是一个开源的多房间音频同步播放系统._
 	- Basic Firewall Setup
 	- [How To Install and uninstall reinstall Mysql on Ubuntu 18.04（vultr）](https://www.iaspnetcore.com/blogpost-6449555969967f028d52f122-how-to-install-and-uninstall-reinstall-mysql-on-ubuntu-1804vultr)	
 
+- Home assistant training course
+    - Home assistant online course for developers	
+
 ## 树莓派
    - [亚博 树莓派 非官方代理](https://www.yahboom.com/study/4wd-Pi)  taobao:树莓派精品销售商 https://shop101688001.taobao.com/ 
    - [上海上海晶珩 8G/4G](https://edatec.cn/zh/sbc/Pi5?src=raspberrypi)  taobao:树莓派特卖店 https://2etuqghaurnjs9utgnob2rkzr1rc15a.taobao.com/
                                                
 
  - [全屋wifi history](https://mp.weixin.qq.com/s?__biz=MzkwNDMyNjE1OQ==&mid=2247487843&idx=1&sn=b96486858569c4ffb4bcb5f554f2f7ff&chksm=c089ec03f7fe6515cf331a95c05083125c7277fcc86f5a6023fc73466e30e4cd9c92e4275073#rd)	
+ - [各品牌路由器、组网结构](https://github.com/blanboom/awesome-home-networking-cn/blob/master/README.md?plain=1)
 		
 ## Useful links
 1. 全屋智能的HA配置 真实案例 share configuration<br>
@@ -557,6 +579,13 @@ https://www.xiaomiyoupin.com/
 
 2. 小米商城
 https://www.mi.com/index.html
+
+https://linptech.tmall.com/
+
+https://linptech.jd.com/
+
+https://opple.tmall.com/
+
 
 3. awesome-ha<br>
 [https://www.awesome-ha.com](https://www.awesome-ha.com/)
@@ -591,6 +620,9 @@ https://oshwhub.com/
 立创商城
 https://www.szlcsc.com/
 
+三色灯带
+
+https://item.szlcsc.com/546079.html
 
 9. web search
 https://www.aipan.me/
@@ -614,4 +646,8 @@ https://hassbox.cn/
 
 - 冬瓜HAOS
 
+http://hasshome.net/
+
 https://www.wghaos.com/
+
+
