@@ -63,6 +63,7 @@ Home Assistant远程管理详细教程
 	  - [change Home Assistnant Core default port](https://www.msly.cn/boards/topic/13395/quick-start#18747)
       - [Home Assistnant Core Initial configuration](https://www.matterxiaomi.com/boards/topic/13395/quick-start#18951) - Home Assistnant Core
 	Initial configuration , First configuration
+## ssh client
 	- [xshell]() you access HA directly via (xshell and xftp)SSH port 22 on windows 10
 	- [Enable SSH on Raspberry Pi](https://blog.matterxiaomi.com/blog/raspberry-pi-ssh-server-part1/) Enable SSH on Raspberry Pi raspberry pi os lite (64-bit)
 	- [Other]
