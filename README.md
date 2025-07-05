@@ -97,6 +97,8 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- 接入硬件产品——小米多功能网关
 	- 接入自定义组件-和风天气
 	- [接入Logitech media server](#)
+	- [Plex Media Server]
+	- [Spotify Connect]
 4. 操作进阶篇   
     - 设置地理位置与界面语言
 	- 实体显示属性自定义
@@ -116,6 +118,10 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- [pyscript 安装教程](https://hacs-pyscript.readthedocs.io/en/stable/installation.html)  安装好后从integration中添加即可,手动安装请见https://hacs-pyscript.readthedocs.io/en/stable/installation.html
 	- [pyscript使用教程](https://bbs.hassbian.com/thread-16211-1-1.html)
 	- 语音+音乐+灯光闹钟
+7. 自动化篇
+	- [automation 示例代码](https://github.com/Petro31/home-assistant-config/blob/dc0827ed770f0dc2fa37d66191543e8021ee8769/scripts/zwave_js.yaml#L130) 在Home Assistant 中运行 automation 示例代码	
+
+
 7. HomeAssistant创建模板实体(Template) 通过代码模拟出各种各样的智能家居设备
 	- [基于状态的模板(template)传感器、二元传感器、按钮、数字项和选择项](https://bbs.hassbian.com/thread-18160-1-1.html)
 	- [Template integration](https://www.home-assistant.io/integrations/template/)
@@ -485,6 +491,10 @@ Snapcast 是一个开源的多房间音频同步播放系统._
 28. NAS - 飞牛fnos
 	- [飞牛OS部署docker mqtt](https://post.smzdm.com/p/al8w60pp/)	群晖或者飞牛OS部署docker mqtt
     - [飞牛NAS 虚拟机 安装Home Assistant OS(HAOS)](https://www.xiaoxu.vip/archives/218.html)
+28. NAS - TrueNAS 
+	- [安装TrueNAS服务器–第1部分](https://blog.csdn.net/shengbro1989/article/details/140666451)	虚拟机64bit安装TrueNAS ISO（网络附加存储）教程 –第1部分
+    - [如何在TrueNAS中配置ZFS存储和NFS共享 - 第2部分](https://blog.csdn.net/shengbro1989/article/details/140952943?spm=1001.2101.3001.10752)
+	- [TrueNAS：使用Plex Media Server创建自己的“家庭媒体流服务器” - 第3部分](https://blog.csdn.net/shengbro1989/article/details/141127938)
 
 
 ## Install ESPHome Integration
