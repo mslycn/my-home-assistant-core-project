@@ -539,6 +539,7 @@ Snapcast 是一个开源的多房间音频同步播放系统._
 	- 树莓派安装HASS.IO(by Zack-Xu)
 	- HASSIO.IO与常规运行环境区别(by Zack-Xu)
 	- x86下ubuntu虚机及HomeAssistant安装（by 猛将兄）
+	- [dfrobot sensor](https://wiki.dfrobot.com/HUSKYLENS_V1.0_SKU_SEN0305_SEN0336)  diy sensor via dfrobot
 	
 4. matterxiaomi
 	- [create vps on vultr](https://www.iaspnetcore.com/Blog/BlogPost/6199ff495b26cb0202ad6ce8/how-to-deploy-a-new-instance-on-vultr-step-by-step)
