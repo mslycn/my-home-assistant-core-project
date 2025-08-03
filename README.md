@@ -395,7 +395,7 @@ The box will also be configured as a media player, giving you volume control (al
 	- HomeAssistant的docker安装
 	- HomeAssistant docker容器的典型使用
 	- HomeAssistant docker容器的非典型使用
-28. DIY红外与433转发设备
+28. DIY红外与433转发设备 ir
 	- 使用红外与无线模块(1)——红外接收
 	- 使用红外与无线模块(2)——红外发射
 	- 使用红外与无线模块(3)——无线收发
@@ -403,6 +403,7 @@ The box will also be configured as a media player, giving you volume control (al
 	- 硬件制作(2)——画PCB板
 	- 硬件制作(3)——元器件与焊接
 	- [博联设备 via Broadlink Integration](https://www.cnblogs.com/softlin/p/16511684.html)	
+	- [Broadlink RM4 Pro -Remote: Learn command](https://www.bazmac.me/blog/using-broadlink-rm4-pro-with-home-assistant)	Broadlink RM4 Pro guide: Remote: Learn command
 ## Home Assistant Remote access
 29. Home Assistant Remote access - frp
 	- [buy a domain from www.namesilo.com ](https://www.iaspnetcore.com/Blog/BlogPost/5eb9e65e775d020216dbe009/wwwnamesilo-operation-manual-for-com-registration-and-domain-name-purchase)
@@ -539,7 +540,7 @@ Snapcast 是一个开源的多房间音频同步播放系统._
 	- 树莓派安装HASS.IO(by Zack-Xu)
 	- HASSIO.IO与常规运行环境区别(by Zack-Xu)
 	- x86下ubuntu虚机及HomeAssistant安装（by 猛将兄）
-	- [dfrobot sensor](https://wiki.dfrobot.com/HUSKYLENS_V1.0_SKU_SEN0305_SEN0336)  diy sensor via dfrobot
+	- [dfrobot sensor](https://wiki.dfrobot.com/HUSKYLENS_V1.0_SKU_SEN0305_SEN0336)  diy sensor via dfrobot brand
 	
 4. matterxiaomi
 	- [create vps on vultr](https://www.iaspnetcore.com/Blog/BlogPost/6199ff495b26cb0202ad6ce8/how-to-deploy-a-new-instance-on-vultr-step-by-step)
