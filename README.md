@@ -64,6 +64,12 @@ Home Assistant远程管理详细教程
       - [Home Assistnant Core Initial configuration](https://www.matterxiaomi.com/boards/topic/13395/quick-start#18951) - Home Assistnant Core
 	Initial configuration , First configuration
 
+1. [Install Home Assistant Docker On Windows Using VMware Workstation 17 Pro series)](https://blog.matterxiaomi.com/blog/windows10-vmware-home-assistant-docker-part1/)
+
+
+1. [Install Home Assistant OS On Windows Using VMware Workstation 17 Pro series)](https://blog.matterxiaomi.com/blog/install-home-assistant-os-on-windows10-vmware-pro-part1/)
+
+
 ## ssh client
 
 2. [ssh client]
@@ -270,7 +276,8 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- 制作App——应用callback
 	- [Picture elements card 2D](https://thehomeautomationblog.com/how-to-create-a-floorplan-in-home-assistant-part-5-interactive/) How to create a floorplan in home assistant
 	- [Picture elements card 2D](https://pacossmarthome.co.uk/control-your-house-in-home-assistant-with-a-picture-elements-card/) Control your house in Home Assistant with a Picture Elements Card
-	-[Custom Mushroom card](https://bbs.hassbian.com/thread-21857-1-1.html)  代码使用案例
+	- [Custom Mushroom card](https://bbs.hassbian.com/thread-21857-1-1.html)  代码使用案例
+	- [Auto-entities]
 
 ## Install Node red
 14. Installing Node red for Home Assistant Core
@@ -292,7 +299,7 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 ## Install  matter server Integration
 14. Installing matter server for for Home Assistant Core
 	- BLE
-	- [Thread border router](https://www.home-assistant.io/integrations/thread/#turning-home-assistant-into-a-thread-border-router)  how to use Connect ZBT-1 to turn your Home Assistant into a Thread Border router.Turning Home Assistant into a Thread border router.
+	- [Connect ZBT-1 Thread border router](https://www.home-assistant.io/integrations/thread/#turning-home-assistant-into-a-thread-border-router)  how to use Connect ZBT-1 to turn your Home Assistant into a Thread Border router.Turning Home Assistant into a Thread border router.
 	- MatterBridge
 	- matter binding
 	- List of compatible Matter Devices
@@ -311,7 +318,8 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- [SLZB-06](https://smlight.tech/manual/slzb-06/guide/thread-matter/)
 	- [SONOFF Dongle-E]
 	- [a Stable Matter over Thread Network](https://www.derekseaman.com/2024/09/essential-tips-for-a-stable-matter-over-thread-network.html)
-	- [https://openthread.google.cn/guides/border-router/build?hl=zh-cn](https://openthread.google.cn/guides/border-router/build?hl=zh-cn)  OpenThread 边界路由器构建和配置
+	- [https://openthread.google.cn/guides/border-router/build?hl=zh-cn](https://openthread.google.cn/guides/border-router/build?hl=zh-cn)  penThread 边界路由器构建和配置
+	- [Make Apple TV 4K (3rd Gen) as a Thread Border Router in Home Assistant as the preferred network](https://community.home-assistant.io/t/apple-tv-as-thread-border-router-not-adding-to-preferred-network/847644) 
 
 ## Install  MatterBridge Integration
 14. Installing MatterBridge for for Home Assistant Core
@@ -365,11 +373,11 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- 接入HomeAssistant的远程麦克风
 	- 使用远程麦克风——监听与录音
 	- 给智能音箱配上远程麦克风
-	- [ESP32-S3-Box3-Custom-ESPHome](https://github.com/BigBobbas/ESP32-S3-Box3-Custom-ESPHome)  This firmware will enable your S3 Box 3 to use the touch screen and home button, and configure the box to act like a dashboard for Home Assistant. Giving you the power to control your entitities and display sensor information.
-The box will also be configured as a media player, giving you volume control (also improves the overall volume of the internal speaker compared to the ESPHome stock config) and easily broadcast messages to the device or stream media. Oh, and don't forget! it is also a Voice Assistant!!
+	- [ESP32-S3-Box3-Custom-ESPHome](https://github.com/BigBobbas/ESP32-S3-Box3-Custom-ESPHome)  This firmware will enable your S3 Box 3 to use the touch screen and home button, and configure the box to act like a dashboard for Home Assistant. Giving you the power to control your entitities and display sensor information.The box will also be configured as a media player, giving you volume control (also improves the overall volume of the internal speaker compared to the ESPHome stock config) and easily broadcast messages to the device or stream media. Oh, and don't forget! it is also a Voice Assistant!!
     - [ESP32-S3-BOX-3 部署 Home Assistant 本地化語音助理教程](https://neiltw.com/esp32-s3-box-3-ha-local-voice-assistant-guide/)
 	- [ESP32-S3-BOX-3 部署 Home Assistant 本地化語音助理教程2](https://neiltw.com/en/esp32-s3-box-3-ha-local-voice-assistant-guide/)  修改支持的语言
 	- [如何给Home Assistant添加一个ESP32-S3-BOX-3开源硬件语音助手设备](https://blog.csdn.net/Slaven230101/article/details/145813994)   csdn
+	- [How to Run Wyoming Satellite and OpenWakeWord on Android](https://community.home-assistant.io/t/how-to-run-wyoming-satellite-and-openwakeword-on-android/777571/52)
 	
 25. 485总线
 	- 实现485总线通讯
@@ -383,7 +391,7 @@ The box will also be configured as a media player, giving you volume control (al
 	- 使用ncn5120模块-WIFI连接模式
 27. 室外物联网
 	- 全球卫星定位
-	- [[GPS定位]Traccar使用教程]
+	- [GPS定位Traccar使用教程]
 	- NB-IOT
 	- 车载定位(1)—traccar安装与配置
 	- 车载定位(2)—车载设备diy
