@@ -307,7 +307,7 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- [树莓派配置mDNS服务 Avahi](http://localhost:4999/boards/topic/21933/%E4%B8%BA%E6%A0%91%E8%8E%93%E6%B4%BE%E9%85%8D%E7%BD%AEmdns%E6%9C%8D%E5%8A%A1-avahi)  http://localhost:4999/boards/topic/21933/%E4%B8%BA%E6%A0%91%E8%8E%93%E6%B4%BE%E9%85%8D%E7%BD%AEmdns%E6%9C%8D%E5%8A%A1-avahi
 	- [Part 1 - Matter Server in Home Assistant](https://blog.matterxiaomi.com/blog/Matter-Home-Assistant-part1/)
 	- [Part 5 - Install Matter Server using docker image via docker run](https://blog.matterxiaomi.com/blog/matter-home-assistant-part5/)
-
+    - [matter设备配网流程工作原理图文解释 ](http://www.chinasem.cn/article/349653)
 	
 
 ## Install  OTBR Integration
