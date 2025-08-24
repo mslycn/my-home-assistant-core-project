@@ -68,6 +68,12 @@ Home Assistant远程管理详细教程
 
 
 1. [Install Home Assistant OS On Windows Using VMware Workstation 17 Pro series)](https://blog.matterxiaomi.com/blog/install-home-assistant-os-on-windows10-vmware-pro-part1/)
+   - [home assistant on your windows 10 machine using wsl( ubuntu for windows)]
+
+1. [host - Proxmox VE]
+   - [Install Proxmox VE via ISO image](https://pve.proxmox.com/pve-docs/chapter-pve-installation.html)
+   - [Install Proxmox VE on Debian](https://pve.proxmox.com/pve-docs/chapter-pve-installation.html#_install_proxmox_ve_on_debian)
+
 
 
 ## ssh client
@@ -307,8 +313,9 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- [树莓派配置mDNS服务 Avahi](http://localhost:4999/boards/topic/21933/%E4%B8%BA%E6%A0%91%E8%8E%93%E6%B4%BE%E9%85%8D%E7%BD%AEmdns%E6%9C%8D%E5%8A%A1-avahi)  http://localhost:4999/boards/topic/21933/%E4%B8%BA%E6%A0%91%E8%8E%93%E6%B4%BE%E9%85%8D%E7%BD%AEmdns%E6%9C%8D%E5%8A%A1-avahi
 	- [Part 1 - Matter Server in Home Assistant](https://blog.matterxiaomi.com/blog/Matter-Home-Assistant-part1/)
 	- [Part 5 - Install Matter Server using docker image via docker run](https://blog.matterxiaomi.com/blog/matter-home-assistant-part5/)
-    - [matter设备配网流程工作原理图文解释 ](http://www.chinasem.cn/article/349653)
-	
+    - [matter设备配网流程工作原理图文解释 ](http://www.chinasem.cn/article/349653)  三种配对方式流程介绍
+	- [matter设备配网流程工作原理 三个阶段 ](https://blog.csdn.net/m0_46411607/article/details/131564958)
+	- [matter设备配网流程工作原理 源码级别 ](https://www.cnblogs.com/youhui/p/18715676)
 
 ## Install  OTBR Integration
 14. Installing Open Thread Border Router for for Home Assistant Core
@@ -511,7 +518,7 @@ Snapcast 是一个开源的多房间音频同步播放系统._
     - [开始使用ESPHome：如何安装和集成它与家庭助理?](https://www.21ic.com/a/977576.html)
     - [Installing and configuring ESPHome with ESP8266 and ESP32](https://chelmiki.com/posts/installing-and-configuring-esphome/)
 	- [ESP32-引脚图（ESP-WROOM-32](https://blog.csdn.net/lianyinghhh/article/details/139971338)
-	- ESP8266——固件烧录与连接
+	- [ESP8266——固件烧录与连接-Windows10识别到32硬件](https://blog.matterxiaomi.com/blog/esphome-esp32-part1/#mcetoc_1ide17tct1)
 	- ESP8266上的MicroPython使用
 	- 连接ESP8266的DHT温湿度传感器
 	- ESP8266完成各种功能
