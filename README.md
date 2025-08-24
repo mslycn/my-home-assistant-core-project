@@ -327,6 +327,8 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- [a Stable Matter over Thread Network](https://www.derekseaman.com/2024/09/essential-tips-for-a-stable-matter-over-thread-network.html)
 	- [https://openthread.google.cn/guides/border-router/build?hl=zh-cn](https://openthread.google.cn/guides/border-router/build?hl=zh-cn)  penThread 边界路由器构建和配置
 	- [Make Apple TV 4K (3rd Gen) as a Thread Border Router in Home Assistant as the preferred network](https://community.home-assistant.io/t/apple-tv-as-thread-border-router-not-adding-to-preferred-network/847644) 
+	- [Build border router thread 1.4 firmware for ESP32-H2](https://www.matteralpha.com/how-to/how-to-build-a-thread-1-4-border-router)  via Espressif SDK
+
 
 ## Install  MatterBridge Integration
 14. Installing MatterBridge for for Home Assistant Core
