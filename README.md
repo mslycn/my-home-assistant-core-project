@@ -94,7 +94,10 @@ Home Assistant远程管理详细教程
 	- [Learn to install Docker properly on Raspberry Pi OS](https://itsfoss.com/raspberry-pi-install-docker/) 
 	- [Learn to How To Install Docker and Docker-Compose On Raspberry Pi properly](https://www.dotruby.com/articles/how-to-install-docker-and-docker-compose-on-raspberry-pi#4-install-docker-compose)     
 
-	   
+	- [File Editor - Samba server]() File Editor  just install Samba on the host machine that points to your docker files. If your config files for Home Assistant are located in /srv/docker/homeassistant, for example, then  setup a Samba server and setup a share in the /srv/docker/homeassistant,Then you can just edit from there with your normal text editor on any machine.  on Windows you use \\<IP_ADDRESS>\
+	- [File Editor - hass-configurator-docker](https://github.com/CausticLab/hass-configurator-docker) Linux x32/64 and ARM builds for the hass-configurator.  
+	- [File Editor - hass-configurator](https://github.com/danielperna84/hass-configurator) 
+	- [File Editor - VSCode server](https://www.linuxserver.io/our-images?name=linuxserver/code-server)  OPEN WEB UI to open Studio Code Server.
 
 Learn to install Docker properly on Raspberry Pi OS in this tutorial.	
 
@@ -296,8 +299,9 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 14. Installing Homebridge for Apple Home app  
 
     - [使用 Homebridge Docker 将米家设备接入 Homekit](https://juejin.cn/post/7265630149322997794?searchId=2025021100330020E901919E863C4359F0)
-
-	- [Install Homebridge](https://blog.matterxiaomi.com/blog/install-uninstall-reinstall-homebridge-raspbian-part1/) - Installing Homebridge for Apple Home app
+	- [Install Homebridge](https://blog.matterxiaomi.com/blog/install-uninstall-reinstall-homebridge-raspbian-part1/) - Installing Homebridge for 
+	- [涂鸦远程红外遥控器 + Home Assistant 接入苹果家庭(homekit)](https://zhuanlan.zhihu.com/p/1920988695982486609)
+	Apple Home app
 	- Node-RED配置
 	- HomeAssistant节点(1)
 	- HomeAssistant节点(2)
@@ -408,7 +412,8 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- [Owntracks app]
 28. docker
 	- [docker home assistant基础(1)](https://github.com/home-assistant/core/releases)   https://github.com/home-assistant/core/releases
-	- docker基础(2)
+	- [Home Assistant Base Images](https://github.com/home-assistant/docker-base)   Debian	bookworm, trixie
+	- [Home Assistant Base Images](https://github.com/home-assistant/docker-base)   The Debian	bookworm, trixie image include S6-Overlay, Bashio and TempIO.
 	- HomeAssistant的docker安装
 	- HomeAssistant docker容器的典型使用
 	- HomeAssistant docker容器的非典型使用
@@ -420,7 +425,11 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- 硬件制作(2)——画PCB板
 	- 硬件制作(3)——元器件与焊接
 	- [博联设备 via Broadlink Integration](https://www.cnblogs.com/softlin/p/16511684.html)	
-	- [Broadlink RM4 Pro -Remote: Learn command](https://www.bazmac.me/blog/using-broadlink-rm4-pro-with-home-assistant)	Broadlink RM4 Pro guide: Remote: Learn command
+	- [Broadlink RM4 Pro -Remote: Learn command](https://www.bazmac.me/blog/using-broadlink-rm4-pro-with-home-assistant)	Broadlink RM4 Pro guide: 
+28. API
+	- RHTTP API     API服务提供商都会有一个使用政策，规定如何合法地使用他们的API服务。用户需要遵守这些政策，注册账户，并获取API密钥
+	- RESTful API 
+	- Websocket API 实现服务器与客户端之间的实时双向通信，可以用来推送最新信息到用户界面.
 ## Home Assistant Remote access
 29. Home Assistant Remote access - frp
 	- [buy a domain from www.namesilo.com ](https://www.iaspnetcore.com/Blog/BlogPost/5eb9e65e775d020216dbe009/wwwnamesilo-operation-manual-for-com-registration-and-domain-name-purchase)
@@ -434,6 +443,8 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- [CloudFlare](https://www.iaspnetcore.com/Blog/BlogPost/5ee3a43a1c73d43127f113a1/cloudflare-free-cdn-website-acceleration-practice-tutorial#mcetoc_1g37gn9lf11)
 	- Basic Firewall Setup
 	- [downloaded SSL certificates for your domain](https://www.iaspnetcore.com/blogpost-6449555969967f028d52f122-how-to-install-and-uninstall-reinstall-mysql-on-ubuntu-1804vultr)
+	- [synology nas 安装 docker frpc](https://rainwu.cn/archives/synology-frp-openvpn)	
+	
 5. [home assisant project-remote access on Raspberry Pi3b+](https://github.com/freemsly/home-assistant/blob/main/home-assisant-remote.MD)
 	- 申请Amazon免费云主机
 	- [buy a domain from www.namesilo.com](https://www.iaspnetcore.com/Blog/BlogPost/5eb9e65e775d020216dbe009/wwwnamesilocom-registration-and-domain-name-purchase-operation-manual)
@@ -468,6 +479,7 @@ Options for Multi-Room Music Solution
 Snapcast 是一个开源的多房间音频同步播放系统._
 
 专业音频：与AirPlay/Spotify Connect
+
     - [Mopidy Server]()  a music server that can play local files, or connect to streaming music services like Spotify.
 	- [Logitech Media Server](https://community.home-assistant.io/t/how-to-build-a-lms-based-whole-house-audio-system/436016)  Logitech Media Server服务器,通过安装插件，LMS可以将局域网内支持airplay、Chromecast、DLNA等协议的设备进行统一管理，统一控制；
 	- [synchronous multiroom audio with Snapcast]  Snapcast 是一个开源的多房间音频同步播放系统,.服务器端：需安装 snapserver 客户端：需安装 snapclient
@@ -537,6 +549,7 @@ Snapcast 是一个开源的多房间音频同步播放系统._
 	- [使用XIAO ESP32C6 Zigbee 连接继电器控制HomeAssistant中的单色LED条](https://www.21ic.com/a/983542.html)	XIAO ESP32C6 Zigbee固件 接入 HomeAssistant connect ZBT-1
 18. 成为ESPHome开发者
 	- [POE Bluetooth Proxy and ESPHome](https://smlight.tech/manual/slzb-06/guide/bluetooth-proxy/)  SLZB-06x utilize ESP32 chip so can be used as a ESPHome Bluetooth proxy adapter for Home Assistant
+	- [用ESPHome烧录固件到合宙ESP32-C3并接入HomeAssistant](https://blog.csdn.net/sinat_15906013/article/details/147806199)  SLZB-06x utilize ESP32 chip so can be used as a ESPHome Bluetooth proxy adapter for Home Assistant
 
 
 - 精彩众创教程
@@ -607,6 +620,10 @@ https://github.com/sl041400/Home-assistant
 https://github.com/matt8707/hass-config
 
 https://github.com/relliky/Tais_Home_Assistant_Config
+
+https://github.com/Snipercaine/DrZzs-HA
+
+https://github.com/Snipercaine/home_assistant_config
 
 2. 小米有品<br>
 https://www.xiaomiyoupin.com/
