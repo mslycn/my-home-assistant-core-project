@@ -46,6 +46,16 @@ Home Assistant远程管理详细教程
 
 * [Home Assistant Remote access](#Home-Assistant-Remote-access)
 
+
+## Hardware
+
+Several Hardware are available for building Home assistant server, catering to different needs and levels of control.
+
+
+## Choosing the right Install Type
+
+
+
 ## Install homeassistant core
 
 1. [home assisant project-install home assisant core 2022.3.0 on Raspberry Pi3b+](https://github.com/mslycn/home-assistant/blob/main/home-assisant-core-install.MD)
@@ -64,7 +74,10 @@ Home Assistant远程管理详细教程
       - [Home Assistnant Core Initial configuration](https://www.matterxiaomi.com/boards/topic/13395/quick-start#18951) - Home Assistnant Core
 	Initial configuration , First configuration
 
-1. [Install Home Assistant Docker On Windows Using VMware Workstation 17 Pro series)](https://blog.matterxiaomi.com/blog/windows10-vmware-home-assistant-docker-part1/)
+1. VMware
+    - [Install Home Assistant Docker On Windows Using VMware Workstation 17 Pro series)](https://blog.matterxiaomi.com/blog/windows10-vmware-home-assistant-docker-part1/)
+	- [How To Install Openwrt os via  VMware](https://blog.csdn.net/gtj0617/article/details/137706312) 
+
 
 
 1. [Install Home Assistant OS On Windows Using VMware Workstation 17 Pro series)](https://blog.matterxiaomi.com/blog/install-home-assistant-os-on-windows10-vmware-pro-part1/)
@@ -98,6 +111,7 @@ Home Assistant远程管理详细教程
 	- [File Editor - hass-configurator-docker](https://github.com/CausticLab/hass-configurator-docker) Linux x32/64 and ARM builds for the hass-configurator.  
 	- [File Editor - hass-configurator](https://github.com/danielperna84/hass-configurator) 
 	- [File Editor - VSCode server](https://www.linuxserver.io/our-images?name=linuxserver/code-server)  OPEN WEB UI to open Studio Code Server.
+	- [File Editor - Filebrowser](https://uuzi.net/deploy-filebrowser-on-server/)  https://github.com/filebrowser/filebrowser.
 
 Learn to install Docker properly on Raspberry Pi OS in this tutorial.	
 
@@ -300,6 +314,8 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 
     - [使用 Homebridge Docker 将米家设备接入 Homekit](https://juejin.cn/post/7265630149322997794?searchId=2025021100330020E901919E863C4359F0)
 	- [Install Homebridge](https://blog.matterxiaomi.com/blog/install-uninstall-reinstall-homebridge-raspbian-part1/) - Installing Homebridge for 
+	- [使用HomeAssistant “Xiaomi Miot Atuo” 集成将米家设备接入到HomeKit](https://wulu.zone/posts/mi-iot-homekit#5)
+	- [使用HomeAssistant “Xiaomi Home” 集成将米家设备接入到HomeKit](https://wulu.zone/posts/mi-iot-homekit-2025)
 	- [涂鸦远程红外遥控器 + Home Assistant 接入苹果家庭(homekit)](https://zhuanlan.zhihu.com/p/1920988695982486609)
 	Apple Home app
 	- Node-RED配置
