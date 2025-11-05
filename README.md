@@ -247,6 +247,7 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 
 11. 开源Zigbee hub接入篇(Diy Zigbee network)
     - [connect-zbt1 zha](https://neiltw.com/home-assistant-connect-zbt1-setup-guide/#google_vignette)	Best way to add Zigbee and Matter to Home Assistant.
+    - [How to add support for new and unsupported devices zha](https://www.home-assistant.io/integrations/zha/#how-to-add-support-for-new-and-unsupported-devices)	How to add unsupported Zigbee devices to Home Assistant.	
 	- [connect-zbt1 z2m](https://blog.csdn.net/feilusia/article/details/145135102)
 	- [connect-zbt1 Zigbee2MQTT](https://neiltw.com/how-to-use-zigbee2mqtt-to-intergrate-zigbee-devices-in-home-assistant)	
 	- [SONOFF Zigbee 3.0 USB Dongle Plus Gateway]()  use a Sonoff Zigbee stick for mine and it works well and is as plug and play as anything. where to buy? https://www.amazon.com/SONOFF-Gateway-Universal-Assistant-Wireless/dp/B09KXTCMSC
@@ -627,7 +628,10 @@ Snapcast 是一个开源的多房间音频同步播放系统._
  - [全屋wifi history](https://mp.weixin.qq.com/s?__biz=MzkwNDMyNjE1OQ==&mid=2247487843&idx=1&sn=b96486858569c4ffb4bcb5f554f2f7ff&chksm=c089ec03f7fe6515cf331a95c05083125c7277fcc86f5a6023fc73466e30e4cd9c92e4275073#rd)	
  - [各品牌路由器、组网结构](https://github.com/blanboom/awesome-home-networking-cn/blob/master/README.md?plain=1)
 		
-## Useful links
+
+
+## How to organize home assistant configuration files?
+
 1. 全屋智能的HA配置 真实案例 share configuration<br>
 My heartfelt thanks to:
 
@@ -635,11 +639,15 @@ https://github.com/sl041400/Home-assistant
 
 https://github.com/matt8707/hass-config
 
+https://github.com/renemarc/home-assistant-config
+
 https://github.com/relliky/Tais_Home_Assistant_Config
 
 https://github.com/Snipercaine/DrZzs-HA
 
 https://github.com/Snipercaine/home_assistant_config
+
+## Useful links
 
 2. 小米有品<br>
 https://www.xiaomiyoupin.com/
