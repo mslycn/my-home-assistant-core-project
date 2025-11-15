@@ -70,9 +70,11 @@ Several Hardware are available for building Home assistant server, catering to d
       - [HomeAssistant自启动如何配置]
 	- [HomeAssistant core 20221102配置、文件结构、升级]
 	  - [http://192.168.2.50:38123/profile](http://192.168.2.50:38123/profile)
-	  - [change Home Assistnant Core default port](https://www.msly.cn/boards/topic/13395/quick-start#18747)
-      - [Home Assistnant Core Initial configuration](https://www.matterxiaomi.com/boards/topic/13395/quick-start#18951) - Home Assistnant Core
-	Initial configuration , First configuration
+
+1. homeassistant configuration
+    - [change Home Assistnant Core default port](https://www.msly.cn/boards/topic/13395/quick-start#18747)
+	- [Home Assistnant Core Initial configuration](https://www.matterxiaomi.com/boards/topic/13395/quick-start#18951) - Home Assistnant Core
+	- [packages](https://www.home-assistant.io/docs/configuration/packages/)
 
 1. VMware
     - [Install Home Assistant Docker On Windows Using VMware Workstation 17 Pro series)](https://blog.matterxiaomi.com/blog/windows10-vmware-home-assistant-docker-part1/)
@@ -147,6 +149,8 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- [pyscript 安装教程](https://hacs-pyscript.readthedocs.io/en/stable/installation.html)  安装好后从integration中添加即可,手动安装请见https://hacs-pyscript.readthedocs.io/en/stable/installation.html
 	- [pyscript使用教程](https://bbs.hassbian.com/thread-16211-1-1.html)
 	- 语音+音乐+灯光闹钟
+	- [pyscript使用教程 -pmazz/ps_hassio_entities](https://github.com/pmazz/ps_hassio_entities) Python script for Home Assistant to handle state and attributes of existing sensors and entities. Useful if you need to change a sensor's state or attribute
+
 7. 自动化篇
 	- [automation 示例代码](https://github.com/Petro31/home-assistant-config/blob/dc0827ed770f0dc2fa37d66191543e8021ee8769/scripts/zwave_js.yaml#L130) 在Home Assistant 中运行 automation 示例代码	
 
