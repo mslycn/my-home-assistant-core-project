@@ -13,6 +13,8 @@
 
 # home-assistant  core  project
 
+https://github.com/mslycn/my-home-assistant-core-project
+
 # Beginners guide to use smart devicesgit with HomeAssistant
 
 从零开始搭建一套HomeAssistant智能家居系统
@@ -206,7 +208,9 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- 本地DLib人脸识别
 	- 微软人脸特征检测
 	- 微软人脸识别与验证
-	- Facebox-在docker中运行人脸识别
+	- Facebox-在docker中运行人脸识别   
+	- [Frigate integration for Home Assistant](https://github.com/blakeblackshear/frigate-hass-integration) Frigate integration for Home Assistant
+	- [Xiaomi Miloco](https://github.com/XiaoMi/xiaomi-miloco) Xiaomi Local Copilot  project 
 9. 本地离线语音篇 stt
 	- [whisper中文语音识别服务（CPU版本]
 	- [xinnan-techxiaozhi-esp32-server](https://github.com/xinnan-tech/xiaozhi-esp32-server/pull/96/files) 增加支持home assistant语音助手,home assistant api访问令牌  https://github.com/xinnan-tech/xiaozhi-esp32-server/pull/96/files
