@@ -73,10 +73,6 @@ Several Hardware are available for building Home assistant server, catering to d
 	- [HomeAssistant core 20221102配置、文件结构、升级]
 	  - [http://192.168.2.50:38123/profile](http://192.168.2.50:38123/profile)
 
-1. homeassistant configuration
-    - [change Home Assistnant Core default port](https://www.msly.cn/boards/topic/13395/quick-start#18747)
-	- [Home Assistnant Core Initial configuration](https://www.matterxiaomi.com/boards/topic/13395/quick-start#18951) - Home Assistnant Core
-	- [packages](https://www.home-assistant.io/docs/configuration/packages/)
 
 1. VMware
     - [Install Home Assistant Docker On Windows Using VMware Workstation 17 Pro series)](https://blog.matterxiaomi.com/blog/windows10-vmware-home-assistant-docker-part1/)
@@ -92,6 +88,11 @@ Several Hardware are available for building Home assistant server, catering to d
    - [Install Proxmox VE on Debian](https://pve.proxmox.com/pve-docs/chapter-pve-installation.html#_install_proxmox_ve_on_debian)
 
 
+
+1. Home Assistant Configuration
+    - [change Home Assistnant Core default port](https://www.msly.cn/boards/topic/13395/quick-start#18747)
+	- [Home Assistnant Core Initial configuration](https://www.matterxiaomi.com/boards/topic/13395/quick-start#18951) - Home Assistnant Core
+	- [packages](https://www.home-assistant.io/docs/configuration/packages/)
 
 ## ssh client
 
@@ -490,6 +491,12 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- ESPHome中的自动化
 	- 制作树莓派镜像文件(1)
 	- 制作树莓派镜像文件(2)
+
+28. Room Presence Detection in Home Assistant
+    - [https://espresense.com/](hhttps://espresense.com/ )   https://espresense.com/
+    - [project ESPresense-companion](https://github.com/ESPresense/ESPresense-companion ) docker c#   https://espresense.com/
+
+
 28. Multi-Room Music Solution works with home assistant 实现音乐服务器
    
 _I was able to cook up a fun audio setup controlled and automated with Home Assistant! It features
