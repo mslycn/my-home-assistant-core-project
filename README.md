@@ -8,7 +8,7 @@
     <a href="">community</a>
     •
     <a href="">add-ons</a>
-  </strong>
+  </strong>webda
 </p>
 
 # home-assistant  core  project
@@ -297,6 +297,18 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 12. Midea 接入篇
 
 12. haier 接入篇
+
+12. Virtual Devices in Home Assistant
+	- [create virtual device1](https://github.com/kuba2k2/hassio-virtual-devices)  https://github.com/kuba2k2/hassio-virtual-devices
+	- [create virtual device2](https://github.com/ha-china/virtual_devices)  https://github.com/ha-china/virtual_devices/blob/main/README_CN.md
+	- [create virtual device3](https://github.com/eulemitkeule/device-tools)  A powerful custom Home Assistant integration that  create virtual devices.
+
+
+
+
+12. 国内常用集成汇总
+	- [www.hasscn.top's国内常用集成汇总](https://www.hasscn.top/integrations.html)
+
  
 12. 数据记录篇
 	- 历史数据基础概念
@@ -372,7 +384,7 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 16. MQTT Integration篇
 	- [服务器安装EMQX](https://blog.csdn.net/weixin_43808708/article/details/145711960)
     - [MQTT服务器接入Home Assistant和.NET程序](https://blog.csdn.net/farway000/article/details/142548023) 搭建EMQX MQTT服务器并接入Home Assistant和.NET程序
-	- QoS、retain、last_will、自动配置……
+	- [Home Assistant MQTT消息通信核心机制详解](https://blog.csdn.net/gitblog_00007/article/details/151844405)   Home Assistant MQTT协议：智能家居消息通信核心机制详解
 
 
 18. 成为HomeAssistant开发者
@@ -557,7 +569,8 @@ Snapcast 是一个开源的多房间音频同步播放系统._
 	- [安装TrueNAS服务器–第1部分](https://blog.csdn.net/shengbro1989/article/details/140666451)	虚拟机64bit安装TrueNAS ISO（网络附加存储）教程 –第1部分
     - [如何在TrueNAS中配置ZFS存储和NFS共享 - 第2部分](https://blog.csdn.net/shengbro1989/article/details/140952943?spm=1001.2101.3001.10752)
 	- [TrueNAS：使用Plex Media Server创建自己的“家庭媒体流服务器” - 第3部分](https://blog.csdn.net/shengbro1989/article/details/141127938)
-
+28. 网络附加存储
+    - [Webdav](https://juejin.cn/post/7403165140718125075)   Guide:Install webdav via iis on windows 10
 
 ## Install ESPHome Integration
 17. DIY智能硬件ESP32篇
@@ -645,7 +658,7 @@ Snapcast 是一个开源的多房间音频同步播放系统._
 		
 
 
-## How to organize home assistant configuration files?
+## Example Configuration
 
 1. 全屋智能的HA配置 真实案例 share configuration<br>
 My heartfelt thanks to:
@@ -675,6 +688,10 @@ https://linptech.tmall.com/
 https://linptech.jd.com/
 
 https://opple.tmall.com/
+
+## Devices
+
+1. Radar Motion
 
 
 3. awesome-ha<br>
