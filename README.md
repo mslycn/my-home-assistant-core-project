@@ -144,15 +144,16 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- nmap网络扫描、黑客、小米wifi路由器
 	- [home assisant project-Play audio on a Bluetooth speaker with Raspberry Pi3b+](https://github.com/freemsly/home-assistant/blob/main/home-assisant-bluetooth-speaker.MD)
 	- 使用iCloud随时定位苹果手机
-7. 自动化篇
+7. 自动化篇 - python_scripts integration
 	- [python_scripts中文](https://blog.51cto.com/u_16213299/11996185) 在Home Assistant 中运行 Python 代码
 	- [python_scripts](https://blog.51cto.com/u_16213299/11996185)  <config>/pyscript folder
 
 	- [<config>/pyscript](https://hacs-pyscript.readthedocs.io/en/stable/tutorial.html#writing-your-first-script) 官方例子里，pyscript可以用来代替jinja，可以代替yaml写出自动化和script。生成的service可以直接被调用
 	- [pyscript 安装教程](https://hacs-pyscript.readthedocs.io/en/stable/installation.html)  安装好后从integration中添加即可,手动安装请见https://hacs-pyscript.readthedocs.io/en/stable/installation.html
 	- [pyscript使用教程](https://bbs.hassbian.com/thread-16211-1-1.html)
-	- 语音+音乐+灯光闹钟
+	
 	- [pyscript使用教程 -pmazz/ps_hassio_entities](https://github.com/pmazz/ps_hassio_entities) Python script for Home Assistant to handle state and attributes of existing sensors and entities. Useful if you need to change a sensor's state or attribute
+	- [pyscript使用教程 -xannor/hass_py_set_state](https://github.com/xannor/hass_py_set_state) Home Assistant Python Script to force set an entity state
 
 7. 自动化篇
 	- [automation 示例代码](https://github.com/Petro31/home-assistant-config/blob/dc0827ed770f0dc2fa37d66191543e8021ee8769/scripts/zwave_js.yaml#L130) 在Home Assistant 中运行 automation 示例代码	
