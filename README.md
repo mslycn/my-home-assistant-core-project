@@ -157,6 +157,8 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 
 7. 自动化篇
 	- [automation 示例代码](https://github.com/Petro31/home-assistant-config/blob/dc0827ed770f0dc2fa37d66191543e8021ee8769/scripts/zwave_js.yaml#L130) 在Home Assistant 中运行 automation 示例代码	
+	- [automation 示例代码](https://smarthomesolver.com/reviews/20-creative-home-automation-ideas-for-2025/) 在Home Assistant 中运行 automation 示例代码	blog：20 Creative Home Automation Ideas 
+
 
 
 7. HomeAssistant创建模板实体(Template) 通过代码模拟出各种各样的智能家居设备
@@ -307,7 +309,7 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 
 
 
-12. 国内常用集成汇总
+12. 常用集成汇总
 	- [www.hasscn.top's国内常用集成汇总](https://www.hasscn.top/integrations.html)
 
  
@@ -646,8 +648,16 @@ Snapcast 是一个开源的多房间音频同步播放系统._
 	- Basic Firewall Setup
 	- [How To Install and uninstall reinstall Mysql on Ubuntu 18.04（vultr）](https://www.iaspnetcore.com/blogpost-6449555969967f028d52f122-how-to-install-and-uninstall-reinstall-mysql-on-ubuntu-1804vultr)	
 
+## c# for Home Assistant
+   - [c# NetDaemon](https://github.com/net-daemon)    Use C# to automate Home Assistant  homeassistant-addon
+   - [c# Open Hardware Monitor](https://github.com/openhardwaremonitor/openhardwaremonitor)    Use C# to monitors temperature sensors, fan speeds, voltages, load and clock speeds of a computer.
+
+
+
 - Home assistant training course
     - Home assistant online course for developers	
+
+
 
 ## 树莓派
    - [亚博 树莓派 非官方代理](https://www.yahboom.com/study/4wd-Pi)  taobao:树莓派精品销售商 https://shop101688001.taobao.com/ 
