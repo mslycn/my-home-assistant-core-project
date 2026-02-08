@@ -258,7 +258,7 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- Wi-Fi 设备（例如 Aqara 的妙控开关S1E、人在FP2  设备接入 HA 里的 HomeKit 控制器
 	- [Integrating Philips Hue Bridge with Home Assistant](https://pimylifeup.com/home-assistant-philips-hue/)  Philips Hue Bridge
 	- [Ikea]
-	- [tuya]
+	- [tuya](https://github.com/make-all/tuya-local)  tuya-local integration
 	- [terncy hub](https://github.com/rxwen/homeassistant-terncy-component)  吧网关接入ha https://github.com/rxwen/homeassistant-terncy-component
 
 11. 开源Zigbee hub接入篇(Diy Zigbee network)
