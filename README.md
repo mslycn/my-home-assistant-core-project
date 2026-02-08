@@ -215,6 +215,10 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- Facebox-在docker中运行人脸识别   
 	- [Frigate integration for Home Assistant](https://github.com/blakeblackshear/frigate-hass-integration) Frigate integration for Home Assistant
 	- [Xiaomi Miloco](https://github.com/XiaoMi/xiaomi-miloco) Xiaomi Local Copilot  project 
+	- [GPU]
+	- [TPU]
+	- [DSP]
+	- [NPU]
 9. 本地离线语音篇 stt
 	- [whisper中文语音识别服务（CPU版本]
 	- [xinnan-techxiaozhi-esp32-server](https://github.com/xinnan-tech/xiaozhi-esp32-server/pull/96/files) 增加支持home assistant语音助手,home assistant api访问令牌  https://github.com/xinnan-tech/xiaozhi-esp32-server/pull/96/files
@@ -412,6 +416,7 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- 理解Lovelace页面的结构
 	- Lovelace中的卡片
 	- 使用自定义lovelace卡片
+	- [Installing Lovelace plugin](https://github.com/thomasloven/hass-config/wiki/Lovelace-Plugins)  https://github.com/thomasloven/hass-config/wiki/Lovelace-Plugins
 21. 抓取Internet信息作为传感器
 	- 即时股票行情——使用sensor.rest
 	- 各种网站页面元素——sensor.scrape组件
@@ -510,6 +515,7 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 28. Room Presence Detection in Home Assistant
     - [https://espresense.com/](hhttps://espresense.com/ )   https://espresense.com/
     - [project ESPresense-companion](https://github.com/ESPresense/ESPresense-companion ) docker c#   https://espresense.com/
+	- [build a DIY localized presence detection sensor using the ESP32 MCU and the ESPresense firmware.](https://www.makeuseof.com/how-to-detect-room-presence/ ) How to Detect Room Presence and Automate Smart Home Devices With ESP32
 
 
 28. Multi-Room Music Solution works with home assistant 实现音乐服务器
@@ -574,6 +580,9 @@ Snapcast 是一个开源的多房间音频同步播放系统._
 	- [TrueNAS：使用Plex Media Server创建自己的“家庭媒体流服务器” - 第3部分](https://blog.csdn.net/shengbro1989/article/details/141127938)
 28. 网络附加存储
     - [Webdav](https://juejin.cn/post/7403165140718125075)   Guide:Install webdav via iis on windows 10
+	- [Create a shared folder on Windows 10](https://www.iaspnetcore.com/blogpost-693ef2c7405d3234119658ec-create-a-shared-folder-on-windows-10)   Guide:Create a shared folder on Windows 10
+	- [Add Samsung 2 TB USB 3.1 external SSD on Raspberry Pi 5](https://www.travishunter.io/posts/2025/03/setting-up-nextcloud-on-a-raspberry-pi-5/) Add Samsung 2 TB USB 3.1 external SSD on Raspberry Pi 5
+	- [Add USB硬盘盒+2TB机械硬盘 on Raspberry Pi 5](https://blog.ctommy.cn/2025/02/23/ge-ren-ji-lu-shu-mei-pai-da-jian-nextcloud-fu-wu/index.html) 
 
 ## Install ESPHome Integration
 17. DIY智能硬件ESP32篇
@@ -649,10 +658,14 @@ Snapcast 是一个开源的多房间音频同步播放系统._
 	- [How To Install and uninstall reinstall Mysql on Ubuntu 18.04（vultr）](https://www.iaspnetcore.com/blogpost-6449555969967f028d52f122-how-to-install-and-uninstall-reinstall-mysql-on-ubuntu-1804vultr)	
 
 ## c# for Home Assistant
-   - [c# NetDaemon](https://github.com/net-daemon)    Use C# to automate Home Assistant  homeassistant-addon
+   - [c# NetDaemon](https://github.com/net-daemon)    Use C# to automate Home Assistant  homeassistant-addon  Guide：https://netdaemon.xyz/docs/user/started/get_started/
    - [c# Open Hardware Monitor](https://github.com/openhardwaremonitor/openhardwaremonitor)    Use C# to monitors temperature sensors, fan speeds, voltages, load and clock speeds of a computer.
+   - [c# project ESPresense-companion](https://github.com/ESPresense/ESPresense-companion ) docker c#   https://espresense.com/
+   - [c# project HASS.Agent)](https://github.com/LAB02-Research/HASS.Agent) c#   HASS.Agent is a Windows-based client (companion) application for Home Assistant
+   - [c# Home Assistant Add-on .NET App Mqtt Project Template](https://github.com/hsakoh/ha-addon-dotnet-mqtt-project-template) c#   Project template for developing a Home Assistant add-on in C#  for Home Assistant
 
 
+   h
 
 - Home assistant training course
     - Home assistant online course for developers	
