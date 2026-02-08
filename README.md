@@ -416,7 +416,8 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- 理解Lovelace页面的结构
 	- Lovelace中的卡片
 	- 使用自定义lovelace卡片
-	- [Installing Lovelace plugin](https://github.com/thomasloven/hass-config/wiki/Lovelace-Plugins)  https://github.com/thomasloven/hass-config/wiki/Lovelace-Plugins
+	- [Installing custom Lovelace plugin](https://github.com/thomasloven/hass-config/wiki/Lovelace-Plugins)      add auto-entities via Manual Installation
+	- [lovelace-auto-entities](https://github.com/thomasloven/lovelace-auto-entities)  lovelace-auto-entities    add auto-entities via hacs
 21. 抓取Internet信息作为传感器
 	- 即时股票行情——使用sensor.rest
 	- 各种网站页面元素——sensor.scrape组件
