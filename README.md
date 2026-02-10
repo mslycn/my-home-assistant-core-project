@@ -241,12 +241,14 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- DIY智能音箱（4）——与HomeAssistant交互
 	- [Rhasspy Voice Assistant](https://rhasspy.readthedocs.io/en/latest/) it works with Hermes protocol compatible services (Snips.AI) Home Assistant and Hass.Openhub
 	- [Wyoming Satellite](https://github.com/rhasspy/wyoming-satellite) Wyoming Satellite 是一个使用 Wyoming 协议的远程语音项目，通过ESP32或类似硬件实现本地唤醒词检测和stt功能
+	- [Linux Voice Assistant](https://github.com/OHF-Voice/linux-voice-assistant)  https://github.com/OHF-Voice/linux-voice-assistant.  Linux voice assistant for Home Assistant that uses the ESPHome protocol.
 	- [Wyoming Satellite 远程语音卫星源码工作原理](https://mmssai.com/archives/4386) 远程语音智能音箱，使用Wyoming协议，进行本地唤醒词检测和音频增强，接入智能家居系统ha
-	- [基于esphome的语音助手]
+	- [基于esphome的语音助手 - ha voice PE]
 	- [Assist Microphone]() uses a local USB microphone to control Voice Assist.
 	- [Atom Echo语音助手教程](https://sumju.net/?p=9542#google_vignette)  Atom Echo语音助手 接入ha教程。
 9. 本地离线语音篇 AI
 	- [Home Assistant 接入 ChatGPT](https://tonnie17.github.io/posts/home-assistant-chatgpt/)
+	- [HA-Azure-AI-tasks](https://github.com/loryanstrant/HA-Azure-AI-tasks) A Home Assistant custom integration that facilitates AI tasks using Azure AI services.
 	- 预留	
 9. 本地离线语音篇 mcp
 	- [mcp server and mcp client](https://www.cnblogs.com/edisonchou/p/-/introduction-to-mcp-csharp-sdk)  此时与ha无关，分为客户端和服务端
