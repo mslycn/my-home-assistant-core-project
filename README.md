@@ -67,6 +67,7 @@ Several Hardware are available for building Home assistant server, catering to d
 	- [Install Raspberry Pi OS on a Raspberry PI SD-card 树莓派安装 Raspberry Pi OS 系统](https://www.msly.cn/boards/topic/2184/install-raspberry-pi-os-on-a-raspberry-pi-sd-card) - 首先，树莓派需要安装 Raspberry Pi OS 系统，教程:烧录 镜像 到sd卡
 	- [How to Upgrade Raspberry Pi OS to the Latest Version? (Debian 12,Bookworm)](https://www.matterxiaomi.com/how-to-upgrade-raspberry-pi-os-to-the-latest-version-2022) -升级 Raspberry Pi OS 系统教程:
 	- [基于树莓派安装HomeAssistant core](https://github.com/freemsly/home-assistant/blob/main/home-assisant-core-install.MD)
+	- [Install Home Assistant core on debian Server](https://blog.matterxiaomi.com/blog/install-home-assistant-core-debian-server/)  Python virtual environment + Home Assistant Core
 	- [HomeAssistant配置、文件结构、升级]
 	  - [Home Assistant Core upgrage](https://www.msly.cn/boards/topic/57/installing-home-assistant-core-on-raspberry-pi-3b/page/2#3590)
       - [HomeAssistant自启动如何配置]
@@ -214,6 +215,7 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- 微软人脸识别与验证
 	- Facebox-在docker中运行人脸识别   
 	- [Frigate integration for Home Assistant](https://github.com/blakeblackshear/frigate-hass-integration) Frigate integration for Home Assistant
+	- [https://github.com/blakeblackshear/frigate](https://github.com/blakeblackshear/frigate)  A local NVR designed for Home Assistant with AI object detection. Uses OpenCV and Tensorflow to perform realtime object detection locally for IP cameras.
 	- [Xiaomi Miloco](https://github.com/XiaoMi/xiaomi-miloco) Xiaomi Local Copilot  project 
 	- [GPU]
 	- [TPU]
@@ -226,6 +228,7 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- [docker wyoming-vosk](https://blog.matterxiaomi.com/blog/docker-vosk-1/) how to build a standalone container for vosk using the wyoming protocol. 
 	- [Docker wyoming-vosk for Home Assistant]()  github.com/mslycn
 	- [rhasspy/wyoming-speech-to-phrase](https://github.com/OHF-Voice/speech-to-phrase)	 Speech-to-phrase is targeted at lower-end hardware.
+	- [https://github.com/ptbsare/sherpa-onnx-tts-stt](https://github.com/ptbsare/sherpa-onnx-tts-stt)  
     - [yaming116/sherpa-onnx-asr]
 	- [yaming116/fun-asr]
 	- 预留	
