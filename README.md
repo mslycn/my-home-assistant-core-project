@@ -221,7 +221,7 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- [TPU]
 	- [DSP]
 	- [NPU]
-9. 本地离线语音篇 stt
+9. 本地离线语音篇 stt asr
 	- [whisper中文语音识别服务（CPU版本]
 	- [xinnan-techxiaozhi-esp32-server](https://github.com/xinnan-tech/xiaozhi-esp32-server/pull/96/files) 增加支持home assistant语音助手,home assistant api访问令牌  https://github.com/xinnan-tech/xiaozhi-esp32-server/pull/96/files
 
@@ -231,6 +231,9 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- [https://github.com/ptbsare/sherpa-onnx-tts-stt](https://github.com/ptbsare/sherpa-onnx-tts-stt)  
     - [yaming116/sherpa-onnx-asr]
 	- [yaming116/fun-asr]
+	- [doubaoime-asr](https://github.com/starccy/doubaoime-asr)  基于 doubaoime-asr 的语音识别服务,Wyoming 协议
+	- [Sherpa-Onnx-STT-RKNPU](https://github.com/JochenZhou/home-assistant-addons/blob/main/sherpa_onnx_stt_rknpu)  基于 sherpa-onnx 的 RK3566/RK3588 NPU 加速语音识别服务的语音识别服务,Wyoming 协议
+
 	- 预留	
 9. 本地离线语音篇 stt projects that use Vosk
 	- [docker wyoming-vosk](https://blog.matterxiaomi.com/blog/docker-vosk-1/)  A standalone container for vosk using the wyoming protocol. for home assistant docker
