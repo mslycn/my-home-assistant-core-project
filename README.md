@@ -401,6 +401,8 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
     - [MQTT服务器接入Home Assistant和.NET程序](https://blog.csdn.net/farway000/article/details/142548023) 搭建EMQX MQTT服务器并接入Home Assistant和.NET程序
 	- [Home Assistant MQTT消息通信核心机制详解](https://blog.csdn.net/gitblog_00007/article/details/151844405)   Home Assistant MQTT协议：智能家居消息通信核心机制详解
 
+	- [OpenMQTTGateway](https://github.com/1technophile/OpenMQTTGateway)   [Home Assistant MQTT协议：智能家居消息通信核心机制详解](https://github.com/1technophile/OpenMQTTGateway)
+
 
 18. 成为HomeAssistant开发者
 	- 组件的工作原理
@@ -611,11 +613,19 @@ Snapcast 是一个开源的多房间音频同步播放系统._
 	- [ESP32 SIM800L](https://randomnerdtutorials.com/esp32-sim800l-send-text-messages-sms/) ESP32 SIM800L: Send Text Messages (SMS Alert) with Sensor Readings
 	- [esphome制作零火智能开关](https://blog.csdn.net/zuobianfy/article/details/118432775) esphome制作零火智能开关,esp01s继电器一个
 	- [Touch Screen Controller](https://esphome.io/components/touchscreen/tt21100.html) Touch Scr	
-
-	- [使用XIAO ESP32C6 Zigbee 连接继电器控制HomeAssistant中的单色LED条](https://www.21ic.com/a/983542.html)	XIAO ESP32C6 Zigbee固件 接入 HomeAssistant connect ZBT-1
-18. 成为ESPHome开发者
-	- [POE Bluetooth Proxy and ESPHome](https://smlight.tech/manual/slzb-06/guide/bluetooth-proxy/)  SLZB-06x utilize ESP32 chip so can be used as a ESPHome Bluetooth proxy adapter for Home Assistant
 	- [用ESPHome烧录固件到合宙ESP32-C3并接入HomeAssistant](https://blog.csdn.net/sinat_15906013/article/details/147806199)  SLZB-06x utilize ESP32 chip so can be used as a ESPHome Bluetooth proxy adapter for Home Assistant
+    - [使用XIAO ESP32C6 Zigbee 连接继电器控制HomeAssistant中的单色LED条](https://www.21ic.com/a/983542.html)	XIAO ESP32C6 Zigbee固件 接入 HomeAssistant connect ZBT-1
+
+	- [esphome bluetooth-proxies](https://github.com/esphome/bluetooth-proxies)	https://github.com/esphome/bluetooth-proxies
+	- [esphome home-assistant-voice-pe](https://github.com/esphome/home-assistant-voice-pe)	https://github.com/esphome/home-assistant-voice-pe
+	- [esphome esp32-s3-box-3](https://github.com/esphome/wake-word-voice-assistants/tree/main/esp32-s3-box-3)	https://github.com/esphome/wake-word-voice-assistants/tree/main/esp32-s3-box-3
+	
+	- [esphome ESPresense](https://github.com/ESPresense/ESPresense)	https://github.com/ESPresense/ESPresense
+
+18. 成为ESPHome开发者
+	- [ESPHome docker](https://github.com/esphome/esphome)  install esphome docker 
+	- [POE Bluetooth Proxy and ESPHome](https://smlight.tech/manual/slzb-06/guide/bluetooth-proxy/)  SLZB-06x utilize ESP32 chip so can be used as a ESPHome Bluetooth proxy adapter for Home Assistant
+	
 
 
 - 精彩众创教程
