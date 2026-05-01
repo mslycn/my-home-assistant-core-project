@@ -53,6 +53,24 @@ Home Assistant远程管理详细教程
 
 Several Hardware are available for building Home assistant server, catering to different needs and levels of control.
 
+Option 1:
+
+一个 rpi5 跑 HA
+
+一个 Sonoff ZBDongle-E / MG24 跑 Thread : Silicon Labs MG24（EFR32MG24）方案 + 社区固件 + 即插即用
+
+一个 Dongle-P 跑 Zigbee
+
+option 2:
+
+一个 rpi5 跑 HA
+
+一个 Home Assistant Connect ZBT-2 跑 Thread : Silicon Labs MG24（EFR32MG24）方案 + 官方固件 + 即插即用
+
+一个 Dongle-P 跑 Zigbee
+
+
+
 
 ## Choosing the right Install Type
 
@@ -121,7 +139,7 @@ Several Hardware are available for building Home assistant server, catering to d
 
 Learn to install Docker properly on Raspberry Pi OS in this tutorial.	
 
-3. 组件接入基础篇
+3. Device Integration - 组件接入基础篇
 	- [让设备发声——朗读文字 小度音箱]         edge tts
 	- [让设备发声——朗读文字 小爱player]
 	- [让设备发声——朗读文字 小爱pro老版]      edge tts
@@ -131,9 +149,18 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- 让设备看到——使用手机摄像头做监控
 	- 接入硬件产品——小米多功能网关
 	- 接入自定义组件-和风天气
-	- [接入Logitech media server](#)
-	- [Plex Media Server]
-	- [Spotify Connect]
+	- [OpenAI GPT-4o Mini TTS ](https://github.com/wifiuk/OpenAI-GPT-4o-Mini-TTS-Home-Assistant-Integration) Home Assistant custom integration that exposes OpenAI's GPT-4o Mini text-to-speech API as a TTS provider. 
+
+3. Vacumm integration
+   - [ecovacs offcical deebot MCP Server](https://open.ecovacs.com/#/serviceOverview)	A control server that enables AI assistants to interact with Ecovacs robot vacuums through MCP protocol, supporting device listing, cleaning control, charging control, and status queries.
+   - [way 1.ecovacs offcical deebot MCP Server + Ecovacs CN Domestic integration](https://github.com/hoangminh1109/ecovacs_cn)	a custom Home Assistant integration developed via mcp server api
+   - [way 2.ecovacs offcical deebot MCP Server + LLM]()	MCP server + AI（Claude for Desktop）
+   - [way 3.bumper Server + offcical ecovacs home app](https://bumper.readthedocs.io/en/latest/)	a self-hosted local API.A client that can connect to Bumper and talk to the robot over the Ecovacs protocol.
+   - [ecovacs offcical skills ecovacs-robot-control-en](https://open.ecovacs.com/#/skill/plaza/ecovacs-robot-control-en)	https://open.ecovacs.com/#/skill/plaza/ecovacs-robot-control-ena Library for running Ecovacs Deebot (and also some yeedi) vacuum cleaner robots
+   - [ecovacs-deebot.js](https://github.com/mrbungle64/ecovacs-deebot.js)	Control Ecovacs Deebot robot vacuums via the Ecovacs Open Platform AK and a gateway (/robot/skill/*).
+   - [ecovacs](https://www.bjoerns-techblog.de/2024/02/deebot-in-home-assistant-einbinden/)	blog:a Script via variable
+   - [ecovacs](https://github.com/orgs/home-assistant/discussions/803)	blog:a configuration.yaml and ui,Script via variable
+
 4. 操作进阶篇   
     - 设置地理位置与界面语言
 	- 实体显示属性自定义
@@ -206,7 +233,7 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- 有线树莓派CSI与USB摄像头
 	- 小米的大方摄像头
 	- 天气预报与交通状况图——另类摄像头
-9. 本地AI摄像头-人脸识别篇
+9. AI - 本地AI摄像头-人脸识别篇
     - [Reolink RLC-810A AI camera with local Person & Vehicle detection](http://localhost:4999/boards/topic/48305/reolink-rlc-810a-ai-camera-with-local-person-vehicle-detection)  connect Reolink RLC-810A AI camera to home assistant
 	- DLib配置与pip安装
 	- 本地DLib人脸探测
@@ -217,11 +244,14 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- [Frigate integration for Home Assistant](https://github.com/blakeblackshear/frigate-hass-integration) Frigate integration for Home Assistant
 	- [https://github.com/blakeblackshear/frigate](https://github.com/blakeblackshear/frigate)  A local NVR designed for Home Assistant with AI object detection. Uses OpenCV and Tensorflow to perform realtime object detection locally for IP cameras.
 	- [Xiaomi Miloco](https://github.com/XiaoMi/xiaomi-miloco) Xiaomi Local Copilot  project 
+	- [LLM Vision Integration]
+	- [OpenAI Vision Integration]
+	- [Frigate integration for Home Assistant](https://github.com/blakeblackshear/frigate-hass-integration) Frigate integration for Home Assistant
 	- [GPU]
 	- [TPU]
 	- [DSP]
 	- [NPU]
-9. 本地离线语音篇 stt asr
+9. Dokcer Integration - 本地离线语音篇 stt asr
 	- [whisper中文语音识别服务（CPU版本]
 	- [xinnan-techxiaozhi-esp32-server](https://github.com/xinnan-tech/xiaozhi-esp32-server/pull/96/files) 增加支持home assistant语音助手,home assistant api访问令牌  https://github.com/xinnan-tech/xiaozhi-esp32-server/pull/96/files
 
@@ -252,13 +282,29 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- [基于esphome的语音助手 - ha voice PE]
 	- [Assist Microphone]() uses a local USB microphone to control Voice Assist.
 	- [Atom Echo语音助手教程](https://sumju.net/?p=9542#google_vignette)  Atom Echo语音助手 接入ha教程。
-9. 本地离线语音篇 AI
+9. AI - 云模型语音篇 
 	- [Home Assistant 接入 ChatGPT](https://tonnie17.github.io/posts/home-assistant-chatgpt/)
+
 	- [HA-Azure-AI-tasks](https://github.com/loryanstrant/HA-Azure-AI-tasks) A Home Assistant custom integration that facilitates AI tasks using Azure AI services.
+	- [GitHub Models + Extended OpenAI Conversation integration](https://github.com/jekalmin/extended_openai_conversation) Endpoint：https://models.inference.ai.azure.com
+	- [Azure Model + Azure OpenAI Conversation Custom Integration](https://github.com/joselcaguilar/azure-openai-ha) 按 token 计费.使用集成，hAzure OpenAI Conversation Custom Integration for Home Assistant		
+	- [GitHub Copilot Home Assistant Integration](https://tserra30.github.io/Github-Copilot-SDK-integration/)  This integration provides a conversation agent powered by the GitHub Copilot SDK and Copilot CLI, enabling voice assistants and AI-powered tasks.	
 	- 预留	
-9. 本地离线语音篇 mcp
+9. AI - 本地离线语音篇 mcp
 	- [mcp server and mcp client](https://www.cnblogs.com/edisonchou/p/-/introduction-to-mcp-csharp-sdk)  此时与ha无关，分为客户端和服务端
+	- [ha-mcp](https://github.com/homeassistant-ai/ha-mcp)  https://github.com/homeassistant-ai/ha-mcp	
+9. AI - Local AI Voice Assistants (Software) LLM AI
+	- [Home LLM](https://github.com/acon96/home-llm)  A Home Assistant integration & Model to control your smart home using a Local LLM
+	- [Lite LLM]		
+	- [Ollama]	A open-source tool for running large language models locally
+	- [Ollama](https://bbs.hassbian.com/thread-24618-1-1.html)	windows下wsl2 里docker容器部署例子
+	- [LocalAI]	A open-source tool for running large language models locally and is compatible with OpenAI API specifications.
+	- [LM Studio]	A desktop application for running local models.			
+	- [llama.cpp]()
+	- [vLLM](https://docs.vllm.ai/en/latest/)
+
 	- 预留			
+
 
 10. Brand ZigBee网关设备接入篇（2）
 	- [Aqara Gateway 集成子设备接入 HA](https://community.aqara.com/pc/#/post/postDetail/1045)
@@ -299,8 +345,10 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- 苹果设备语音控制全自由定制
 	- [esp-homekit-devices](https://github.com/RavenSystem/esp-homekit-devices)
 	- [c# Homekit.Net](https://www.cnblogs.com/hezp/p/18142099) 通过c#代码模拟出各种各样的智能家居设备，并添加到苹果手机的家庭app中
-11. 手机接入篇 消息通知  短信 消息到手机 ha app
-	- [中移ML307R模块]() 购买链接：https://item.taobao.com/item.htm?ft=t&id=795927858234
+11. 手机接入篇 - Message 消息通知  短信 消息到手机 ha app
+    - [SIM800（2G）]
+	- [4G-Module - A7682E]  A7682E = SIM800（2G）的4G升级版;A7682E 是 SIMCom（芯讯通） 的 4G 模块
+	- [4G-Module - 中移ML307R模块](https://github.com/trah01/msg_forward/blob/c26114965b6c54db7bd7303123b991ae2e91d3e3/esphome%EF%BC%88testing%2Cdon't%20use%EF%BC%89/README.md?plain=1#L21)   esphome 源码 购买链接：https://item.taobao.com/item.htm?ft=t&id=795927858234
 	- [GSM-modem Integration]()  you can explore the SMS notification via GSM-modem integration in Home Assistant to directly send messages to your Home Assistant instance
 	- [List of USB GSM stick modem or device](https://www.home-assistant.io/integrations/sms/#required-hardware) USB GSM stick modem or device like SIM800L v2 connected via USB UART.
 	- 将消息发送给你的邮箱     send an email
@@ -309,6 +357,7 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- 捷径与HA的接口调用
 	- 苹果设备语音控制全自由定制
 	- [把android手机变成dlna音箱]	  安装airpin u apk
+	- [sip integration](https://github.com/arnonym/ha-plugins)  https://github.com/arnonym/ha-plugins  需选择一个sip平台，并注册账号
 12. Midea 接入篇
 
 12. haier 接入篇
@@ -370,17 +419,21 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- [树莓派配置mDNS服务 Avahi](http://localhost:4999/boards/topic/21933/%E4%B8%BA%E6%A0%91%E8%8E%93%E6%B4%BE%E9%85%8D%E7%BD%AEmdns%E6%9C%8D%E5%8A%A1-avahi)  http://localhost:4999/boards/topic/21933/%E4%B8%BA%E6%A0%91%E8%8E%93%E6%B4%BE%E9%85%8D%E7%BD%AEmdns%E6%9C%8D%E5%8A%A1-avahi
 	- [Part 1 - Matter Server in Home Assistant](https://blog.matterxiaomi.com/blog/Matter-Home-Assistant-part1/)
 	- [Part 5 - Install Matter Server using docker image via docker run](https://blog.matterxiaomi.com/blog/matter-home-assistant-part5/)
+	- [Matter.js Server in Docker for home assistant](https://github.com/matter-js/matterjs-server)  new 
     - [matter设备配网流程工作原理图文解释 ](http://www.chinasem.cn/article/349653)  三种配对方式流程介绍
 	- [matter设备配网流程工作原理 三个阶段 ](https://blog.csdn.net/m0_46411607/article/details/131564958)
 	- [matter设备配网流程工作原理 源码级别 ](https://www.cnblogs.com/youhui/p/18715676)
 
-## Install  OTBR Integration
+## Install  OTBR Integration - matter over thread
 14. Installing Open Thread Border Router for for Home Assistant Core
 	- [options OTBR devices for Home Assistant Core](https://community.home-assistant.io/t/choosing-the-right-thread-radio-thread-border-router/824676?u=msly) - 
 	- [Notes on implementing Matter](https://community.home-assistant.io/t/notes-on-implementing-matter/423484)
 	- [SkyConnect - silabs multiprotocol and docker](https://community.home-assistant.io/t/skyconnect-silabs-multiprotocol-and-docker/526779)  This solution takes an HA OTBR AddOn and modifies it to run as a stand-alone Docker container
-	- [SLZB-06](https://smlight.tech/manual/slzb-06/guide/thread-matter/)
-	- [SONOFF Dongle-E]
+	- [Home Assistant Connect ZBT-2 - silabs multiprotocol and docker](https://www.home-assistant.io/integrations/homeassistant_connect_zbt2/)  
+	- [SONOFF Dongle-E MG24] MG24 + usb + Thread
+	- [SLZB-06 （Ethernet PoE）](https://smlight.tech/manual/slzb-06/guide/thread-matter/)   MG24 + 网线 + Thread
+	- [SLZB-07](https://smlight.tech/manual/slzb-06/guide/thread-matter/)   SLZB-06 升级版，更强天线；MG24 + 网线 + Thread
+	
 	- [a Stable Matter over Thread Network](https://www.derekseaman.com/2024/09/essential-tips-for-a-stable-matter-over-thread-network.html)
 	- [https://openthread.google.cn/guides/border-router/build?hl=zh-cn](https://openthread.google.cn/guides/border-router/build?hl=zh-cn)  penThread 边界路由器构建和配置
 	- [Make Apple TV 4K (3rd Gen) as a Thread Border Router in Home Assistant as the preferred network](https://community.home-assistant.io/t/apple-tv-as-thread-border-router-not-adding-to-preferred-network/847644) 
@@ -394,7 +447,8 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- [https://github.com/t0bst4r/home-assistant-matter-hub](https://github.com/t0bst4r/home-assistant-matter-hub)  This project simulates bridges to publish your entities from Home Assistant to any Matter-compatible controller like Alexa, Apple Home or Google Home.
 15. 树莓派GPIO口设备连接篇
 	- 直连树莓派的LED(1)——NodeRED接入/HA中rpi_gpio_pwm组件
-	- 直连树莓派的LED(2)——HA 中的shell_command/binary_sensor.command_line/light.template
+	- 直连树莓派的LED(2)——HA 中的shell_command/binary_sensor.command_line/light.template  
+
 	- 直连树莓派的温湿度传感器
 16. MQTT Integration篇
 	- [服务器安装EMQX](https://blog.csdn.net/weixin_43808708/article/details/145711960)
@@ -483,11 +537,17 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- 硬件制作(3)——元器件与焊接
 	- [博联设备 via Broadlink Integration](https://www.cnblogs.com/softlin/p/16511684.html)	
 	- [Broadlink RM4 Pro -Remote: Learn command](https://www.bazmac.me/blog/using-broadlink-rm4-pro-with-home-assistant)	Broadlink RM4 Pro guide: 
-28. API
-	- RHTTP API     API服务提供商都会有一个使用政策，规定如何合法地使用他们的API服务。用户需要遵守这些政策，注册账户，并获取API密钥
-	- RESTful API 
-	- Websocket API 实现服务器与客户端之间的实时双向通信，可以用来推送最新信息到用户界面.
+28. API - endpoints exposed
+	- [Home Assistant API](https://www.home-assistant.io/integrations/api/)     API服务提供商都会有一个使用政策，规定如何合法地使用他们的API服务。用户需要遵守这些政策，注册账户，并获取API密钥
+	- [Home Assistant WebSocket API](https://www.home-assistant.io/integrations/websocket_api/) Websocket API 实现服务器与客户端之间的实时双向通信，可以用来推送最新信息到用户界面.
+	- [webhook api]
 ## Home Assistant Remote access
+- Home Assistant Remote access - The Possible Solutions
+	- [Securing Home Assistant with Cloudflare Zero Trust](https://empty.coffee/home-assistant-cloudflare-zero-trust-setup/)  Cloudflare Add-on
+	- [内网穿透]   tools:frp ，Cloudflared隧道
+	- [Tailscale]( ) WireGuard-based
+	- [Python虚拟环境]
+
 29. Home Assistant Remote access - frp
 	- [buy a domain from www.namesilo.com ](https://www.iaspnetcore.com/Blog/BlogPost/5eb9e65e775d020216dbe009/wwwnamesilo-operation-manual-for-com-registration-and-domain-name-purchase)
 	- [buy a vps server from vultr]()
@@ -506,16 +566,13 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- 申请Amazon免费云主机
 	- [buy a domain from www.namesilo.com](https://www.iaspnetcore.com/Blog/BlogPost/5eb9e65e775d020216dbe009/wwwnamesilocom-registration-and-domain-name-purchase-operation-manual)
 	- frp隧道构建
+	- Cloudflared隧道构建                The Cloudflared add-on requires a Cloudflare account and uses named tunnels.
 	- 免费为HA配上域名与HTTPS网站证书
 	- nginx代理
 	- [Install Let’s Encrypt Client Certbot](https://www.iaspnetcore.com/blogpost-619a0dbd5b26cb0202ae5bf1-how-to-secure-nginx-with-lets-encrypt-on-ubuntu-1804vultr#mcetoc_1g3p82cte53) - 666
 	- [Let’s Encrypt Client certbot验证域名所有权](https://www.iaspnetcore.com/Blog/BlogPost/5c2874c21d51ae0eec5ece63/the-type-verification-and-certbot-client-type-of-free-certificate-for-total-station-deployment-https-4-lets-encrypt)	- 本文描述用standalone 方式： certbot 自己运行一个 web server 来进行验证域名所有权后生成证书		
     
-- Home Assistant Remote access - The Possible Solutions
-	- [Securing Home Assistant with Cloudflare Zero Trust](https://empty.coffee/home-assistant-cloudflare-zero-trust-setup/)  Cloudflare Add-on
-	- []
-	- [Tailscale]( ) WireGuard-based
-	- [Python虚拟环境]
+
 - 加餐
 	- 使用TensorFlow进行物体识别
 	- 使用NFC识别不同的ID卡
@@ -553,8 +610,9 @@ Snapcast 是一个开源的多房间音频同步播放系统._
 	- [Music Assistant Server-Add Player Provider](https://alshowto.com/add-multi-room-to-home-assistant/)  Add Player Provider(squeezelite)
 	- [Spotify Connect] Spotify Connect is a feature that allows you to stream music from Spotify to compatible devices (like speakers, TVs, or gaming consoles) over Wi-Fi or a local network, using your phone, tablet, or computer as a remote control. 
 	- [picoreplayer](https://www.picoreplayer.org/)
-**Recommended hardware for multi room audio**
- 
+	- [接入Logitech media server](#)
+	- [Plex Media Server]
+	- [Spotify Connect]
     - [Set Up Windows 10 as DLNA Renderer]   Intall Kodi,vlc as DLNA Renderer
 28. 影音系统	实现影音服务器
 	- [树莓派 Raspberry Pi 安装 Kodi 影音系统](https://zhuanlan.zhihu.com/p/364985735)   安装LibreElec系统
