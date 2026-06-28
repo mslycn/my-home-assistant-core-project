@@ -155,7 +155,7 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
    - [ecovacs offcical deebot MCP Server](https://open.ecovacs.com/#/serviceOverview)	A control server that enables AI assistants to interact with Ecovacs robot vacuums through MCP protocol, supporting device listing, cleaning control, charging control, and status queries.
    - [way 1.ecovacs offcical deebot MCP Server + Ecovacs CN Domestic integration](https://github.com/hoangminh1109/ecovacs_cn)	a custom Home Assistant integration developed via mcp server api
    - [way 2.ecovacs offcical deebot MCP Server + LLM]()	MCP server + AI（Claude for Desktop）
-   - [way 3.bumper Server + offcical ecovacs home app](https://bumper.readthedocs.io/en/latest/)	a self-hosted local API.A client that can connect to Bumper and talk to the robot over the Ecovacs protocol.
+   - [way 3.bumper Server(Self-hosted) + offcical ecovacs home app](https://bumper.readthedocs.io/en/latest/)	a self-hosted local API.A client that can connect to Bumper and talk to the robot over the Ecovacs protocol.
    - [ecovacs offcical skills ecovacs-robot-control-en](https://open.ecovacs.com/#/skill/plaza/ecovacs-robot-control-en)	https://open.ecovacs.com/#/skill/plaza/ecovacs-robot-control-ena Library for running Ecovacs Deebot (and also some yeedi) vacuum cleaner robots
    - [ecovacs-deebot.js](https://github.com/mrbungle64/ecovacs-deebot.js)	Control Ecovacs Deebot robot vacuums via the Ecovacs Open Platform AK and a gateway (/robot/skill/*).
    - [ecovacs](https://www.bjoerns-techblog.de/2024/02/deebot-in-home-assistant-einbinden/)	blog:a Script via variable
@@ -215,7 +215,7 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- 云端的自动化——IFTTT(2)
 	- 系统性能监控——SystemMonitor
 8. PC接入篇
-	- [HASS.Agent](https://github.com/mslycn/HASS.Agent) c#
+	- [HASS.Agent](https://github.com/mslycn/HASS.Agent) c#   https://github.com/hass-agent/HASS.Agent
 	- PC RTSP协议摄像头与ffmpeg
 	- PC ONVIF协议摄像头
 	- PC 麦克风
@@ -225,6 +225,8 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 8. Player Providers - DLNA
     - [Android手机DLNA]   Android手机：全功能DLNA：安装MirageDLNA
 	- [PC DLNA Media Renderer](http://localhost:4999/boards/topic/21966) 	Kodi DLNA Media Renderer on pc.Windows Media Player ,Install VLC Media Player,Install Kodi
+	- [PC Windows Media Player + HA DLNA Integration](http://localhost:4999/boards/topic/21966) 	Windows Media Player
+	- [PC VLC Media Player + HA vlcIntegration](http://localhost:4999/boards/topic/21966) 	Install VLC Media Player
 
 8. 各种摄像头接入篇
 	- 支持MJPEG的摄像头与图片抓取
@@ -323,6 +325,7 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- [SONOFF Zigbee 3.0 USB Dongle Plus Gateway]()  use a Sonoff Zigbee stick for mine and it works well and is as plug and play as anything. where to buy? https://www.amazon.com/SONOFF-Gateway-Universal-Assistant-Wireless/dp/B09KXTCMSC
 	- [SONOFF Zigbee 3.0 USB Dongle Plus V2]
 	- [Home Assistant 基于EZSP Zigbee Dongle创建Zigbee智能家居系统](https://www.smartlabs.cn/home-assistant-%e5%9f%ba%e4%ba%8eezsp-zigbee-dongle%e5%88%9b%e5%bb%bazigbee%e6%99%ba%e8%83%bd%e5%ae%b6%e5%b1%85%e7%b3%bb%e7%bb%9f/)  zigbee zha
+	- [https://dongle.sonoff.tech/guide/zbdongle-p/introduction-2/](https://dongle.sonoff.tech/guide/zbdongle-p/introduction-2/)  https://dongle.sonoff.tech/guide/zbdongle-p/introduction-2/
 9. aqara设备接入篇(2)    
 	- [aqara hub M1s](https://www.msly.cn/boards/topic/5278/aqara-gatewayhub-g2h-m1s-cn-p3-cn-m2-cn-h1-cn-e1-cn-g3-cn-g2h-pro-integration-for-home-assistant#18735)
 	
@@ -336,6 +339,11 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- 将消息发送给你的邮箱
 	- 接入硬件产品——小米多功能网关
 	- 接入自定义组件-和风天气 
+
+10. Yeelight pro hub 接入Home assistant
+	- [https://github.com/hasscc/yeelight-pro](https://github.com/hasscc/yeelight-pro)  首选
+	- [https://github.com/Yeelight/ha_yeelight_pro](https://github.com/Yeelight/ha_yeelight_pro)
+	- [https://github.com/ethan-z11/Yeelight_Pro/tree/main](https://github.com/ethan-z11/Yeelight_Pro/tree/main)
 	
 11. 使用苹果设备语音控制篇
 	- 通过Homekit与苹果Siri连接(1)
