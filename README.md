@@ -322,8 +322,8 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
     - [How to add support for new and unsupported devices zha](https://www.home-assistant.io/integrations/zha/#how-to-add-support-for-new-and-unsupported-devices)	How to add unsupported Zigbee devices to Home Assistant.	
 	- [connect-zbt1 z2m](https://blog.csdn.net/feilusia/article/details/145135102)
 	- [connect-zbt1 Zigbee2MQTT](https://neiltw.com/how-to-use-zigbee2mqtt-to-intergrate-zigbee-devices-in-home-assistant)	
-	- [SONOFF Zigbee 3.0 USB Dongle Plus Gateway]()  use a Sonoff Zigbee stick for mine and it works well and is as plug and play as anything. where to buy? https://www.amazon.com/SONOFF-Gateway-Universal-Assistant-Wireless/dp/B09KXTCMSC
-	- [SONOFF Zigbee 3.0 USB Dongle Plus V2]
+	- [SONOFF Zigbee 3.0 USB Dongle Plus Gateway]()  use a Sonoff Zigbee stick for mine and it works well and is as plug and play as anything. where to buy? https://www.amazon.com/SONOFF-Gateway-Universal-Assistant-Wireless/dp/B09KXTCMSC  CC2652P
+	- [SONOFF Zigbee 3.0 USB Dongle Plus V2] model "ZBDongle-E" EFR32MG21
 	- [Home Assistant 基于EZSP Zigbee Dongle创建Zigbee智能家居系统](https://www.smartlabs.cn/home-assistant-%e5%9f%ba%e4%ba%8eezsp-zigbee-dongle%e5%88%9b%e5%bb%bazigbee%e6%99%ba%e8%83%bd%e5%ae%b6%e5%b1%85%e7%b3%bb%e7%bb%9f/)  zigbee zha
 	- [https://dongle.sonoff.tech/guide/zbdongle-p/introduction-2/](https://dongle.sonoff.tech/guide/zbdongle-p/introduction-2/)  https://dongle.sonoff.tech/guide/zbdongle-p/introduction-2/
 9. aqara设备接入篇(2)    
