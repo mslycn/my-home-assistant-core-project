@@ -140,6 +140,7 @@ option 2:
 Learn to install Docker properly on Raspberry Pi OS in this tutorial.	
 
 3. Device Integration - 组件接入基础篇
+    - [HA内置集成源代码](https://github.com/home-assistant/core/tree/dev/homeassistant/components)  https://github.com/home-assistant/core/tree/dev/homeassistant/components
 	- [让设备发声——朗读文字 小度音箱]         edge tts
 	- [让设备发声——朗读文字 小爱player]
 	- [让设备发声——朗读文字 小爱pro老版]      edge tts
@@ -265,6 +266,7 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- [yaming116/fun-asr]
 	- [doubaoime-asr](https://github.com/starccy/doubaoime-asr)  基于 doubaoime-asr 的语音识别服务,Wyoming 协议
 	- [Sherpa-Onnx-STT-RKNPU](https://github.com/JochenZhou/home-assistant-addons/blob/main/sherpa_onnx_stt_rknpu)  基于 sherpa-onnx 的 RK3566/RK3588 NPU 加速语音识别服务的语音识别服务,Wyoming 协议
+	- [Qwen3-ASR](https://gist.github.com/tannisroot/5b0f1aee5d0554970bc22cf16e5bf594)  基于 Qwen3-ASR
 
 	- 预留	
 9. 本地离线语音篇 stt projects that use Vosk
@@ -304,6 +306,9 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- [LM Studio]	A desktop application for running local models.			
 	- [llama.cpp]()
 	- [vLLM](https://docs.vllm.ai/en/latest/)
+
+ 9. AI - Cloud AI Voice Assistants (Software) LLM AI
+	- [LLM 通义千问 API Key](https://github.com/zlccccc/HomeAssistant-LLM-Analysis)    https://github.com/zlccccc/HomeAssistant-LLM-Analysis,通义千问 API Key
 
 	- 预留			
 
@@ -587,6 +592,7 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- ESPHome中的自动化
 	- 制作树莓派镜像文件(1)
 	- 制作树莓派镜像文件(2)
+	- [节假日集成(中国节假日)](https://github.com/Crazysiri/chineseholiday)   含农历，https://github.com/Crazysiri/chineseholiday
 
 28. Room Presence Detection in Home Assistant
     - [https://espresense.com/](hhttps://espresense.com/ )   https://espresense.com/
