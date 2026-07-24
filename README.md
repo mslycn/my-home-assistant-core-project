@@ -15,7 +15,7 @@
 
 https://github.com/mslycn/my-home-assistant-core-project
 
-# Beginners guide to use smart devicesgit with HomeAssistant
+# Beginners guide to use smart devices with HomeAssistant
 
 从零开始搭建一套HomeAssistant智能家居系统
 
