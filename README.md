@@ -661,6 +661,8 @@ Snapcast 是一个开源的多房间音频同步播放系统._
 	- [安装TrueNAS服务器–第1部分](https://blog.csdn.net/shengbro1989/article/details/140666451)	虚拟机64bit安装TrueNAS ISO（网络附加存储）教程 –第1部分
     - [如何在TrueNAS中配置ZFS存储和NFS共享 - 第2部分](https://blog.csdn.net/shengbro1989/article/details/140952943?spm=1001.2101.3001.10752)
 	- [TrueNAS：使用Plex Media Server创建自己的“家庭媒体流服务器” - 第3部分](https://blog.csdn.net/shengbro1989/article/details/141127938)
+28. NAS - OpenMediaVault(OMV)
+	- [从零搭建OpenMediaVault(OMV)开源NAS系统：VMware虚拟机部署+SMB共享全攻略](https://www.cnblogs.com/mq0036/p/19596091)	虚拟机64bit安装TOpenMediaVault(OMV) ISO（
 28. 网络附加存储
     - [Webdav](https://juejin.cn/post/7403165140718125075)   Guide:Install webdav via iis on windows 10
 	- [Create a shared folder on Windows 10](https://www.iaspnetcore.com/blogpost-693ef2c7405d3234119658ec-create-a-shared-folder-on-windows-10)   Guide:Create a shared folder on Windows 10
