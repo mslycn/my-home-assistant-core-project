@@ -30,3 +30,33 @@
 风速越来越小
 避免压缩机频繁启停
 ~~~
+
+
+configuration.yaml
+
+~~~
+climate:
+  - platform: broadlink
+    name: Vaillant AC
+    host: IP address of the Broadlink device
+    mac: 'MAC address of the Broadlink device'
+    ircodes_ini: 'broadlinkcodes/vaillant.ini' #path of the .ini file
+    min_temp: 18
+    max_temp: 25
+    target_temp: 23
+    target_temp_step: 1
+    temp_sensor: sensor.your_temperature_sensor #entity_id of your temperature sensors
+    default_operation: idle
+    default_fan_mode: low
+    customize:
+      operations:
+        - idle
+        - cool
+      fan_modes:
+        - low
+        - mid
+        - high
+
+~~~
+
+see:https://github.com/mario-g0/HA-climate-vaillant/blob/master/configuration.yaml

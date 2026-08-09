@@ -344,7 +344,6 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- 将消息发送给你的邮箱
 	- 接入硬件产品——小米多功能网关
 	- [接入自定义组件-和风天气]()
-	- [小米中枢网关接入Home Assistant Core专业实战教程（mi home app + Xiaomi Miot Auto Integration）](https://zhuanlan.zhihu.com/p/552370350)
 	- 将消息发送给你的邮箱
 	- 接入硬件产品——小米多功能网关
 	- 接入自定义组件-和风天气 
@@ -353,6 +352,7 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- [https://github.com/hasscc/yeelight-pro](https://github.com/hasscc/yeelight-pro)  首选
 	- [https://github.com/Yeelight/ha_yeelight_pro](https://github.com/Yeelight/ha_yeelight_pro)
 	- [https://github.com/ethan-z11/Yeelight_Pro/tree/main](https://github.com/ethan-z11/Yeelight_Pro/tree/main)
+	- [小米中枢网关接入Home Assistant Core专业实战教程（xiaomi home app + Xiaomi Miot Auto Integration）](https://zhuanlan.zhihu.com/p/552370350)
 	
 11. 使用苹果设备语音控制篇
 	- 通过Homekit与苹果Siri连接(1)
@@ -554,6 +554,8 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- 硬件制作(3)——元器件与焊接
 	- [博联设备 via Broadlink Integration](https://www.cnblogs.com/softlin/p/16511684.html)	
 	- [Broadlink RM4 Pro -Remote: Learn command](https://www.bazmac.me/blog/using-broadlink-rm4-pro-with-home-assistant)	Broadlink RM4 Pro guide: 
+	- [博联设备 via Broadlink Integration - make climate](https://github.com/mario-g0/HA-climate-vaillant/blob/master/configuration.yaml)	 https://github.com/mario-g0/HA-climate-vaillant/blob/master/configuration.yaml  
+	- [Daikin AC, Home Assistant and Local control](https://guy-evans.com/posts/2024-10-09_daikin-ac-home-assistant-and-local-control/)	 https://guy-evans.com/posts/2024-10-09_daikin-ac-home-assistant-and-local-control/  大金空调加装控制芯片
 28. API - endpoints exposed
 	- [Home Assistant API](https://www.home-assistant.io/integrations/api/)     API服务提供商都会有一个使用政策，规定如何合法地使用他们的API服务。用户需要遵守这些政策，注册账户，并获取API密钥
 	- [Home Assistant WebSocket API](https://www.home-assistant.io/integrations/websocket_api/) Websocket API 实现服务器与客户端之间的实时双向通信，可以用来推送最新信息到用户界面.
