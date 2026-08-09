@@ -323,7 +323,8 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- [Ikea]
 	- [tuya](https://github.com/make-all/tuya-local)  tuya-local integration
 	- [terncy hub](https://github.com/rxwen/homeassistant-terncy-component)  吧网关接入ha https://github.com/rxwen/homeassistant-terncy-component
-	- [Orvibo](https://github.com/mozzie1121/orvibohomebridge)  https://github.com/mozzie1121/orvibohomebridge
+	- [Orvibo Homebridge](https://github.com/mozzie1121/orvibohomebridge)  https://github.com/mozzie1121/orvibohomebridge  云账号集成
+	- [Orvibo LAN Control](https://github.com/mozzie1121/orvibo-lan-control)  https://github.com/mozzie1121/orvibo-lan-control  局域网集成
 
 11. 开源Zigbee hub接入篇(Diy Zigbee network)
     - [connect-zbt1 zha](https://neiltw.com/home-assistant-connect-zbt1-setup-guide/#google_vignette)	Best way to add Zigbee and Matter to Home Assistant.
