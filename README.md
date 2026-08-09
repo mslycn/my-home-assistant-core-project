@@ -296,7 +296,9 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- 预留	
 9. AI - 本地离线语音篇 mcp
 	- [mcp server and mcp client](https://www.cnblogs.com/edisonchou/p/-/introduction-to-mcp-csharp-sdk)  此时与ha无关，分为客户端和服务端
-	- [ha-mcp](https://github.com/homeassistant-ai/ha-mcp)  https://github.com/homeassistant-ai/ha-mcp	
+    - [official HA MCP server(built-in)](https://www.home-assistant.io/integrations/mcp_server)   the official HA MCP integration (built-in)
+	- [community ha-mcp server(a standalone mcp server)](https://github.com/homeassistant-ai/ha-mcp)  https://github.com/homeassistant-ai/ha-mcp	The Unofficial  Home Assistant MCP Server.A Model Context Protocol server that enables AI assistants to interact with Home Assistant. Control devices, query states, manage automations, and configure dashboards using natural language.
+
 9. AI - Local AI Voice Assistants (Software) LLM AI
 	- [Home LLM](https://github.com/acon96/home-llm)  A Home Assistant integration & Model to control your smart home using a Local LLM
 	- [Lite LLM]		
@@ -321,6 +323,7 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- [Ikea]
 	- [tuya](https://github.com/make-all/tuya-local)  tuya-local integration
 	- [terncy hub](https://github.com/rxwen/homeassistant-terncy-component)  吧网关接入ha https://github.com/rxwen/homeassistant-terncy-component
+	- [Orvibo](https://github.com/mozzie1121/orvibohomebridge)  https://github.com/mozzie1121/orvibohomebridge
 
 11. 开源Zigbee hub接入篇(Diy Zigbee network)
     - [connect-zbt1 zha](https://neiltw.com/home-assistant-connect-zbt1-setup-guide/#google_vignette)	Best way to add Zigbee and Matter to Home Assistant.
@@ -662,7 +665,7 @@ Snapcast 是一个开源的多房间音频同步播放系统._
     - [如何在TrueNAS中配置ZFS存储和NFS共享 - 第2部分](https://blog.csdn.net/shengbro1989/article/details/140952943?spm=1001.2101.3001.10752)
 	- [TrueNAS：使用Plex Media Server创建自己的“家庭媒体流服务器” - 第3部分](https://blog.csdn.net/shengbro1989/article/details/141127938)
 28. NAS - OpenMediaVault(OMV)
-	- [从零搭建OpenMediaVault(OMV)开源NAS系统：VMware虚拟机部署+SMB共享全攻略](https://www.cnblogs.com/mq0036/p/19596091)	虚拟机64bit安装TOpenMediaVault(OMV) ISO（
+	- [从零搭建OpenMediaVault(OMV)开源NAS系统：VMware虚拟机部署+SMB共享全攻略](https://www.cnblogs.com/mq0036/p/19596091)	虚拟机64bit安装TOpenMediaVault(OMV) ISO
 28. 网络附加存储
     - [Webdav](https://juejin.cn/post/7403165140718125075)   Guide:Install webdav via iis on windows 10
 	- [Create a shared folder on Windows 10](https://www.iaspnetcore.com/blogpost-693ef2c7405d3234119658ec-create-a-shared-folder-on-windows-10)   Guide:Create a shared folder on Windows 10
