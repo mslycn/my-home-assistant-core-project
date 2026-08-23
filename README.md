@@ -247,7 +247,7 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- [Frigate integration for Home Assistant](https://github.com/blakeblackshear/frigate-hass-integration) Frigate integration for Home Assistant
 	- [https://github.com/blakeblackshear/frigate](https://github.com/blakeblackshear/frigate)  A local NVR designed for Home Assistant with AI object detection. Uses OpenCV and Tensorflow to perform realtime object detection locally for IP cameras.
 	- [Xiaomi Miloco](https://github.com/XiaoMi/xiaomi-miloco) Xiaomi Local Copilot  project 
-	- [LLM Vision Integration]
+	- [LLM Vision Integration](https://github.com/valentinfrlch/ha-llmvision)  LLM Vision is a Home Assistant integration that uses multimodal LLMs to analyze images, videos, live camera feeds, and Frigate events
 	- [OpenAI Vision Integration]
 	- [Frigate integration for Home Assistant](https://github.com/blakeblackshear/frigate-hass-integration) Frigate integration for Home Assistant
 	- [GPU]
