@@ -299,7 +299,7 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
     - [official HA MCP server(built-in)](https://www.home-assistant.io/integrations/mcp_server)   the official HA MCP integration (built-in)
 	- [ha-mcp server(a standalone mcp server)](https://github.com/homeassistant-ai/ha-mcp)  https://github.com/homeassistant-ai/ha-mcp	The Unofficial  Home Assistant MCP Server.A Model Context Protocol server that enables AI assistants to interact with Home Assistant. Control devices, query states, manage automations, and configure dashboards using natural language.
     - []()
-    - [llama.cpp integration](https://www.home-assistant.io/integrations/llama_cpp)  The llama.cpp integration allows you to use a local or remote server that implements the OpenAI-compatible chat completions API as a conversation agent in Home Assistant.
+    - [official llama.cpp integration](https://www.home-assistant.io/integrations/llama_cpp)  The llama.cpp integration allows you to use a local or remote server that implements the OpenAI-compatible chat completions API as a conversation agent in Home Assistant.
 
 9. AI - Local AI Voice Assistants (Software) LLM AI
 	- [Home LLM](https://github.com/acon96/home-llm)  A Home Assistant integration & Model to control your smart home using a Local LLM
