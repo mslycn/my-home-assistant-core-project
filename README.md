@@ -615,20 +615,6 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 
 
 28. Multi-Room Music Solution works with home assistant 实现音乐服务器
-   
-_I was able to cook up a fun audio setup controlled and automated with Home Assistant! It features
-Multiple room synchronised audio speakers (fixed/analog, portable Bluetooth devices and via app on phone or tablet)
-Playback of internet radio, Spotify streaming and local audio files.
-Sound notifications for Doorbell, garden gate and other sensors and home alarm events.
-
-Install Plex, Jellyfin, Kodi, or Universal Media Server.Many different media servers support DLNA.
-
-Options for Multi-Room Music Solution
-
-Snapcast 是一个开源的多房间音频同步播放系统._
-
-专业音频：与AirPlay/Spotify Connect
-
     - [Mopidy Server]()  a music server that can play local files, or connect to streaming music services like Spotify.
 	- [Logitech Media Server](https://community.home-assistant.io/t/how-to-build-a-lms-based-whole-house-audio-system/436016)  Logitech Media Server服务器,通过安装插件，LMS可以将局域网内支持airplay、Chromecast、DLNA等协议的设备进行统一管理，统一控制；
 	- [synchronous multiroom audio with Snapcast]  Snapcast 是一个开源的多房间音频同步播放系统,.服务器端：需安装 snapserver 客户端：需安装 snapclient
@@ -640,6 +626,7 @@ Snapcast 是一个开源的多房间音频同步播放系统._
 	- [Plex Media Server]
 	- [Spotify Connect]
     - [Set Up Windows 10 as DLNA Renderer]   Intall Kodi,vlc as DLNA Renderer
+
 28. Music Assistant Server
 	- [Music Assistant Server](https://www.michaelsleen.com/music-assistant/)  How to Setup Music Assistant in Home Assistant 
 	- [Music Assistant Server-Add Player Provider](https://alshowto.com/add-multi-room-to-home-assistant/)  Add Player Provider(squeezelite)
