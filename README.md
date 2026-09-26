@@ -247,7 +247,7 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- [Frigate integration for Home Assistant](https://github.com/blakeblackshear/frigate-hass-integration) Frigate integration for Home Assistant
 	- [https://github.com/blakeblackshear/frigate](https://github.com/blakeblackshear/frigate)  A local NVR designed for Home Assistant with AI object detection. Uses OpenCV and Tensorflow to perform realtime object detection locally for IP cameras.
 	- [Xiaomi Miloco](https://github.com/XiaoMi/xiaomi-miloco) Xiaomi Local Copilot  project 
-	- [LLM Vision Integration]
+	- [LLM Vision Integration](https://github.com/valentinfrlch/ha-llmvision)  LLM Vision is a Home Assistant integration that uses multimodal LLMs to analyze images, videos, live camera feeds, and Frigate events
 	- [OpenAI Vision Integration]
 	- [Frigate integration for Home Assistant](https://github.com/blakeblackshear/frigate-hass-integration) Frigate integration for Home Assistant
 	- [GPU]
@@ -298,7 +298,9 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 9. AI - 本地离线语音篇 mcp
 	- [mcp server and mcp client](https://www.cnblogs.com/edisonchou/p/-/introduction-to-mcp-csharp-sdk)  此时与ha无关，分为客户端和服务端
     - [official HA MCP server(built-in)](https://www.home-assistant.io/integrations/mcp_server)   the official HA MCP integration (built-in)
-	- [community ha-mcp server(a standalone mcp server)](https://github.com/homeassistant-ai/ha-mcp)  https://github.com/homeassistant-ai/ha-mcp	The Unofficial  Home Assistant MCP Server.A Model Context Protocol server that enables AI assistants to interact with Home Assistant. Control devices, query states, manage automations, and configure dashboards using natural language.
+	- [ha-mcp server(a standalone mcp server)](https://github.com/homeassistant-ai/ha-mcp)  https://github.com/homeassistant-ai/ha-mcp	The Unofficial  Home Assistant MCP Server.A Model Context Protocol server that enables AI assistants to interact with Home Assistant. Control devices, query states, manage automations, and configure dashboards using natural language.
+    - []()
+    - [official llama.cpp integration](https://www.home-assistant.io/integrations/llama_cpp)  The llama.cpp integration allows you to use a local or remote server that implements the OpenAI-compatible chat completions API as a conversation agent in Home Assistant.
 
 9. AI - Local AI Voice Assistants (Software) LLM AI
 	- [Home LLM](https://github.com/acon96/home-llm)  A Home Assistant integration & Model to control your smart home using a Local LLM
