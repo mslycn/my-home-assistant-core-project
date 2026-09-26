@@ -282,6 +282,7 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- [Rhasspy Voice Assistant](https://rhasspy.readthedocs.io/en/latest/) it works with Hermes protocol compatible services (Snips.AI) Home Assistant and Hass.Openhub
 	- [Wyoming Satellite](https://github.com/rhasspy/wyoming-satellite) Wyoming Satellite 是一个使用 Wyoming 协议的远程语音项目，通过ESP32或类似硬件实现本地唤醒词检测和stt功能
 	- [Linux Voice Assistant](https://github.com/OHF-Voice/linux-voice-assistant)  https://github.com/OHF-Voice/linux-voice-assistant.  Linux voice assistant for Home Assistant that uses the ESPHome protocol.
+	- [turn Android phone as Voice Assistant](https://www.xda-developers.com/i-revived-my-old-android-phone-by-turning-it-into-a-home-assistant-satellite/) blog
 	- [Wyoming Satellite 远程语音卫星源码工作原理](https://mmssai.com/archives/4386) 远程语音智能音箱，使用Wyoming协议，进行本地唤醒词检测和音频增强，接入智能家居系统ha
 	- [基于esphome的语音助手 - ha voice PE]
 	- [Assist Microphone]() uses a local USB microphone to control Voice Assist.
@@ -554,7 +555,12 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- 硬件制作(3)——元器件与焊接
 	- [博联设备 via Broadlink Integration](https://www.cnblogs.com/softlin/p/16511684.html)	
 	- [Broadlink RM4 Pro -Remote: Learn command](https://www.bazmac.me/blog/using-broadlink-rm4-pro-with-home-assistant)	Broadlink RM4 Pro guide: 
-	- [博联设备 via Broadlink Integration - make climate](https://github.com/mario-g0/HA-climate-vaillant/blob/master/configuration.yaml)	 https://github.com/mario-g0/HA-climate-vaillant/blob/master/configuration.yaml  
+	- [climate - ha offcial climate Template](https://www.diyenjoying.com/2022/12/27/multizone-virtual-thermostat-with-home-assistant/#google_vignette)  https://www.diyenjoying.com/2022/12/27/multizone-virtual-thermostat-with-home-assistant/#google_vignette
+	- [climate - 博联设备 v - make climate ia Broadlink Integration ](https://github.com/mario-g0/HA-climate-vaillant/blob/master/configuration.yaml)	 https://github.com/mario-g0/HA-climate-vaillant/blob/master/configuration.yaml  
+	- [climate - mqtt Template](https://www.home-assistant.io/integrations/climate.mqtt/)  make climate  via mqtt Template https://www.home-assistant.io/integrations/climate.mqtt/
+	- [climate - custom integration Template](https://github.com/jcwillox/hass-template-climate)  make climate  via mqtt Template https://github.com/jcwillox/hass-template-climate
+	- [climate - custom integration Template(Tuya)](https://bbs.hassbian.com/thread-26557-1-1.html)  make climate  via tuya https://bbs.hassbian.com/thread-26557-1-1.html
+
 	- [Daikin AC, Home Assistant and Local control](https://guy-evans.com/posts/2024-10-09_daikin-ac-home-assistant-and-local-control/)	 https://guy-evans.com/posts/2024-10-09_daikin-ac-home-assistant-and-local-control/  大金空调加装控制芯片
 28. API - endpoints exposed
 	- [Home Assistant API](https://www.home-assistant.io/integrations/api/)     API服务提供商都会有一个使用政策，规定如何合法地使用他们的API服务。用户需要遵守这些政策，注册账户，并获取API密钥
@@ -626,14 +632,16 @@ Snapcast 是一个开源的多房间音频同步播放系统._
 	- [synchronous multiroom audio with Snapcast]  Snapcast 是一个开源的多房间音频同步播放系统,.服务器端：需安装 snapserver 客户端：需安装 snapclient
 	- [Snapcast Server]() which enables synchronized audio streaming across your network.  Snapcast is a multi-room client-server audio player, where all clients are time synchronized with the server to play perfectly synced audio. Snapcast Client是一个接收并同步播放来自Snapcast Server音频流的客户端程序，支持多平台和设备，允许构建低延迟同步的多房间音频系统It's not a standalone player, but an extension that turns your existing audio player into a Sonos-like multi-room solution.
 	- [Plex Media Server]() 树莓派Raspberry Pi 安装Plex Media Server并挂载USB硬盘打造微型家庭影音服务器
-	- [Music Assistant Server](https://www.michaelsleen.com/music-assistant/)  How to Setup Music Assistant in Home Assistant 
-	- [Music Assistant Server-Add Player Provider](https://alshowto.com/add-multi-room-to-home-assistant/)  Add Player Provider(squeezelite)
 	- [Spotify Connect] Spotify Connect is a feature that allows you to stream music from Spotify to compatible devices (like speakers, TVs, or gaming consoles) over Wi-Fi or a local network, using your phone, tablet, or computer as a remote control. 
 	- [picoreplayer](https://www.picoreplayer.org/)
 	- [接入Logitech media server](#)
 	- [Plex Media Server]
 	- [Spotify Connect]
     - [Set Up Windows 10 as DLNA Renderer]   Intall Kodi,vlc as DLNA Renderer
+28. Music Assistant Server
+	- [Music Assistant Server](https://www.michaelsleen.com/music-assistant/)  How to Setup Music Assistant in Home Assistant 
+	- [Music Assistant Server-Add Player Provider](https://alshowto.com/add-multi-room-to-home-assistant/)  Add Player Provider(squeezelite)
+	- [Music Assistant Server 中枢架构](https://txtmix.com/posts/tech/music-assistant-server-unified-music-hub-guide/)  中枢的架构	
 28. 影音系统	实现影音服务器
 	- [树莓派 Raspberry Pi 安装 Kodi 影音系统](https://zhuanlan.zhihu.com/p/364985735)   安装LibreElec系统
 28. 镜像投屏 Mirror Iphone to TV
@@ -668,7 +676,10 @@ Snapcast 是一个开源的多房间音频同步播放系统._
     - [如何在TrueNAS中配置ZFS存储和NFS共享 - 第2部分](https://blog.csdn.net/shengbro1989/article/details/140952943?spm=1001.2101.3001.10752)
 	- [TrueNAS：使用Plex Media Server创建自己的“家庭媒体流服务器” - 第3部分](https://blog.csdn.net/shengbro1989/article/details/141127938)
 28. NAS - OpenMediaVault(OMV)
-	- [从零搭建OpenMediaVault(OMV)开源NAS系统：VMware虚拟机部署+SMB共享全攻略](https://www.cnblogs.com/mq0036/p/19596091)	虚拟机64bit安装TOpenMediaVault(OMV) ISO
+	- [从零搭建OpenMediaVault(OMV)开源NAS系统：VMware虚拟机部署+SMB共享全攻略](https://www.cnblogs.com/mq0036/p/19596091)	虚拟机64bit安装OpenMediaVault(OMV) ISO
+	- [从零搭建OpenMediaVault(OMV)开源NAS系统：Raspberry Pi 操作系统全攻略](https://docs.sunfounder.com/projects/nvme-kit/zh-cn/latest/install/install_raspberry_os.html)	RRaspberry Pi 操作系统安装OpenMediaVault(OMV) 
+	- [从零搭建OpenMediaVault(OMV)开源NAS系统：Raspberry Pi 操作系统全攻略](https://liulongtao.com/archives/53#h33)	RRaspberry Pi 操作系统安装OpenMediaVault(OMV) 
+
 28. 网络附加存储
     - [Webdav](https://juejin.cn/post/7403165140718125075)   Guide:Install webdav via iis on windows 10
 	- [Create a shared folder on Windows 10](https://www.iaspnetcore.com/blogpost-693ef2c7405d3234119658ec-create-a-shared-folder-on-windows-10)   Guide:Create a shared folder on Windows 10
