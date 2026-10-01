@@ -754,7 +754,12 @@ Learn to install Docker properly on Raspberry Pi OS in this tutorial.
 	- [www.namesilo.com](https://www.iaspnetcore.com/Blog/BlogPost/5eb9e65e775d020216dbe009/wwwnamesilo-operation-manual-for-com-registration-and-domain-name-purchase)
 	- [CloudFlare](https://www.iaspnetcore.com/Blog/BlogPost/5ee3a43a1c73d43127f113a1/cloudflare-free-cdn-website-acceleration-practice-tutorial#mcetoc_1g37gn9lf11)
 	- Basic Firewall Setup
-	- [How To Install and uninstall reinstall Mysql on Ubuntu 18.04（vultr）](https://www.iaspnetcore.com/blogpost-6449555969967f028d52f122-how-to-install-and-uninstall-reinstall-mysql-on-ubuntu-1804vultr)	
+	- [How To Install and uninstall reinstall Mysql on Ubuntu 18.04（vultr）](https://www.iaspnetcore.com/blogpost-6449555969967f028d52f122-how-to-install-and-uninstall-reinstall-mysql-on-ubuntu-1804vultr)
+
+## China
+   - [okkine/HA-Luna](https://github.com/okkine/HA-Luna)  HA-Luna 主要是月亮位置/月相，不是中国农历生日转换	
+   - [中国农历knoop7/ha_laohuangli](https://github.com/knoop7/ha_laohuangli)  中国传统历法信息和事件提醒 	
+   - [中国农历Crazysiri/chineseholiday](https://www.yahboom.com/study/4wd-Pi)  中国农历/纪念日类集成 	      	
 
 ## c# for Home Assistant
    - [c# NetDaemon](https://github.com/net-daemon)    Use C# to automate Home Assistant  homeassistant-addon  Guide：https://netdaemon.xyz/docs/user/started/get_started/
